@@ -4,14 +4,12 @@ services:
     image: 'jc21/nginx-proxy-manager:latest' 
     container_name: nginxproxymanager
     ports:
-      - 80:80
+      - 8080:80
       - 81:81
       - 443:443
     volumes:
       - ./nginx/data:/data
       - ./nginx/letsencrypt:/etc/letsencrypt 
-    networks:
-      - priv-nginx-net
     restart: unless-stopped 
 
   homeassistant:
@@ -20,10 +18,6 @@ services:
     volumes:
       - ./homeassistant:/config
       - /etc/localtime:/etc/localtime:ro
-    networks:
-      - priv-adguard-net
-      - priv-mosquitto-net
-      - priv-nginx-net
     restart: unless-stopped
     privileged: true
 
@@ -34,8 +28,6 @@ services:
       - ./mosquitto/config:/mosquitto/config:rw
       - ./mosquitto/data:/mosquitto/data
       - ./mosquitto/log:/mosquitto/log
-    networks:
-      - priv-mosquitto-net
     restart: unless-stopped
 
   zigbee2mqtt:
@@ -50,9 +42,6 @@ services:
       - /etc/localtime:/etc/localtime:ro
     devices:
       - /dev/ttyUSB0:/dev/ttyACM0
-    networks:
-      - priv-mosquitto-net
-      - priv-nginx-net
     restart: unless-stopped
     privileged: true
 
@@ -63,21 +52,3 @@ services:
     volumes:
       - ./adguard/work:/opt/adguardhome/work
       - ./adguard/conf:/opt/adguardhome/conf
-    ports:
-      - 53:53/tcp
-      - 53:53/udp
-      - 67:67/udp
-      - 68:68/udp
-      - 3000:3000
-      - 853:853/tcp
-      - 784:784/udp
-      - 853:853/udp
-      - 8853:8853/udp
-    networks:
-      - priv-nginx-net
-      - priv-adguard-net
-
-networks:
-  priv-adguard-net:
-  priv-mosquitto-net:
-  priv-nginx-net:

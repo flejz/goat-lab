@@ -13,16 +13,16 @@
           "user_id": "af3043b044a0489294f35d30899bf650",
           "friendly_name": "flejz"
         },
-        "last_changed": "2023-10-31T20:07:48.332397+00:00",
-        "last_updated": "2023-10-31T20:07:51.510689+00:00",
+        "last_changed": "2023-10-31T20:26:06.255179+00:00",
+        "last_updated": "2023-10-31T20:26:08.746601+00:00",
         "context": {
-          "id": "01HE3NJZYPX8D39YVA6NCTNWE2",
+          "id": "01HE3PMFFAJ37J642RBQPWQR41",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2023-10-31T20:07:51.510902+00:00"
+      "last_seen": "2023-10-31T21:56:08.751386+00:00"
     },
     {
       "state": {
@@ -34,16 +34,16 @@
           "user_id": "67f5fab97136411bb3159e587f35a9df",
           "friendly_name": "tiabenie"
         },
-        "last_changed": "2023-10-31T20:07:48.332873+00:00",
-        "last_updated": "2023-10-31T20:07:51.510751+00:00",
+        "last_changed": "2023-10-31T20:26:06.255636+00:00",
+        "last_updated": "2023-10-31T20:26:08.746660+00:00",
         "context": {
-          "id": "01HE3NJZYPT9QGEW6B0JQS41H7",
+          "id": "01HE3PMFFAGJB1S1SW6ZT8P0WE",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2023-10-31T20:07:51.510902+00:00"
+      "last_seen": "2023-10-31T21:56:08.751386+00:00"
     },
     {
       "state": {
@@ -55,16 +55,16 @@
           "user_id": "883499b27f7a4261b03247f8d456b077",
           "friendly_name": "ghibli"
         },
-        "last_changed": "2023-10-31T20:07:48.332915+00:00",
-        "last_updated": "2023-10-31T20:07:51.510790+00:00",
+        "last_changed": "2023-10-31T20:26:06.255681+00:00",
+        "last_updated": "2023-10-31T20:26:08.746697+00:00",
         "context": {
-          "id": "01HE3NJZYPKJ3K0HYB3ZY63CJ9",
+          "id": "01HE3PMFFAT331SRQCBF3ZXRHY",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2023-10-31T20:07:51.510902+00:00"
+      "last_seen": "2023-10-31T21:56:08.751386+00:00"
     },
     {
       "state": {
@@ -82,16 +82,16 @@
           "icon": "mdi:television",
           "friendly_name": "Movie Theather"
         },
-        "last_changed": "2023-10-31T20:07:48.493210+00:00",
-        "last_updated": "2023-10-31T20:07:48.493210+00:00",
+        "last_changed": "2023-10-31T20:26:06.471934+00:00",
+        "last_updated": "2023-10-31T20:26:06.471934+00:00",
         "context": {
-          "id": "01HE3NJX0D3SJTZ9Z0WSDDE4RD",
+          "id": "01HE3PMD87JHSVY3NC0VZE44PT",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2023-10-31T20:07:51.510902+00:00"
+      "last_seen": "2023-10-31T21:56:08.751386+00:00"
     },
     {
       "state": {
@@ -104,16 +104,16 @@
           "id": "1645522553830",
           "friendly_name": "Bedroom Lights Toggle"
         },
-        "last_changed": "2023-10-31T20:07:49.318245+00:00",
-        "last_updated": "2023-10-31T20:07:49.318245+00:00",
+        "last_changed": "2023-10-31T20:26:07.237471+00:00",
+        "last_updated": "2023-10-31T20:26:07.237471+00:00",
         "context": {
-          "id": "01HE3NJXT63ZBEN0XDV5FAT925",
+          "id": "01HE3PME05ETJPCRHDCEF85221",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2023-10-31T20:07:51.510902+00:00"
+      "last_seen": "2023-10-31T21:56:08.751386+00:00"
     },
     {
       "state": {
@@ -126,16 +126,16 @@
           "id": "1645532422727",
           "friendly_name": "Living Room lights toggle"
         },
-        "last_changed": "2023-10-31T20:07:49.318316+00:00",
-        "last_updated": "2023-10-31T20:07:49.318316+00:00",
+        "last_changed": "2023-10-31T20:26:07.237541+00:00",
+        "last_updated": "2023-10-31T20:26:07.237541+00:00",
         "context": {
-          "id": "01HE3NJXT6FAY5GEFBC2ZGF0T7",
+          "id": "01HE3PME05KHPRG19JYP68HWT5",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2023-10-31T20:07:51.510902+00:00"
+      "last_seen": "2023-10-31T21:56:08.751386+00:00"
     },
     {
       "state": {
@@ -148,16 +148,16 @@
           "id": "1645536231921",
           "friendly_name": "Kitchen Lights On"
         },
-        "last_changed": "2023-10-31T20:07:49.318371+00:00",
-        "last_updated": "2023-10-31T20:07:49.318371+00:00",
+        "last_changed": "2023-10-31T20:26:07.237597+00:00",
+        "last_updated": "2023-10-31T20:26:07.237597+00:00",
         "context": {
-          "id": "01HE3NJXT65R11ND6CWNQF0MPY",
+          "id": "01HE3PME053S0258K6BT7PS3T3",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2023-10-31T20:07:51.510902+00:00"
+      "last_seen": "2023-10-31T21:56:08.751386+00:00"
     },
     {
       "state": {
@@ -170,16 +170,16 @@
           "id": "1645536296446",
           "friendly_name": "Kitchen Lights Off"
         },
-        "last_changed": "2023-10-31T20:07:49.318423+00:00",
-        "last_updated": "2023-10-31T20:07:49.318423+00:00",
+        "last_changed": "2023-10-31T20:26:07.237651+00:00",
+        "last_updated": "2023-10-31T20:26:07.237651+00:00",
         "context": {
-          "id": "01HE3NJXT6YJ60VZ3P17WVYRG3",
+          "id": "01HE3PME05EKG1K6P0N69VEF4K",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2023-10-31T20:07:51.510902+00:00"
+      "last_seen": "2023-10-31T21:56:08.751386+00:00"
     },
     {
       "state": {
@@ -192,16 +192,16 @@
           "id": "1657047419637",
           "friendly_name": "Bar Snooze"
         },
-        "last_changed": "2023-10-31T20:07:49.318473+00:00",
-        "last_updated": "2023-10-31T20:07:49.318473+00:00",
+        "last_changed": "2023-10-31T20:26:07.237702+00:00",
+        "last_updated": "2023-10-31T20:26:07.237702+00:00",
         "context": {
-          "id": "01HE3NJXT625NX3WMWFTA7H6H4",
+          "id": "01HE3PME05BRPPB8NQCKWTFV8F",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2023-10-31T20:07:51.510902+00:00"
+      "last_seen": "2023-10-31T21:56:08.751386+00:00"
     },
     {
       "state": {
@@ -214,16 +214,16 @@
           "id": "1657047733356",
           "friendly_name": "Bar Wakeup"
         },
-        "last_changed": "2023-10-31T20:07:49.318522+00:00",
-        "last_updated": "2023-10-31T20:07:49.318522+00:00",
+        "last_changed": "2023-10-31T20:26:07.237752+00:00",
+        "last_updated": "2023-10-31T20:26:07.237752+00:00",
         "context": {
-          "id": "01HE3NJXT6WVNWV7E1WAS75QCC",
+          "id": "01HE3PME056NKSAZ1JJQT010WK",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2023-10-31T20:07:51.510902+00:00"
+      "last_seen": "2023-10-31T21:56:08.751386+00:00"
     },
     {
       "state": {
@@ -236,16 +236,16 @@
           "id": "1662411324262",
           "friendly_name": "Kitchen Lights On on Movement Detected"
         },
-        "last_changed": "2023-10-31T20:07:49.318571+00:00",
-        "last_updated": "2023-10-31T20:07:49.318571+00:00",
+        "last_changed": "2023-10-31T20:26:07.237803+00:00",
+        "last_updated": "2023-10-31T20:26:07.237803+00:00",
         "context": {
-          "id": "01HE3NJXT6G5GRJ7XT5CJTSDFC",
+          "id": "01HE3PME05C6GZJZFAB6KMJ2GV",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2023-10-31T20:07:51.510902+00:00"
+      "last_seen": "2023-10-31T21:56:08.751386+00:00"
     },
     {
       "state": {
@@ -258,16 +258,16 @@
           "id": "1662667912082",
           "friendly_name": "Kitchen Lights OFF on Movement not Detected"
         },
-        "last_changed": "2023-10-31T20:07:49.318615+00:00",
-        "last_updated": "2023-10-31T20:07:49.318615+00:00",
+        "last_changed": "2023-10-31T20:26:07.237847+00:00",
+        "last_updated": "2023-10-31T20:26:07.237847+00:00",
         "context": {
-          "id": "01HE3NJXT6S5PDZBHW3MW5DV4D",
+          "id": "01HE3PME05MJ5VW243E8HJKB8K",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2023-10-31T20:07:51.510902+00:00"
+      "last_seen": "2023-10-31T21:56:08.751386+00:00"
     },
     {
       "state": {
@@ -280,16 +280,16 @@
           "id": "1662669567182",
           "friendly_name": "Notify when Fridge door is open for too long"
         },
-        "last_changed": "2023-10-31T20:07:49.318658+00:00",
-        "last_updated": "2023-10-31T20:07:49.318658+00:00",
+        "last_changed": "2023-10-31T20:26:07.237894+00:00",
+        "last_updated": "2023-10-31T20:26:07.237894+00:00",
         "context": {
-          "id": "01HE3NJXT6872HJ8RNVQBMZM3C",
+          "id": "01HE3PME05CBCAW8FM2YGQMQAY",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2023-10-31T20:07:51.510902+00:00"
+      "last_seen": "2023-10-31T21:56:08.751386+00:00"
     },
     {
       "state": {
@@ -303,16 +303,16 @@
           "icon": "mdi:help-circle",
           "friendly_name": "Priscila Duarte\u2019s iPhone Activity"
         },
-        "last_changed": "2023-10-31T20:07:49.393250+00:00",
-        "last_updated": "2023-10-31T20:07:49.393250+00:00",
+        "last_changed": "2023-10-31T20:26:07.271943+00:00",
+        "last_updated": "2023-10-31T20:26:07.271943+00:00",
         "context": {
-          "id": "01HE3NJXWHQHT6NMP4F6WNEDJC",
+          "id": "01HE3PME17E9FRECTWM56JTRWD",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2023-10-31T20:07:51.510902+00:00"
+      "last_seen": "2023-10-31T21:56:08.751386+00:00"
     },
     {
       "state": {
@@ -323,16 +323,16 @@
           "icon": "mdi:stairs-down",
           "friendly_name": "Priscila Duarte\u2019s iPhone Floors Descended"
         },
-        "last_changed": "2023-10-31T20:07:49.393329+00:00",
-        "last_updated": "2023-10-31T20:07:49.393329+00:00",
+        "last_changed": "2023-10-31T20:26:07.272000+00:00",
+        "last_updated": "2023-10-31T20:26:07.272000+00:00",
         "context": {
-          "id": "01HE3NJXWHCFABQ6BSCWWMW593",
+          "id": "01HE3PME18TAJEAXD5FB14TPN6",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2023-10-31T20:07:51.510902+00:00"
+      "last_seen": "2023-10-31T21:56:08.751386+00:00"
     },
     {
       "state": {
@@ -343,16 +343,16 @@
           "icon": "mdi:walk",
           "friendly_name": "Priscila Duarte\u2019s iPhone Steps"
         },
-        "last_changed": "2023-10-31T20:07:49.393379+00:00",
-        "last_updated": "2023-10-31T20:07:49.393379+00:00",
+        "last_changed": "2023-10-31T20:26:07.272049+00:00",
+        "last_updated": "2023-10-31T20:26:07.272049+00:00",
         "context": {
-          "id": "01HE3NJXWH3KZK98H5E0A5VZ9Z",
+          "id": "01HE3PME18VS2V204JGCNTNKCS",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2023-10-31T20:07:51.510902+00:00"
+      "last_seen": "2023-10-31T21:56:08.751386+00:00"
     },
     {
       "state": {
@@ -363,16 +363,16 @@
           "icon": "mdi:speedometer",
           "friendly_name": "Priscila Duarte\u2019s iPhone Average Active Pace"
         },
-        "last_changed": "2023-10-31T20:07:49.393423+00:00",
-        "last_updated": "2023-10-31T20:07:49.393423+00:00",
+        "last_changed": "2023-10-31T20:26:07.272091+00:00",
+        "last_updated": "2023-10-31T20:26:07.272091+00:00",
         "context": {
-          "id": "01HE3NJXWHTP33XW8GAENZY7VJ",
+          "id": "01HE3PME18XT9XB30GNAKSMQ7W",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2023-10-31T20:07:51.510902+00:00"
+      "last_seen": "2023-10-31T21:56:08.751386+00:00"
     },
     {
       "state": {
@@ -383,16 +383,16 @@
           "icon": "mdi:hiking",
           "friendly_name": "Priscila Duarte\u2019s iPhone Distance"
         },
-        "last_changed": "2023-10-31T20:07:49.393465+00:00",
-        "last_updated": "2023-10-31T20:07:49.393465+00:00",
+        "last_changed": "2023-10-31T20:26:07.272132+00:00",
+        "last_updated": "2023-10-31T20:26:07.272132+00:00",
         "context": {
-          "id": "01HE3NJXWH7V9VFQKZRB2G14GP",
+          "id": "01HE3PME18VV4BMKX4VSTYMYXG",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2023-10-31T20:07:51.510902+00:00"
+      "last_seen": "2023-10-31T21:56:08.751386+00:00"
     },
     {
       "state": {
@@ -403,16 +403,16 @@
           "icon": "mdi:stairs-up",
           "friendly_name": "Priscila Duarte\u2019s iPhone Floors Ascended"
         },
-        "last_changed": "2023-10-31T20:07:49.393507+00:00",
-        "last_updated": "2023-10-31T20:07:49.393507+00:00",
+        "last_changed": "2023-10-31T20:26:07.272172+00:00",
+        "last_updated": "2023-10-31T20:26:07.272172+00:00",
         "context": {
-          "id": "01HE3NJXWHB0F16800XXWPJTT3",
+          "id": "01HE3PME18ANB78129J3QB57CC",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2023-10-31T20:07:51.510902+00:00"
+      "last_seen": "2023-10-31T21:56:08.751386+00:00"
     },
     {
       "state": {
@@ -424,16 +424,16 @@
           "icon": "mdi:battery-30",
           "friendly_name": "Priscila Duarte\u2019s iPhone Battery Level"
         },
-        "last_changed": "2023-10-31T20:07:49.393549+00:00",
-        "last_updated": "2023-10-31T20:07:49.393549+00:00",
+        "last_changed": "2023-10-31T20:26:07.272214+00:00",
+        "last_updated": "2023-10-31T20:26:07.272214+00:00",
         "context": {
-          "id": "01HE3NJXWHTC6CPTXNDV0BTPDH",
+          "id": "01HE3PME18XMK16V35D9ZXDJ1E",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2023-10-31T20:07:51.510902+00:00"
+      "last_seen": "2023-10-31T21:56:08.751386+00:00"
     },
     {
       "state": {
@@ -448,16 +448,16 @@
           "icon": "mdi:database",
           "friendly_name": "Priscila Duarte\u2019s iPhone Storage"
         },
-        "last_changed": "2023-10-31T20:07:49.393592+00:00",
-        "last_updated": "2023-10-31T20:07:49.393592+00:00",
+        "last_changed": "2023-10-31T20:26:07.272254+00:00",
+        "last_updated": "2023-10-31T20:26:07.272254+00:00",
         "context": {
-          "id": "01HE3NJXWHFPNS8HP3D47MK9GR",
+          "id": "01HE3PME18J8GX37V29PNAWQFN",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2023-10-31T20:07:51.510902+00:00"
+      "last_seen": "2023-10-31T21:56:08.751386+00:00"
     },
     {
       "state": {
@@ -468,16 +468,16 @@
           "icon": "mdi:battery-30",
           "friendly_name": "Priscila Duarte\u2019s iPhone Battery State"
         },
-        "last_changed": "2023-10-31T20:07:49.393697+00:00",
-        "last_updated": "2023-10-31T20:07:49.393697+00:00",
+        "last_changed": "2023-10-31T20:26:07.272296+00:00",
+        "last_updated": "2023-10-31T20:26:07.272296+00:00",
         "context": {
-          "id": "01HE3NJXWH75M81PX214HZCCZS",
+          "id": "01HE3PME18ENK7F5V753TWMK07",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2023-10-31T20:07:51.510902+00:00"
+      "last_seen": "2023-10-31T21:56:08.751386+00:00"
     },
     {
       "state": {
@@ -487,16 +487,16 @@
           "icon": "mdi:wifi-off",
           "friendly_name": "Priscila Duarte\u2019s iPhone SSID"
         },
-        "last_changed": "2023-10-31T20:07:49.393740+00:00",
-        "last_updated": "2023-10-31T20:07:49.393740+00:00",
+        "last_changed": "2023-10-31T20:26:07.272335+00:00",
+        "last_updated": "2023-10-31T20:26:07.272335+00:00",
         "context": {
-          "id": "01HE3NJXWHGVQ8529AVKEWXBV6",
+          "id": "01HE3PME1868WWV63STT0HY72W",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2023-10-31T20:07:51.510902+00:00"
+      "last_seen": "2023-10-31T21:56:08.751386+00:00"
     },
     {
       "state": {
@@ -506,16 +506,16 @@
           "icon": "mdi:wifi",
           "friendly_name": "Priscila Duarte\u2019s iPhone Connection Type"
         },
-        "last_changed": "2023-10-31T20:07:49.393783+00:00",
-        "last_updated": "2023-10-31T20:07:49.393783+00:00",
+        "last_changed": "2023-10-31T20:26:07.272374+00:00",
+        "last_updated": "2023-10-31T20:26:07.272374+00:00",
         "context": {
-          "id": "01HE3NJXWH8CNY35QE98P78XKJ",
+          "id": "01HE3PME180WA9ZKPYSTNGTD7T",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2023-10-31T20:07:51.510902+00:00"
+      "last_seen": "2023-10-31T21:56:08.751386+00:00"
     },
     {
       "state": {
@@ -525,16 +525,16 @@
           "icon": "mdi:wifi-off",
           "friendly_name": "Priscila Duarte\u2019s iPhone BSSID"
         },
-        "last_changed": "2023-10-31T20:07:49.393823+00:00",
-        "last_updated": "2023-10-31T20:07:49.393823+00:00",
+        "last_changed": "2023-10-31T20:26:07.272414+00:00",
+        "last_updated": "2023-10-31T20:26:07.272414+00:00",
         "context": {
-          "id": "01HE3NJXWHK0AP30RG5CD71N32",
+          "id": "01HE3PME18BA1GAQQDT5CDAPFX",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2023-10-31T20:07:51.510902+00:00"
+      "last_seen": "2023-10-31T21:56:08.751386+00:00"
     },
     {
       "state": {
@@ -550,16 +550,16 @@
           "icon": "mdi:sim",
           "friendly_name": "Priscila Duarte\u2019s iPhone SIM 2"
         },
-        "last_changed": "2023-10-31T20:07:49.393864+00:00",
-        "last_updated": "2023-10-31T20:07:49.393864+00:00",
+        "last_changed": "2023-10-31T20:26:07.272454+00:00",
+        "last_updated": "2023-10-31T20:26:07.272454+00:00",
         "context": {
-          "id": "01HE3NJXWHZ5TS3D97TBCCMJ0S",
+          "id": "01HE3PME181C6SV61S2DDMJ2QZ",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2023-10-31T20:07:51.510902+00:00"
+      "last_seen": "2023-10-31T21:56:08.751386+00:00"
     },
     {
       "state": {
@@ -576,16 +576,16 @@
           "icon": "mdi:sim",
           "friendly_name": "Priscila Duarte\u2019s iPhone SIM 1"
         },
-        "last_changed": "2023-10-31T20:07:49.393904+00:00",
-        "last_updated": "2023-10-31T20:07:49.393904+00:00",
+        "last_changed": "2023-10-31T20:26:07.272492+00:00",
+        "last_updated": "2023-10-31T20:26:07.272492+00:00",
         "context": {
-          "id": "01HE3NJXWHB7W31XYJPGBB7271",
+          "id": "01HE3PME18XHYV23G3NM0JZE3N",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2023-10-31T20:07:51.510902+00:00"
+      "last_seen": "2023-10-31T21:56:08.751386+00:00"
     },
     {
       "state": {
@@ -595,16 +595,16 @@
           "icon": "mdi:map",
           "friendly_name": "Priscila Duarte\u2019s iPhone Geocoded Location"
         },
-        "last_changed": "2023-10-31T20:07:49.393943+00:00",
-        "last_updated": "2023-10-31T20:07:49.393943+00:00",
+        "last_changed": "2023-10-31T20:26:07.272530+00:00",
+        "last_updated": "2023-10-31T20:26:07.272530+00:00",
         "context": {
-          "id": "01HE3NJXWHP6WYG92PEV2BWQ8W",
+          "id": "01HE3PME184EDYYPFQ9D57BF0E",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2023-10-31T20:07:51.510902+00:00"
+      "last_seen": "2023-10-31T21:56:08.751386+00:00"
     },
     {
       "state": {
@@ -614,16 +614,16 @@
           "icon": "mdi:cellphone-wireless",
           "friendly_name": "Priscila Duarte\u2019s iPhone Last Update Trigger"
         },
-        "last_changed": "2023-10-31T20:07:49.393984+00:00",
-        "last_updated": "2023-10-31T20:07:49.393984+00:00",
+        "last_changed": "2023-10-31T20:26:07.272569+00:00",
+        "last_updated": "2023-10-31T20:26:07.272569+00:00",
         "context": {
-          "id": "01HE3NJXWHQA2QDACDMCGR8Q2E",
+          "id": "01HE3PME18H70REZ529WJZDW99",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2023-10-31T20:07:51.510902+00:00"
+      "last_seen": "2023-10-31T21:56:08.751386+00:00"
     },
     {
       "state": {
@@ -633,16 +633,16 @@
           "icon": "mdi:moon-waning-crescent",
           "friendly_name": "Priscila Duarte\u2019s iPhone Focus"
         },
-        "last_changed": "2023-10-31T20:07:49.394030+00:00",
-        "last_updated": "2023-10-31T20:07:49.394030+00:00",
+        "last_changed": "2023-10-31T20:26:07.272610+00:00",
+        "last_updated": "2023-10-31T20:26:07.272610+00:00",
         "context": {
-          "id": "01HE3NJXWJ5KBC9VGT9KXX5K1Y",
+          "id": "01HE3PME188DEPARWY6GMMQNAS",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2023-10-31T20:07:51.510902+00:00"
+      "last_seen": "2023-10-31T21:56:08.751386+00:00"
     },
     {
       "state": {
@@ -652,16 +652,16 @@
           "source_type": "gps",
           "friendly_name": "Priscila Duarte\u2019s iPhone"
         },
-        "last_changed": "2023-10-31T20:07:49.394087+00:00",
-        "last_updated": "2023-10-31T20:07:49.394087+00:00",
+        "last_changed": "2023-10-31T20:26:07.272660+00:00",
+        "last_updated": "2023-10-31T20:26:07.272660+00:00",
         "context": {
-          "id": "01HE3NJXWJ7E8K59BJR0TRKJ9M",
+          "id": "01HE3PME18PCS5A5Y7770D4FZC",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2023-10-31T20:07:51.510902+00:00"
+      "last_seen": "2023-10-31T21:56:08.751386+00:00"
     },
     {
       "state": {
@@ -675,16 +675,16 @@
           "icon": "mdi:human-male",
           "friendly_name": "whoami Activity"
         },
-        "last_changed": "2023-10-31T20:07:49.394133+00:00",
-        "last_updated": "2023-10-31T20:07:49.394133+00:00",
+        "last_changed": "2023-10-31T20:26:07.272705+00:00",
+        "last_updated": "2023-10-31T20:26:07.272705+00:00",
         "context": {
-          "id": "01HE3NJXWJ7Q5ZW6P8C4H8APJW",
+          "id": "01HE3PME18ZM9Z9TRFGGBXJ06W",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2023-10-31T20:07:51.510902+00:00"
+      "last_seen": "2023-10-31T21:56:08.751386+00:00"
     },
     {
       "state": {
@@ -695,16 +695,16 @@
           "icon": "mdi:stairs-down",
           "friendly_name": "whoami Floors Descended"
         },
-        "last_changed": "2023-10-31T20:07:49.394174+00:00",
-        "last_updated": "2023-10-31T20:07:49.394174+00:00",
+        "last_changed": "2023-10-31T20:26:07.272745+00:00",
+        "last_updated": "2023-10-31T20:26:07.272745+00:00",
         "context": {
-          "id": "01HE3NJXWJ6TDTXT7K63S9N377",
+          "id": "01HE3PME18P86A0SYC96YPQS94",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2023-10-31T20:07:51.510902+00:00"
+      "last_seen": "2023-10-31T21:56:08.751386+00:00"
     },
     {
       "state": {
@@ -715,16 +715,16 @@
           "icon": "mdi:hiking",
           "friendly_name": "whoami Distance"
         },
-        "last_changed": "2023-10-31T20:07:49.394214+00:00",
-        "last_updated": "2023-10-31T20:07:49.394214+00:00",
+        "last_changed": "2023-10-31T20:26:07.272784+00:00",
+        "last_updated": "2023-10-31T20:26:07.272784+00:00",
         "context": {
-          "id": "01HE3NJXWJ1PMBCN9M5834HKE6",
+          "id": "01HE3PME188NH7X3ZK2K2N6MT1",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2023-10-31T20:07:51.510902+00:00"
+      "last_seen": "2023-10-31T21:56:08.751386+00:00"
     },
     {
       "state": {
@@ -735,16 +735,16 @@
           "icon": "mdi:stairs-up",
           "friendly_name": "whoami Floors Ascended"
         },
-        "last_changed": "2023-10-31T20:07:49.394252+00:00",
-        "last_updated": "2023-10-31T20:07:49.394252+00:00",
+        "last_changed": "2023-10-31T20:26:07.272822+00:00",
+        "last_updated": "2023-10-31T20:26:07.272822+00:00",
         "context": {
-          "id": "01HE3NJXWJF320X716PAE5TWM4",
+          "id": "01HE3PME18TJWW7GBDS9C0T1C2",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2023-10-31T20:07:51.510902+00:00"
+      "last_seen": "2023-10-31T21:56:08.751386+00:00"
     },
     {
       "state": {
@@ -755,16 +755,16 @@
           "icon": "mdi:walk",
           "friendly_name": "whoami Steps"
         },
-        "last_changed": "2023-10-31T20:07:49.394296+00:00",
-        "last_updated": "2023-10-31T20:07:49.394296+00:00",
+        "last_changed": "2023-10-31T20:26:07.272863+00:00",
+        "last_updated": "2023-10-31T20:26:07.272863+00:00",
         "context": {
-          "id": "01HE3NJXWJEKSBJCGGW03T16NR",
+          "id": "01HE3PME18S8TASF39543FTZFF",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2023-10-31T20:07:51.510902+00:00"
+      "last_seen": "2023-10-31T21:56:08.751386+00:00"
     },
     {
       "state": {
@@ -775,16 +775,16 @@
           "icon": "mdi:battery-30",
           "friendly_name": "whoami Battery State"
         },
-        "last_changed": "2023-10-31T20:07:49.394336+00:00",
-        "last_updated": "2023-10-31T20:07:49.394336+00:00",
+        "last_changed": "2023-10-31T20:26:07.272902+00:00",
+        "last_updated": "2023-10-31T20:26:07.272902+00:00",
         "context": {
-          "id": "01HE3NJXWJ938DG69TX45K15MT",
+          "id": "01HE3PME180EH264NN81HH8R22",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2023-10-31T20:07:51.510902+00:00"
+      "last_seen": "2023-10-31T21:56:08.751386+00:00"
     },
     {
       "state": {
@@ -796,16 +796,16 @@
           "icon": "mdi:battery-30",
           "friendly_name": "whoami Battery Level"
         },
-        "last_changed": "2023-10-31T20:07:49.394377+00:00",
-        "last_updated": "2023-10-31T20:07:49.394377+00:00",
+        "last_changed": "2023-10-31T20:26:07.272943+00:00",
+        "last_updated": "2023-10-31T20:26:07.272943+00:00",
         "context": {
-          "id": "01HE3NJXWJH60PWRZWK6BVMQ94",
+          "id": "01HE3PME18DQ4R35XE4Y19G70X",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2023-10-31T20:07:51.510902+00:00"
+      "last_seen": "2023-10-31T21:56:08.751386+00:00"
     },
     {
       "state": {
@@ -820,16 +820,16 @@
           "icon": "mdi:database",
           "friendly_name": "whoami Storage"
         },
-        "last_changed": "2023-10-31T20:07:49.394417+00:00",
-        "last_updated": "2023-10-31T20:07:49.394417+00:00",
+        "last_changed": "2023-10-31T20:26:07.272997+00:00",
+        "last_updated": "2023-10-31T20:26:07.272997+00:00",
         "context": {
-          "id": "01HE3NJXWJS1TNKERAG9GT5HA2",
+          "id": "01HE3PME18S7XSDGYWD7Q23PNH",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2023-10-31T20:07:51.510902+00:00"
+      "last_seen": "2023-10-31T21:56:08.751386+00:00"
     },
     {
       "state": {
@@ -839,16 +839,16 @@
           "icon": "mdi:wifi-off",
           "friendly_name": "whoami SSID"
         },
-        "last_changed": "2023-10-31T20:07:49.394456+00:00",
-        "last_updated": "2023-10-31T20:07:49.394456+00:00",
+        "last_changed": "2023-10-31T20:26:07.273040+00:00",
+        "last_updated": "2023-10-31T20:26:07.273040+00:00",
         "context": {
-          "id": "01HE3NJXWJRDC34MH2HD4QS34T",
+          "id": "01HE3PME19DAEQF4WE8RHRFQ57",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2023-10-31T20:07:51.510902+00:00"
+      "last_seen": "2023-10-31T21:56:08.751386+00:00"
     },
     {
       "state": {
@@ -858,16 +858,16 @@
           "icon": "mdi:wifi",
           "friendly_name": "whoami Connection Type"
         },
-        "last_changed": "2023-10-31T20:07:49.394495+00:00",
-        "last_updated": "2023-10-31T20:07:49.394495+00:00",
+        "last_changed": "2023-10-31T20:26:07.273082+00:00",
+        "last_updated": "2023-10-31T20:26:07.273082+00:00",
         "context": {
-          "id": "01HE3NJXWJ81CS85Z1ENZBXWZW",
+          "id": "01HE3PME1930FJDN4K2RP6DJ7M",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2023-10-31T20:07:51.510902+00:00"
+      "last_seen": "2023-10-31T21:56:08.751386+00:00"
     },
     {
       "state": {
@@ -877,16 +877,16 @@
           "icon": "mdi:wifi-off",
           "friendly_name": "whoami BSSID"
         },
-        "last_changed": "2023-10-31T20:07:49.394535+00:00",
-        "last_updated": "2023-10-31T20:07:49.394535+00:00",
+        "last_changed": "2023-10-31T20:26:07.273126+00:00",
+        "last_updated": "2023-10-31T20:26:07.273126+00:00",
         "context": {
-          "id": "01HE3NJXWJTY57X8ZD4FQJFEXW",
+          "id": "01HE3PME19ZPZ1KNXAK091EDTM",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2023-10-31T20:07:51.510902+00:00"
+      "last_seen": "2023-10-31T21:56:08.751386+00:00"
     },
     {
       "state": {
@@ -903,16 +903,16 @@
           "icon": "mdi:sim",
           "friendly_name": "whoami SIM 1"
         },
-        "last_changed": "2023-10-31T20:07:49.394574+00:00",
-        "last_updated": "2023-10-31T20:07:49.394574+00:00",
+        "last_changed": "2023-10-31T20:26:07.273165+00:00",
+        "last_updated": "2023-10-31T20:26:07.273165+00:00",
         "context": {
-          "id": "01HE3NJXWJG2EPY047K7AQJQE2",
+          "id": "01HE3PME19F20SG6RDAFMWYPEP",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2023-10-31T20:07:51.510902+00:00"
+      "last_seen": "2023-10-31T21:56:08.751386+00:00"
     },
     {
       "state": {
@@ -922,16 +922,16 @@
           "icon": "mdi:cellphone-wireless",
           "friendly_name": "whoami Last Update Trigger"
         },
-        "last_changed": "2023-10-31T20:07:49.394612+00:00",
-        "last_updated": "2023-10-31T20:07:49.394612+00:00",
+        "last_changed": "2023-10-31T20:26:07.273203+00:00",
+        "last_updated": "2023-10-31T20:26:07.273203+00:00",
         "context": {
-          "id": "01HE3NJXWJ9GNMDVVTAKNSHHRF",
+          "id": "01HE3PME19BCM1KPWH63P7N9Y1",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2023-10-31T20:07:51.510902+00:00"
+      "last_seen": "2023-10-31T21:56:08.751386+00:00"
     },
     {
       "state": {
@@ -942,16 +942,16 @@
           "icon": "mdi:speedometer",
           "friendly_name": "whoami Average Active Pace"
         },
-        "last_changed": "2023-10-31T20:07:49.394651+00:00",
-        "last_updated": "2023-10-31T20:07:49.394651+00:00",
+        "last_changed": "2023-10-31T20:26:07.273244+00:00",
+        "last_updated": "2023-10-31T20:26:07.273244+00:00",
         "context": {
-          "id": "01HE3NJXWJKR41PRDFZS8C3JRM",
+          "id": "01HE3PME19RHXJVTQ67ZJ2YDNX",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2023-10-31T20:07:51.510902+00:00"
+      "last_seen": "2023-10-31T21:56:08.751386+00:00"
     },
     {
       "state": {
@@ -961,16 +961,16 @@
           "icon": "mdi:moon-waning-crescent",
           "friendly_name": "whoami Focus"
         },
-        "last_changed": "2023-10-31T20:07:49.394690+00:00",
-        "last_updated": "2023-10-31T20:07:49.394690+00:00",
+        "last_changed": "2023-10-31T20:26:07.273283+00:00",
+        "last_updated": "2023-10-31T20:26:07.273283+00:00",
         "context": {
-          "id": "01HE3NJXWJC5EKGHKSCZ1V573Q",
+          "id": "01HE3PME191DF2ESH1RNEJTT5B",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2023-10-31T20:07:51.510902+00:00"
+      "last_seen": "2023-10-31T21:56:08.751386+00:00"
     },
     {
       "state": {
@@ -980,16 +980,16 @@
           "source_type": "gps",
           "friendly_name": "whoami"
         },
-        "last_changed": "2023-10-31T20:07:49.394739+00:00",
-        "last_updated": "2023-10-31T20:07:49.394739+00:00",
+        "last_changed": "2023-10-31T20:26:07.273325+00:00",
+        "last_updated": "2023-10-31T20:26:07.273325+00:00",
         "context": {
-          "id": "01HE3NJXWJFKYSSKY7BMZFGATN",
+          "id": "01HE3PME19AQWQ8XR96YAJ2C08",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2023-10-31T20:07:51.510902+00:00"
+      "last_seen": "2023-10-31T21:56:08.751386+00:00"
     },
     {
       "state": {
@@ -1001,10 +1001,10 @@
           "device_class": "battery",
           "friendly_name": "broom-switch battery"
         },
-        "last_changed": "2023-10-31T20:07:49.415800+00:00",
-        "last_updated": "2023-10-31T20:07:49.415800+00:00",
+        "last_changed": "2023-10-31T20:26:07.404662+00:00",
+        "last_updated": "2023-10-31T20:26:07.404662+00:00",
         "context": {
-          "id": "01HE3NJXX7VF4Y7ZJ32BDQACMB",
+          "id": "01HE3PME5C0V7RH4QNFDAXA6E1",
           "parent_id": null,
           "user_id": null
         }
@@ -1013,7 +1013,7 @@
         "native_value": null,
         "native_unit_of_measurement": "%"
       },
-      "last_seen": "2023-10-31T20:07:51.510902+00:00"
+      "last_seen": "2023-10-31T21:56:08.751386+00:00"
     },
     {
       "state": {
@@ -1023,10 +1023,10 @@
           "icon": "mdi:gesture-double-tap",
           "friendly_name": "broom-switch action"
         },
-        "last_changed": "2023-10-31T20:07:49.415850+00:00",
-        "last_updated": "2023-10-31T20:07:49.415850+00:00",
+        "last_changed": "2023-10-31T20:26:07.404717+00:00",
+        "last_updated": "2023-10-31T20:26:07.404717+00:00",
         "context": {
-          "id": "01HE3NJXX7KRYBJY0T4S76MAQ0",
+          "id": "01HE3PME5CR28V7ZAPWHS0KSKT",
           "parent_id": null,
           "user_id": null
         }
@@ -1035,7 +1035,7 @@
         "native_value": null,
         "native_unit_of_measurement": null
       },
-      "last_seen": "2023-10-31T20:07:51.510902+00:00"
+      "last_seen": "2023-10-31T21:56:08.751386+00:00"
     },
     {
       "state": {
@@ -1047,10 +1047,10 @@
           "device_class": "battery",
           "friendly_name": "lroom-switch battery"
         },
-        "last_changed": "2023-10-31T20:07:49.415891+00:00",
-        "last_updated": "2023-10-31T20:07:49.415891+00:00",
+        "last_changed": "2023-10-31T20:26:07.404752+00:00",
+        "last_updated": "2023-10-31T20:26:07.404752+00:00",
         "context": {
-          "id": "01HE3NJXX7XPW3EYSCECHVT8MP",
+          "id": "01HE3PME5CHT067MA713XPHSG4",
           "parent_id": null,
           "user_id": null
         }
@@ -1059,7 +1059,7 @@
         "native_value": null,
         "native_unit_of_measurement": "%"
       },
-      "last_seen": "2023-10-31T20:07:51.510902+00:00"
+      "last_seen": "2023-10-31T21:56:08.751386+00:00"
     },
     {
       "state": {
@@ -1069,10 +1069,10 @@
           "icon": "mdi:gesture-double-tap",
           "friendly_name": "lroom-switch action"
         },
-        "last_changed": "2023-10-31T20:07:49.415925+00:00",
-        "last_updated": "2023-10-31T20:07:49.415925+00:00",
+        "last_changed": "2023-10-31T20:26:07.404780+00:00",
+        "last_updated": "2023-10-31T20:26:07.404780+00:00",
         "context": {
-          "id": "01HE3NJXX7V0Y97Y92D12TB23B",
+          "id": "01HE3PME5CNRKX70X2A0Y9147R",
           "parent_id": null,
           "user_id": null
         }
@@ -1081,7 +1081,7 @@
         "native_value": null,
         "native_unit_of_measurement": null
       },
-      "last_seen": "2023-10-31T20:07:51.510902+00:00"
+      "last_seen": "2023-10-31T21:56:08.751386+00:00"
     },
     {
       "state": {
@@ -1093,10 +1093,10 @@
           "device_class": "battery",
           "friendly_name": "kitchen-switch battery"
         },
-        "last_changed": "2023-10-31T20:07:49.415960+00:00",
-        "last_updated": "2023-10-31T20:07:49.415960+00:00",
+        "last_changed": "2023-10-31T20:26:07.404812+00:00",
+        "last_updated": "2023-10-31T20:26:07.404812+00:00",
         "context": {
-          "id": "01HE3NJXX792DYN63NXVJFMQBP",
+          "id": "01HE3PME5CQGND6PD9T4A2RXS1",
           "parent_id": null,
           "user_id": null
         }
@@ -1105,7 +1105,7 @@
         "native_value": null,
         "native_unit_of_measurement": "%"
       },
-      "last_seen": "2023-10-31T20:07:51.510902+00:00"
+      "last_seen": "2023-10-31T21:56:08.751386+00:00"
     },
     {
       "state": {
@@ -1115,10 +1115,10 @@
           "icon": "mdi:gesture-double-tap",
           "friendly_name": "kitchen-switch action"
         },
-        "last_changed": "2023-10-31T20:07:49.415994+00:00",
-        "last_updated": "2023-10-31T20:07:49.415994+00:00",
+        "last_changed": "2023-10-31T20:26:07.404841+00:00",
+        "last_updated": "2023-10-31T20:26:07.404841+00:00",
         "context": {
-          "id": "01HE3NJXX7X06WZ510SEFFW1T8",
+          "id": "01HE3PME5CJG59B7G86RJ4N6C9",
           "parent_id": null,
           "user_id": null
         }
@@ -1127,7 +1127,7 @@
         "native_value": null,
         "native_unit_of_measurement": null
       },
-      "last_seen": "2023-10-31T20:07:51.510902+00:00"
+      "last_seen": "2023-10-31T21:56:08.751386+00:00"
     },
     {
       "state": {
@@ -1137,10 +1137,10 @@
           "icon": "mdi:toggle-switch",
           "friendly_name": "kitchen-switch click"
         },
-        "last_changed": "2023-10-31T20:07:49.416026+00:00",
-        "last_updated": "2023-10-31T20:07:49.416026+00:00",
+        "last_changed": "2023-10-31T20:26:07.404874+00:00",
+        "last_updated": "2023-10-31T20:26:07.404874+00:00",
         "context": {
-          "id": "01HE3NJXX8C617ZMAWFXEM8EEV",
+          "id": "01HE3PME5CYAK8NBCZ48VZH9ZD",
           "parent_id": null,
           "user_id": null
         }
@@ -1149,7 +1149,7 @@
         "native_value": null,
         "native_unit_of_measurement": null
       },
-      "last_seen": "2023-10-31T20:07:51.510902+00:00"
+      "last_seen": "2023-10-31T21:56:08.751386+00:00"
     },
     {
       "state": {
@@ -1161,10 +1161,10 @@
           "device_class": "battery",
           "friendly_name": "temp-hum-sensor-external battery"
         },
-        "last_changed": "2023-10-31T20:07:49.416058+00:00",
-        "last_updated": "2023-10-31T20:07:49.416058+00:00",
+        "last_changed": "2023-10-31T20:26:07.404907+00:00",
+        "last_updated": "2023-10-31T20:26:07.404907+00:00",
         "context": {
-          "id": "01HE3NJXX8XW25H4MZZWTGZ7KP",
+          "id": "01HE3PME5C4WVW524Q3AQRTCT2",
           "parent_id": null,
           "user_id": null
         }
@@ -1173,7 +1173,7 @@
         "native_value": null,
         "native_unit_of_measurement": "%"
       },
-      "last_seen": "2023-10-31T20:07:51.510902+00:00"
+      "last_seen": "2023-10-31T21:56:08.751386+00:00"
     },
     {
       "state": {
@@ -1185,10 +1185,10 @@
           "device_class": "temperature",
           "friendly_name": "temp-hum-sensor-external temperature"
         },
-        "last_changed": "2023-10-31T20:07:49.416092+00:00",
-        "last_updated": "2023-10-31T20:07:49.416092+00:00",
+        "last_changed": "2023-10-31T20:26:07.404943+00:00",
+        "last_updated": "2023-10-31T20:26:07.404943+00:00",
         "context": {
-          "id": "01HE3NJXX8HX6PS0NKKDC5FECZ",
+          "id": "01HE3PME5C0KT172DZPHFJQPDV",
           "parent_id": null,
           "user_id": null
         }
@@ -1197,7 +1197,7 @@
         "native_value": null,
         "native_unit_of_measurement": "\u00b0C"
       },
-      "last_seen": "2023-10-31T20:07:51.510902+00:00"
+      "last_seen": "2023-10-31T21:56:08.751386+00:00"
     },
     {
       "state": {
@@ -1209,10 +1209,10 @@
           "device_class": "humidity",
           "friendly_name": "temp-hum-sensor-external humidity"
         },
-        "last_changed": "2023-10-31T20:07:49.416124+00:00",
-        "last_updated": "2023-10-31T20:07:49.416124+00:00",
+        "last_changed": "2023-10-31T20:26:07.404989+00:00",
+        "last_updated": "2023-10-31T20:26:07.404989+00:00",
         "context": {
-          "id": "01HE3NJXX82HCWP9MR6GH5RG0N",
+          "id": "01HE3PME5CGPS95197PEYT779P",
           "parent_id": null,
           "user_id": null
         }
@@ -1221,7 +1221,7 @@
         "native_value": null,
         "native_unit_of_measurement": "%"
       },
-      "last_seen": "2023-10-31T20:07:51.510902+00:00"
+      "last_seen": "2023-10-31T21:56:08.751386+00:00"
     },
     {
       "state": {
@@ -1233,10 +1233,10 @@
           "device_class": "battery",
           "friendly_name": "kitcken-mov-sensor battery"
         },
-        "last_changed": "2023-10-31T20:07:49.416157+00:00",
-        "last_updated": "2023-10-31T20:07:49.416157+00:00",
+        "last_changed": "2023-10-31T20:26:07.405029+00:00",
+        "last_updated": "2023-10-31T20:26:07.405029+00:00",
         "context": {
-          "id": "01HE3NJXX8592Y9M2CY5BDRAHN",
+          "id": "01HE3PME5DC3J1X5QPBH3NA30Y",
           "parent_id": null,
           "user_id": null
         }
@@ -1245,7 +1245,7 @@
         "native_value": null,
         "native_unit_of_measurement": "%"
       },
-      "last_seen": "2023-10-31T20:07:51.510902+00:00"
+      "last_seen": "2023-10-31T21:56:08.751386+00:00"
     },
     {
       "state": {
@@ -1257,10 +1257,10 @@
           "device_class": "temperature",
           "friendly_name": "kitcken-mov-sensor device temperature"
         },
-        "last_changed": "2023-10-31T20:07:49.416189+00:00",
-        "last_updated": "2023-10-31T20:07:49.416189+00:00",
+        "last_changed": "2023-10-31T20:26:07.405064+00:00",
+        "last_updated": "2023-10-31T20:26:07.405064+00:00",
         "context": {
-          "id": "01HE3NJXX87KSD9WS1WTRAFW2J",
+          "id": "01HE3PME5DA9ZV9958R2Z11PYM",
           "parent_id": null,
           "user_id": null
         }
@@ -1269,7 +1269,7 @@
         "native_value": null,
         "native_unit_of_measurement": "\u00b0C"
       },
-      "last_seen": "2023-10-31T20:07:51.510902+00:00"
+      "last_seen": "2023-10-31T21:56:08.751386+00:00"
     },
     {
       "state": {
@@ -1281,10 +1281,10 @@
           "device_class": "illuminance",
           "friendly_name": "kitcken-mov-sensor illuminance lux"
         },
-        "last_changed": "2023-10-31T20:07:49.416223+00:00",
-        "last_updated": "2023-10-31T20:07:49.416223+00:00",
+        "last_changed": "2023-10-31T20:26:07.405097+00:00",
+        "last_updated": "2023-10-31T20:26:07.405097+00:00",
         "context": {
-          "id": "01HE3NJXX8ZDZ19DMP68K7K0GY",
+          "id": "01HE3PME5DGC1PYCZ95GTX5V9R",
           "parent_id": null,
           "user_id": null
         }
@@ -1293,7 +1293,7 @@
         "native_value": null,
         "native_unit_of_measurement": "lx"
       },
-      "last_seen": "2023-10-31T20:07:51.510902+00:00"
+      "last_seen": "2023-10-31T21:56:08.751386+00:00"
     },
     {
       "state": {
@@ -1302,10 +1302,10 @@
         "attributes": {
           "friendly_name": "kitcken-mov-sensor power outage count"
         },
-        "last_changed": "2023-10-31T20:07:49.416254+00:00",
-        "last_updated": "2023-10-31T20:07:49.416254+00:00",
+        "last_changed": "2023-10-31T20:26:07.405133+00:00",
+        "last_updated": "2023-10-31T20:26:07.405133+00:00",
         "context": {
-          "id": "01HE3NJXX8KAAQ63V26K3TK94Q",
+          "id": "01HE3PME5D6V0D6J6JCMWTKSFB",
           "parent_id": null,
           "user_id": null
         }
@@ -1314,7 +1314,7 @@
         "native_value": null,
         "native_unit_of_measurement": null
       },
-      "last_seen": "2023-10-31T20:07:51.510902+00:00"
+      "last_seen": "2023-10-31T21:56:08.751386+00:00"
     },
     {
       "state": {
@@ -1326,10 +1326,10 @@
           "device_class": "battery",
           "friendly_name": "main-door-sensor battery"
         },
-        "last_changed": "2023-10-31T20:07:49.416285+00:00",
-        "last_updated": "2023-10-31T20:07:49.416285+00:00",
+        "last_changed": "2023-10-31T20:26:07.405171+00:00",
+        "last_updated": "2023-10-31T20:26:07.405171+00:00",
         "context": {
-          "id": "01HE3NJXX88JP0BF2NA81MMYJA",
+          "id": "01HE3PME5DKFR4D5NQ6MQ1Q64P",
           "parent_id": null,
           "user_id": null
         }
@@ -1338,7 +1338,7 @@
         "native_value": null,
         "native_unit_of_measurement": "%"
       },
-      "last_seen": "2023-10-31T20:07:51.510902+00:00"
+      "last_seen": "2023-10-31T21:56:08.751386+00:00"
     },
     {
       "state": {
@@ -1347,10 +1347,10 @@
         "attributes": {
           "friendly_name": "main-door-sensor power outage count"
         },
-        "last_changed": "2023-10-31T20:07:49.416315+00:00",
-        "last_updated": "2023-10-31T20:07:49.416315+00:00",
+        "last_changed": "2023-10-31T20:26:07.405206+00:00",
+        "last_updated": "2023-10-31T20:26:07.405206+00:00",
         "context": {
-          "id": "01HE3NJXX8918FVT5AB6X1NH8S",
+          "id": "01HE3PME5DF3FHVMPFFT0SVP25",
           "parent_id": null,
           "user_id": null
         }
@@ -1359,7 +1359,7 @@
         "native_value": null,
         "native_unit_of_measurement": null
       },
-      "last_seen": "2023-10-31T20:07:51.510902+00:00"
+      "last_seen": "2023-10-31T21:56:08.751386+00:00"
     },
     {
       "state": {
@@ -1371,10 +1371,10 @@
           "device_class": "battery",
           "friendly_name": "fridge-door-sensor battery"
         },
-        "last_changed": "2023-10-31T20:07:49.416348+00:00",
-        "last_updated": "2023-10-31T20:07:49.416348+00:00",
+        "last_changed": "2023-10-31T20:26:07.405240+00:00",
+        "last_updated": "2023-10-31T20:26:07.405240+00:00",
         "context": {
-          "id": "01HE3NJXX80Q8CK9CAX81CQTRD",
+          "id": "01HE3PME5D221RN0661CCAG6XD",
           "parent_id": null,
           "user_id": null
         }
@@ -1383,7 +1383,7 @@
         "native_value": null,
         "native_unit_of_measurement": "%"
       },
-      "last_seen": "2023-10-31T20:07:51.510902+00:00"
+      "last_seen": "2023-10-31T21:56:08.751386+00:00"
     },
     {
       "state": {
@@ -1392,10 +1392,10 @@
         "attributes": {
           "friendly_name": "fridge-door-sensor power outage count"
         },
-        "last_changed": "2023-10-31T20:07:49.416378+00:00",
-        "last_updated": "2023-10-31T20:07:49.416378+00:00",
+        "last_changed": "2023-10-31T20:26:07.405272+00:00",
+        "last_updated": "2023-10-31T20:26:07.405272+00:00",
         "context": {
-          "id": "01HE3NJXX8J39GK00HNBNVDP69",
+          "id": "01HE3PME5D1QPR2KBWME7WDJ3A",
           "parent_id": null,
           "user_id": null
         }
@@ -1404,7 +1404,7 @@
         "native_value": null,
         "native_unit_of_measurement": null
       },
-      "last_seen": "2023-10-31T20:07:51.510902+00:00"
+      "last_seen": "2023-10-31T21:56:08.751386+00:00"
     },
     {
       "state": {
@@ -1414,16 +1414,16 @@
           "device_class": "update",
           "friendly_name": "broom-switch update available"
         },
-        "last_changed": "2023-10-31T20:07:49.416418+00:00",
-        "last_updated": "2023-10-31T20:07:49.416418+00:00",
+        "last_changed": "2023-10-31T20:26:07.405311+00:00",
+        "last_updated": "2023-10-31T20:26:07.405311+00:00",
         "context": {
-          "id": "01HE3NJXX8NGDYD3XV04J6539X",
+          "id": "01HE3PME5D19EYNZZA5CSM3WP7",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2023-10-31T20:07:51.510902+00:00"
+      "last_seen": "2023-10-31T21:56:08.751386+00:00"
     },
     {
       "state": {
@@ -1433,16 +1433,16 @@
           "device_class": "update",
           "friendly_name": "broom-spot-light-1 update available"
         },
-        "last_changed": "2023-10-31T20:07:49.416451+00:00",
-        "last_updated": "2023-10-31T20:07:49.416451+00:00",
+        "last_changed": "2023-10-31T20:26:07.405344+00:00",
+        "last_updated": "2023-10-31T20:26:07.405344+00:00",
         "context": {
-          "id": "01HE3NJXX88B6VKRPNPK3VGCPA",
+          "id": "01HE3PME5DJ8V7J4EHXX7SBF9T",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2023-10-31T20:07:51.510902+00:00"
+      "last_seen": "2023-10-31T21:56:08.751386+00:00"
     },
     {
       "state": {
@@ -1452,16 +1452,16 @@
           "device_class": "update",
           "friendly_name": "broom-spot-light-2 update available"
         },
-        "last_changed": "2023-10-31T20:07:49.416483+00:00",
-        "last_updated": "2023-10-31T20:07:49.416483+00:00",
+        "last_changed": "2023-10-31T20:26:07.405375+00:00",
+        "last_updated": "2023-10-31T20:26:07.405375+00:00",
         "context": {
-          "id": "01HE3NJXX8GFCS38GH0JS1JWPJ",
+          "id": "01HE3PME5D4HRPR4SP9KS10YG3",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2023-10-31T20:07:51.510902+00:00"
+      "last_seen": "2023-10-31T21:56:08.751386+00:00"
     },
     {
       "state": {
@@ -1471,16 +1471,16 @@
           "device_class": "update",
           "friendly_name": "broom-spot-light-3 update available"
         },
-        "last_changed": "2023-10-31T20:07:49.416512+00:00",
-        "last_updated": "2023-10-31T20:07:49.416512+00:00",
+        "last_changed": "2023-10-31T20:26:07.405406+00:00",
+        "last_updated": "2023-10-31T20:26:07.405406+00:00",
         "context": {
-          "id": "01HE3NJXX8CG8ZWSRKC3HK1CVC",
+          "id": "01HE3PME5DGT0X6BD6Q35Z8CND",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2023-10-31T20:07:51.510902+00:00"
+      "last_seen": "2023-10-31T21:56:08.751386+00:00"
     },
     {
       "state": {
@@ -1490,16 +1490,16 @@
           "device_class": "update",
           "friendly_name": "lroom-switch update available"
         },
-        "last_changed": "2023-10-31T20:07:49.416540+00:00",
-        "last_updated": "2023-10-31T20:07:49.416540+00:00",
+        "last_changed": "2023-10-31T20:26:07.405435+00:00",
+        "last_updated": "2023-10-31T20:26:07.405435+00:00",
         "context": {
-          "id": "01HE3NJXX8NGX2P4DVNN0T9T7C",
+          "id": "01HE3PME5D4W7MDB3Q178EABXY",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2023-10-31T20:07:51.510902+00:00"
+      "last_seen": "2023-10-31T21:56:08.751386+00:00"
     },
     {
       "state": {
@@ -1509,16 +1509,16 @@
           "device_class": "update",
           "friendly_name": "lroom-spot-light-2 update available"
         },
-        "last_changed": "2023-10-31T20:07:49.416571+00:00",
-        "last_updated": "2023-10-31T20:07:49.416571+00:00",
+        "last_changed": "2023-10-31T20:26:07.405528+00:00",
+        "last_updated": "2023-10-31T20:26:07.405528+00:00",
         "context": {
-          "id": "01HE3NJXX8FS0EGB9BB1B1MWS4",
+          "id": "01HE3PME5DNSB72WRSN7YG0F80",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2023-10-31T20:07:51.510902+00:00"
+      "last_seen": "2023-10-31T21:56:08.751386+00:00"
     },
     {
       "state": {
@@ -1528,16 +1528,16 @@
           "device_class": "update",
           "friendly_name": "lroom-spot-light-1 update available"
         },
-        "last_changed": "2023-10-31T20:07:49.416599+00:00",
-        "last_updated": "2023-10-31T20:07:49.416599+00:00",
+        "last_changed": "2023-10-31T20:26:07.405562+00:00",
+        "last_updated": "2023-10-31T20:26:07.405562+00:00",
         "context": {
-          "id": "01HE3NJXX8TKABY6TFTK5CYYVY",
+          "id": "01HE3PME5DC4X9NYT49NXF9VKE",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2023-10-31T20:07:51.510902+00:00"
+      "last_seen": "2023-10-31T21:56:08.751386+00:00"
     },
     {
       "state": {
@@ -1547,16 +1547,16 @@
           "device_class": "update",
           "friendly_name": "lroom-spot-light-3 update available"
         },
-        "last_changed": "2023-10-31T20:07:49.416630+00:00",
-        "last_updated": "2023-10-31T20:07:49.416630+00:00",
+        "last_changed": "2023-10-31T20:26:07.405592+00:00",
+        "last_updated": "2023-10-31T20:26:07.405592+00:00",
         "context": {
-          "id": "01HE3NJXX8QXKHVT7GCJB2XPA1",
+          "id": "01HE3PME5DTY2J3CX9CS7Q56EY",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2023-10-31T20:07:51.510902+00:00"
+      "last_seen": "2023-10-31T21:56:08.751386+00:00"
     },
     {
       "state": {
@@ -1566,16 +1566,16 @@
           "device_class": "update",
           "friendly_name": "kitchen-switch update available"
         },
-        "last_changed": "2023-10-31T20:07:49.416658+00:00",
-        "last_updated": "2023-10-31T20:07:49.416658+00:00",
+        "last_changed": "2023-10-31T20:26:07.405622+00:00",
+        "last_updated": "2023-10-31T20:26:07.405622+00:00",
         "context": {
-          "id": "01HE3NJXX83X6E1CHD3GVR4V2J",
+          "id": "01HE3PME5D0TARXQ7QHATFZQMP",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2023-10-31T20:07:51.510902+00:00"
+      "last_seen": "2023-10-31T21:56:08.751386+00:00"
     },
     {
       "state": {
@@ -1585,16 +1585,16 @@
           "device_class": "update",
           "friendly_name": "kitcken-socket update available"
         },
-        "last_changed": "2023-10-31T20:07:49.416687+00:00",
-        "last_updated": "2023-10-31T20:07:49.416687+00:00",
+        "last_changed": "2023-10-31T20:26:07.405652+00:00",
+        "last_updated": "2023-10-31T20:26:07.405652+00:00",
         "context": {
-          "id": "01HE3NJXX87EJ6Z9A5K29JV7BA",
+          "id": "01HE3PME5DQBAFXMFEERWE56AB",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2023-10-31T20:07:51.510902+00:00"
+      "last_seen": "2023-10-31T21:56:08.751386+00:00"
     },
     {
       "state": {
@@ -1604,16 +1604,16 @@
           "device_class": "update",
           "friendly_name": "laundry-light update available"
         },
-        "last_changed": "2023-10-31T20:07:49.416716+00:00",
-        "last_updated": "2023-10-31T20:07:49.416716+00:00",
+        "last_changed": "2023-10-31T20:26:07.405682+00:00",
+        "last_updated": "2023-10-31T20:26:07.405682+00:00",
         "context": {
-          "id": "01HE3NJXX8S30MBWRNWB8PZ675",
+          "id": "01HE3PME5DAWCSVKVYW13ARPKB",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2023-10-31T20:07:51.510902+00:00"
+      "last_seen": "2023-10-31T21:56:08.751386+00:00"
     },
     {
       "state": {
@@ -1623,16 +1623,16 @@
           "device_class": "motion",
           "friendly_name": "kitcken-mov-sensor occupancy"
         },
-        "last_changed": "2023-10-31T20:07:49.416745+00:00",
-        "last_updated": "2023-10-31T20:07:49.416745+00:00",
+        "last_changed": "2023-10-31T20:26:07.405713+00:00",
+        "last_updated": "2023-10-31T20:26:07.405713+00:00",
         "context": {
-          "id": "01HE3NJXX846VT39S5R73401ZW",
+          "id": "01HE3PME5DJKD9N7WC5FTVP1JT",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2023-10-31T20:07:51.510902+00:00"
+      "last_seen": "2023-10-31T21:56:08.751386+00:00"
     },
     {
       "state": {
@@ -1642,16 +1642,16 @@
           "device_class": "door",
           "friendly_name": "main-door-sensor contact"
         },
-        "last_changed": "2023-10-31T20:07:49.416773+00:00",
-        "last_updated": "2023-10-31T20:07:49.416773+00:00",
+        "last_changed": "2023-10-31T20:26:07.405744+00:00",
+        "last_updated": "2023-10-31T20:26:07.405744+00:00",
         "context": {
-          "id": "01HE3NJXX854K4R8RCQ2R5R9PN",
+          "id": "01HE3PME5D8H8153XNX0AYN0ZW",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2023-10-31T20:07:51.510902+00:00"
+      "last_seen": "2023-10-31T21:56:08.751386+00:00"
     },
     {
       "state": {
@@ -1661,16 +1661,16 @@
           "device_class": "door",
           "friendly_name": "fridge-door-sensor contact"
         },
-        "last_changed": "2023-10-31T20:07:49.416803+00:00",
-        "last_updated": "2023-10-31T20:07:49.416803+00:00",
+        "last_changed": "2023-10-31T20:26:07.405777+00:00",
+        "last_updated": "2023-10-31T20:26:07.405777+00:00",
         "context": {
-          "id": "01HE3NJXX8XE20K137K737JZ0B",
+          "id": "01HE3PME5D0JA562FEC3DZMA7F",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2023-10-31T20:07:51.510902+00:00"
+      "last_seen": "2023-10-31T21:56:08.751386+00:00"
     },
     {
       "state": {
@@ -1693,16 +1693,16 @@
           "friendly_name": "broom-spot-light-1",
           "supported_features": 47
         },
-        "last_changed": "2023-10-31T20:07:49.416855+00:00",
-        "last_updated": "2023-10-31T20:07:49.416855+00:00",
+        "last_changed": "2023-10-31T20:26:07.405836+00:00",
+        "last_updated": "2023-10-31T20:26:07.405836+00:00",
         "context": {
-          "id": "01HE3NJXX8ZG5XMYJCMQYVE7A3",
+          "id": "01HE3PME5DZD2JCYMRTVJRNRQF",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2023-10-31T20:07:51.510902+00:00"
+      "last_seen": "2023-10-31T21:56:08.751386+00:00"
     },
     {
       "state": {
@@ -1725,16 +1725,16 @@
           "friendly_name": "broom-spot-light-2",
           "supported_features": 47
         },
-        "last_changed": "2023-10-31T20:07:49.416896+00:00",
-        "last_updated": "2023-10-31T20:07:49.416896+00:00",
+        "last_changed": "2023-10-31T20:26:07.405880+00:00",
+        "last_updated": "2023-10-31T20:26:07.405880+00:00",
         "context": {
-          "id": "01HE3NJXX88S460E5PFVBDQZ20",
+          "id": "01HE3PME5DHH24FW6XGDETJNX3",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2023-10-31T20:07:51.510902+00:00"
+      "last_seen": "2023-10-31T21:56:08.751386+00:00"
     },
     {
       "state": {
@@ -1757,16 +1757,16 @@
           "friendly_name": "broom-spot-light-3",
           "supported_features": 47
         },
-        "last_changed": "2023-10-31T20:07:49.416935+00:00",
-        "last_updated": "2023-10-31T20:07:49.416935+00:00",
+        "last_changed": "2023-10-31T20:26:07.405920+00:00",
+        "last_updated": "2023-10-31T20:26:07.405920+00:00",
         "context": {
-          "id": "01HE3NJXX8J426C2CWF5THBPTJ",
+          "id": "01HE3PME5D23570HKGQ7F8C601",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2023-10-31T20:07:51.510902+00:00"
+      "last_seen": "2023-10-31T21:56:08.751386+00:00"
     },
     {
       "state": {
@@ -1789,16 +1789,16 @@
           "friendly_name": "lroom-spot-light-2",
           "supported_features": 47
         },
-        "last_changed": "2023-10-31T20:07:49.416972+00:00",
-        "last_updated": "2023-10-31T20:07:49.416972+00:00",
+        "last_changed": "2023-10-31T20:26:07.405960+00:00",
+        "last_updated": "2023-10-31T20:26:07.405960+00:00",
         "context": {
-          "id": "01HE3NJXX8G2V9STTMQG7XG3XM",
+          "id": "01HE3PME5DJQMJD5Y1D20WJZ48",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2023-10-31T20:07:51.510902+00:00"
+      "last_seen": "2023-10-31T21:56:08.751386+00:00"
     },
     {
       "state": {
@@ -1821,16 +1821,16 @@
           "friendly_name": "lroom-spot-light-1",
           "supported_features": 47
         },
-        "last_changed": "2023-10-31T20:07:49.417033+00:00",
-        "last_updated": "2023-10-31T20:07:49.417033+00:00",
+        "last_changed": "2023-10-31T20:26:07.406003+00:00",
+        "last_updated": "2023-10-31T20:26:07.406003+00:00",
         "context": {
-          "id": "01HE3NJXX94KB44VHVQGNDJVEB",
+          "id": "01HE3PME5ED9Q5NZMXCPED6E8K",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2023-10-31T20:07:51.510902+00:00"
+      "last_seen": "2023-10-31T21:56:08.751386+00:00"
     },
     {
       "state": {
@@ -1853,16 +1853,16 @@
           "friendly_name": "lroom-spot-light-3",
           "supported_features": 47
         },
-        "last_changed": "2023-10-31T20:07:49.417075+00:00",
-        "last_updated": "2023-10-31T20:07:49.417075+00:00",
+        "last_changed": "2023-10-31T20:26:07.406045+00:00",
+        "last_updated": "2023-10-31T20:26:07.406045+00:00",
         "context": {
-          "id": "01HE3NJXX9B0Z162XK2EV1G1BS",
+          "id": "01HE3PME5EJYTXSZG3SGWT96N2",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2023-10-31T20:07:51.510902+00:00"
+      "last_seen": "2023-10-31T21:56:08.751386+00:00"
     },
     {
       "state": {
@@ -1885,16 +1885,16 @@
           "friendly_name": "laundry-light",
           "supported_features": 47
         },
-        "last_changed": "2023-10-31T20:07:49.417115+00:00",
-        "last_updated": "2023-10-31T20:07:49.417115+00:00",
+        "last_changed": "2023-10-31T20:26:07.406085+00:00",
+        "last_updated": "2023-10-31T20:26:07.406085+00:00",
         "context": {
-          "id": "01HE3NJXX96H7SV8KD4FMGPNPV",
+          "id": "01HE3PME5EGNDPQQDTK5QQKT6R",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2023-10-31T20:07:51.510902+00:00"
+      "last_seen": "2023-10-31T21:56:08.751386+00:00"
     },
     {
       "state": {
@@ -1915,16 +1915,16 @@
           "friendly_name": "dining-table-light",
           "supported_features": 45
         },
-        "last_changed": "2023-10-31T20:07:49.417149+00:00",
-        "last_updated": "2023-10-31T20:07:49.417149+00:00",
+        "last_changed": "2023-10-31T20:26:07.406121+00:00",
+        "last_updated": "2023-10-31T20:26:07.406121+00:00",
         "context": {
-          "id": "01HE3NJXX9N7NXNJHF2SFF1GDC",
+          "id": "01HE3PME5E77SQ37KXH7H71CGP",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2023-10-31T20:07:51.510902+00:00"
+      "last_seen": "2023-10-31T21:56:08.751386+00:00"
     },
     {
       "state": {
@@ -1940,16 +1940,16 @@
           "icon": "mdi:power-settings",
           "friendly_name": "broom-spot-light-1 power on behavior"
         },
-        "last_changed": "2023-10-31T20:07:49.417187+00:00",
-        "last_updated": "2023-10-31T20:07:49.417187+00:00",
+        "last_changed": "2023-10-31T20:26:07.406160+00:00",
+        "last_updated": "2023-10-31T20:26:07.406160+00:00",
         "context": {
-          "id": "01HE3NJXX928KHFJ44BTBNA354",
+          "id": "01HE3PME5EERJG1VRGR5CJ5F6T",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2023-10-31T20:07:51.510902+00:00"
+      "last_seen": "2023-10-31T21:56:08.751386+00:00"
     },
     {
       "state": {
@@ -1965,16 +1965,16 @@
           "icon": "mdi:power-settings",
           "friendly_name": "broom-spot-light-2 power on behavior"
         },
-        "last_changed": "2023-10-31T20:07:49.417216+00:00",
-        "last_updated": "2023-10-31T20:07:49.417216+00:00",
+        "last_changed": "2023-10-31T20:26:07.406192+00:00",
+        "last_updated": "2023-10-31T20:26:07.406192+00:00",
         "context": {
-          "id": "01HE3NJXX9VAFJ9DNRRGH6CZ43",
+          "id": "01HE3PME5E2E39CZAYW7BZ31WR",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2023-10-31T20:07:51.510902+00:00"
+      "last_seen": "2023-10-31T21:56:08.751386+00:00"
     },
     {
       "state": {
@@ -1990,16 +1990,16 @@
           "icon": "mdi:power-settings",
           "friendly_name": "broom-spot-light-3 power on behavior"
         },
-        "last_changed": "2023-10-31T20:07:49.417245+00:00",
-        "last_updated": "2023-10-31T20:07:49.417245+00:00",
+        "last_changed": "2023-10-31T20:26:07.406221+00:00",
+        "last_updated": "2023-10-31T20:26:07.406221+00:00",
         "context": {
-          "id": "01HE3NJXX90N6E402NKCARKC7S",
+          "id": "01HE3PME5EKXRRBQW3KYTMGRG7",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2023-10-31T20:07:51.510902+00:00"
+      "last_seen": "2023-10-31T21:56:08.751386+00:00"
     },
     {
       "state": {
@@ -2015,16 +2015,16 @@
           "icon": "mdi:power-settings",
           "friendly_name": "lroom-spot-light-2 power on behavior"
         },
-        "last_changed": "2023-10-31T20:07:49.417273+00:00",
-        "last_updated": "2023-10-31T20:07:49.417273+00:00",
+        "last_changed": "2023-10-31T20:26:07.406251+00:00",
+        "last_updated": "2023-10-31T20:26:07.406251+00:00",
         "context": {
-          "id": "01HE3NJXX9F5JGXK5NRN4H3TK2",
+          "id": "01HE3PME5EVVP10TQQC7XAHJCM",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2023-10-31T20:07:51.510902+00:00"
+      "last_seen": "2023-10-31T21:56:08.751386+00:00"
     },
     {
       "state": {
@@ -2040,16 +2040,16 @@
           "icon": "mdi:power-settings",
           "friendly_name": "lroom-spot-light-1 power on behavior"
         },
-        "last_changed": "2023-10-31T20:07:49.417301+00:00",
-        "last_updated": "2023-10-31T20:07:49.417301+00:00",
+        "last_changed": "2023-10-31T20:26:07.406279+00:00",
+        "last_updated": "2023-10-31T20:26:07.406279+00:00",
         "context": {
-          "id": "01HE3NJXX92Z9XP6C3SXHMAC8D",
+          "id": "01HE3PME5EP6RDMPMR54YXEMH9",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2023-10-31T20:07:51.510902+00:00"
+      "last_seen": "2023-10-31T21:56:08.751386+00:00"
     },
     {
       "state": {
@@ -2065,16 +2065,16 @@
           "icon": "mdi:power-settings",
           "friendly_name": "lroom-spot-light-3 power on behavior"
         },
-        "last_changed": "2023-10-31T20:07:49.417330+00:00",
-        "last_updated": "2023-10-31T20:07:49.417330+00:00",
+        "last_changed": "2023-10-31T20:26:07.406308+00:00",
+        "last_updated": "2023-10-31T20:26:07.406308+00:00",
         "context": {
-          "id": "01HE3NJXX968RGRX21QCZ3Q0E4",
+          "id": "01HE3PME5ES348CJMYNXVJT0R0",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2023-10-31T20:07:51.510902+00:00"
+      "last_seen": "2023-10-31T21:56:08.751386+00:00"
     },
     {
       "state": {
@@ -2090,16 +2090,16 @@
           "icon": "mdi:power-settings",
           "friendly_name": "kitcken-socket power on behavior"
         },
-        "last_changed": "2023-10-31T20:07:49.417358+00:00",
-        "last_updated": "2023-10-31T20:07:49.417358+00:00",
+        "last_changed": "2023-10-31T20:26:07.406341+00:00",
+        "last_updated": "2023-10-31T20:26:07.406341+00:00",
         "context": {
-          "id": "01HE3NJXX92TW1DBTHFEYA3HDR",
+          "id": "01HE3PME5EM2Y3M5N057VTM4NQ",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2023-10-31T20:07:51.510902+00:00"
+      "last_seen": "2023-10-31T21:56:08.751386+00:00"
     },
     {
       "state": {
@@ -2115,16 +2115,16 @@
           "icon": "mdi:power-settings",
           "friendly_name": "laundry-light power on behavior"
         },
-        "last_changed": "2023-10-31T20:07:49.417385+00:00",
-        "last_updated": "2023-10-31T20:07:49.417385+00:00",
+        "last_changed": "2023-10-31T20:26:07.406370+00:00",
+        "last_updated": "2023-10-31T20:26:07.406370+00:00",
         "context": {
-          "id": "01HE3NJXX946Y94X07V6NQKXCY",
+          "id": "01HE3PME5ESF97KAPWPENHWYHW",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2023-10-31T20:07:51.510902+00:00"
+      "last_seen": "2023-10-31T21:56:08.751386+00:00"
     },
     {
       "state": {
@@ -2140,16 +2140,16 @@
           "icon": "mdi:power-settings",
           "friendly_name": "dining-table-light power on behavior"
         },
-        "last_changed": "2023-10-31T20:07:49.417412+00:00",
-        "last_updated": "2023-10-31T20:07:49.417412+00:00",
+        "last_changed": "2023-10-31T20:26:07.406397+00:00",
+        "last_updated": "2023-10-31T20:26:07.406397+00:00",
         "context": {
-          "id": "01HE3NJXX9B28VPA6CVQ1R6V2H",
+          "id": "01HE3PME5EY1NDHWQHRDFJHEDN",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2023-10-31T20:07:51.510902+00:00"
+      "last_seen": "2023-10-31T21:56:08.751386+00:00"
     },
     {
       "state": {
@@ -2158,16 +2158,16 @@
         "attributes": {
           "friendly_name": "kitcken-socket"
         },
-        "last_changed": "2023-10-31T20:07:49.417444+00:00",
-        "last_updated": "2023-10-31T20:07:49.417444+00:00",
+        "last_changed": "2023-10-31T20:26:07.406431+00:00",
+        "last_updated": "2023-10-31T20:26:07.406431+00:00",
         "context": {
-          "id": "01HE3NJXX9SVJVY30YAVPMZXNS",
+          "id": "01HE3PME5E8MYRFTRJ22MCJCME",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2023-10-31T20:07:51.510902+00:00"
+      "last_seen": "2023-10-31T21:56:08.751386+00:00"
     },
     {
       "state": {
@@ -2176,16 +2176,16 @@
         "attributes": {
           "friendly_name": "bar-outlet"
         },
-        "last_changed": "2023-10-31T20:07:49.417473+00:00",
-        "last_updated": "2023-10-31T20:07:49.417473+00:00",
+        "last_changed": "2023-10-31T20:26:07.406460+00:00",
+        "last_updated": "2023-10-31T20:26:07.406460+00:00",
         "context": {
-          "id": "01HE3NJXX95S5Y3ZAW3R7NBEWF",
+          "id": "01HE3PME5EDTSWVKT06738TSPD",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2023-10-31T20:07:51.510902+00:00"
+      "last_seen": "2023-10-31T21:56:08.751386+00:00"
     },
     {
       "state": {
@@ -2204,16 +2204,16 @@
           "friendly_name": "HACS update",
           "supported_features": 20
         },
-        "last_changed": "2023-10-31T20:07:49.576617+00:00",
-        "last_updated": "2023-10-31T20:07:49.576617+00:00",
+        "last_changed": "2023-10-31T20:26:07.470895+00:00",
+        "last_updated": "2023-10-31T20:26:07.470895+00:00",
         "context": {
-          "id": "01HE3NJY28EFJCTP8M4XPV17ZE",
+          "id": "01HE3PME7E12KXSGMD2RY2TYMJ",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2023-10-31T20:07:51.510902+00:00"
+      "last_seen": "2023-10-31T21:56:08.751386+00:00"
     },
     {
       "state": {
@@ -2232,16 +2232,16 @@
           "friendly_name": "browser_mod update",
           "supported_features": 20
         },
-        "last_changed": "2023-10-31T20:07:49.576728+00:00",
-        "last_updated": "2023-10-31T20:07:49.576728+00:00",
+        "last_changed": "2023-10-31T20:26:07.471013+00:00",
+        "last_updated": "2023-10-31T20:26:07.471013+00:00",
         "context": {
-          "id": "01HE3NJY28QAYYGNMQ9QW4QYJ0",
+          "id": "01HE3PME7FN777CP5402VB1A2W",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2023-10-31T20:07:51.510902+00:00"
+      "last_seen": "2023-10-31T21:56:08.751386+00:00"
     },
     {
       "state": {
@@ -2259,16 +2259,16 @@
           "friendly_name": "Roomba Vacuum Card update",
           "supported_features": 21
         },
-        "last_changed": "2023-10-31T20:07:49.576788+00:00",
-        "last_updated": "2023-10-31T20:07:49.576788+00:00",
+        "last_changed": "2023-10-31T20:26:07.471074+00:00",
+        "last_updated": "2023-10-31T20:26:07.471074+00:00",
         "context": {
-          "id": "01HE3NJY28SY339FH9CZBM0M5A",
+          "id": "01HE3PME7FZ6GVE4K1H0GYRAAG",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2023-10-31T20:07:51.510902+00:00"
+      "last_seen": "2023-10-31T21:56:08.751386+00:00"
     },
     {
       "state": {
@@ -2286,16 +2286,16 @@
           "friendly_name": "LG WebOS Remote Control update",
           "supported_features": 21
         },
-        "last_changed": "2023-10-31T20:07:49.576872+00:00",
-        "last_updated": "2023-10-31T20:07:49.576872+00:00",
+        "last_changed": "2023-10-31T20:26:07.471156+00:00",
+        "last_updated": "2023-10-31T20:26:07.471156+00:00",
         "context": {
-          "id": "01HE3NJY28G3XZKBPEA9DCWFZW",
+          "id": "01HE3PME7FRWFQXT1P7ZDSNQES",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2023-10-31T20:07:51.510902+00:00"
+      "last_seen": "2023-10-31T21:56:08.751386+00:00"
     },
     {
       "state": {
@@ -2313,16 +2313,16 @@
           "friendly_name": "LG WebOS channel pad update",
           "supported_features": 21
         },
-        "last_changed": "2023-10-31T20:07:49.576928+00:00",
-        "last_updated": "2023-10-31T20:07:49.576928+00:00",
+        "last_changed": "2023-10-31T20:26:07.471216+00:00",
+        "last_updated": "2023-10-31T20:26:07.471216+00:00",
         "context": {
-          "id": "01HE3NJY28EYGANB3M23YDAGEN",
+          "id": "01HE3PME7FTCBMST0BJZ50CZPZ",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2023-10-31T20:07:51.510902+00:00"
+      "last_seen": "2023-10-31T21:56:08.751386+00:00"
     },
     {
       "state": {
@@ -2340,16 +2340,16 @@
           "friendly_name": "card-mod update",
           "supported_features": 20
         },
-        "last_changed": "2023-10-31T20:07:49.577044+00:00",
-        "last_updated": "2023-10-31T20:07:49.577044+00:00",
+        "last_changed": "2023-10-31T20:26:07.471324+00:00",
+        "last_updated": "2023-10-31T20:26:07.471324+00:00",
         "context": {
-          "id": "01HE3NJY29QDP0PD35ZJB81JS3",
+          "id": "01HE3PME7F5J5KP73NWACANZ2Y",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2023-10-31T20:07:51.510902+00:00"
+      "last_seen": "2023-10-31T21:56:08.751386+00:00"
     },
     {
       "state": {
@@ -2367,16 +2367,16 @@
           "friendly_name": "Mushroom update",
           "supported_features": 20
         },
-        "last_changed": "2023-10-31T20:07:49.577144+00:00",
-        "last_updated": "2023-10-31T20:07:49.577144+00:00",
+        "last_changed": "2023-10-31T20:26:07.471420+00:00",
+        "last_updated": "2023-10-31T20:26:07.471420+00:00",
         "context": {
-          "id": "01HE3NJY29SVN8HZEKPKYSSKMC",
+          "id": "01HE3PME7F9ZT5RMWWH5MYM3TN",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2023-10-31T20:07:51.510902+00:00"
+      "last_seen": "2023-10-31T21:56:08.751386+00:00"
     },
     {
       "state": {
@@ -2394,16 +2394,16 @@
           "friendly_name": "Cyberpunk 2077 Theme update",
           "supported_features": 21
         },
-        "last_changed": "2023-10-31T20:07:49.577199+00:00",
-        "last_updated": "2023-10-31T20:07:49.577199+00:00",
+        "last_changed": "2023-10-31T20:26:07.471475+00:00",
+        "last_updated": "2023-10-31T20:26:07.471475+00:00",
         "context": {
-          "id": "01HE3NJY29FZKE5GJ4DGC1XJRK",
+          "id": "01HE3PME7FD7QVNNW4N0B3M0HB",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2023-10-31T20:07:51.510902+00:00"
+      "last_seen": "2023-10-31T21:56:08.751386+00:00"
     },
     {
       "state": {
@@ -2413,28 +2413,28 @@
           "device_class": "restart",
           "friendly_name": "wled-lroom-corner Restart"
         },
-        "last_changed": "2023-10-31T20:07:50.540518+00:00",
-        "last_updated": "2023-10-31T20:07:50.540518+00:00",
+        "last_changed": "2023-10-31T20:26:07.481844+00:00",
+        "last_updated": "2023-10-31T20:26:07.481844+00:00",
         "context": {
-          "id": "01HE3NJZ0CWJVPMAG271741B67",
+          "id": "01HE3PME7SFX6C785Y2PE8SXQE",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2023-10-31T20:07:51.510902+00:00"
+      "last_seen": "2023-10-31T21:56:08.751386+00:00"
     },
     {
       "state": {
         "entity_id": "update.wled_lroom_corner_firmware",
-        "state": "unknown",
+        "state": "on",
         "attributes": {
           "auto_update": false,
           "installed_version": "0.13.3",
           "in_progress": false,
-          "latest_version": null,
+          "latest_version": "0.14.0",
           "release_summary": null,
-          "release_url": null,
+          "release_url": "https://github.com/Aircoookie/WLED/releases/tag/v0.14.0",
           "skipped_version": null,
           "title": "WLED",
           "device_class": "firmware",
@@ -2442,16 +2442,16 @@
           "friendly_name": "wled-lroom-corner Firmware",
           "supported_features": 3
         },
-        "last_changed": "2023-10-31T20:07:50.571931+00:00",
-        "last_updated": "2023-10-31T20:07:50.571931+00:00",
+        "last_changed": "2023-10-31T20:26:17.112610+00:00",
+        "last_updated": "2023-10-31T20:26:17.112610+00:00",
         "context": {
-          "id": "01HE3NJZ1BWA0CFEBC17YQSBZ9",
+          "id": "01HE3PMQMR4HP7783PQGWZH4NR",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2023-10-31T20:07:51.510902+00:00"
+      "last_seen": "2023-10-31T21:56:08.751386+00:00"
     },
     {
       "state": {
@@ -2461,28 +2461,28 @@
           "device_class": "restart",
           "friendly_name": "wled-kitchen-ceiling-1 Restart"
         },
-        "last_changed": "2023-10-31T20:07:50.619878+00:00",
-        "last_updated": "2023-10-31T20:07:50.619878+00:00",
+        "last_changed": "2023-10-31T20:26:07.502462+00:00",
+        "last_updated": "2023-10-31T20:26:07.502462+00:00",
         "context": {
-          "id": "01HE3NJZ2V827YS9RS8MMA0B8X",
+          "id": "01HE3PME8E5CJY3F6MFVHM999K",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2023-10-31T20:07:51.510902+00:00"
+      "last_seen": "2023-10-31T21:56:08.751386+00:00"
     },
     {
       "state": {
         "entity_id": "update.wled_kitchen_ceiling_1_firmware",
-        "state": "unknown",
+        "state": "on",
         "attributes": {
           "auto_update": false,
           "installed_version": "0.13.3",
           "in_progress": false,
-          "latest_version": null,
+          "latest_version": "0.14.0",
           "release_summary": null,
-          "release_url": null,
+          "release_url": "https://github.com/Aircoookie/WLED/releases/tag/v0.14.0",
           "skipped_version": null,
           "title": "WLED",
           "device_class": "firmware",
@@ -2490,40 +2490,75 @@
           "friendly_name": "wled-kitchen-ceiling-1 Firmware",
           "supported_features": 3
         },
-        "last_changed": "2023-10-31T20:07:50.651812+00:00",
-        "last_updated": "2023-10-31T20:07:50.651812+00:00",
+        "last_changed": "2023-10-31T20:26:17.276712+00:00",
+        "last_updated": "2023-10-31T20:26:17.276712+00:00",
         "context": {
-          "id": "01HE3NJZ3VWTW5HN338ZETCZ02",
+          "id": "01HE3PMQSW9S5XGJ3J93M2WZ56",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2023-10-31T20:07:51.510902+00:00"
+      "last_seen": "2023-10-31T21:56:08.751386+00:00"
     },
     {
       "state": {
         "entity_id": "media_player.lg_webos_smart_tv",
-        "state": "off",
+        "state": "on",
         "attributes": {
           "source_list": [
-            "Live TV"
+            "Amazon Alexa",
+            "Apple TV",
+            "BBC iPlayer",
+            "Brasil Play",
+            "Channel 4",
+            "Disney+",
+            "GALLERY",
+            "Google Play Movies & TV",
+            "HDMI 2",
+            "HDMI 3",
+            "HDMI 4",
+            "ITVX",
+            "LG Channels",
+            "LG Content Store",
+            "Live TV",
+            "Music",
+            "My5",
+            "NOW",
+            "Netflix",
+            "Nintendo Switch",
+            "Photo & Video",
+            "Pluto TV",
+            "Prime Video",
+            "Rakuten TV",
+            "Sky Store",
+            "Spotify - Music and Podcasts",
+            "TV Cast",
+            "WOW",
+            "Web Browser",
+            "Web Video Caster",
+            "YouTube"
           ],
+          "volume_level": 0.0,
+          "is_volume_muted": false,
+          "source": "Netflix",
+          "sound_output": "external_optical",
           "assumed_state": true,
           "device_class": "tv",
+          "entity_picture": "/api/media_player_proxy/media_player.lg_webos_smart_tv?token=726a241f36dd1dc344c5b169abcef8c3cd0763c1e45ad7d8782904cb66011ce7&cache=87fec0d3c9f211fd",
           "friendly_name": "TV",
           "supported_features": 24381
         },
-        "last_changed": "2023-10-31T20:07:50.623131+00:00",
-        "last_updated": "2023-10-31T20:07:50.623131+00:00",
+        "last_changed": "2023-10-31T21:10:29.502560+00:00",
+        "last_updated": "2023-10-31T21:10:29.502560+00:00",
         "context": {
-          "id": "01HE3NJZ2ZECY75SBS01QP6ZPR",
+          "id": "01HE3S5NVYGXAFE2NWBBPP4WEH",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2023-10-31T20:07:51.510902+00:00"
+      "last_seen": "2023-10-31T21:56:08.751386+00:00"
     }
   ]
 }

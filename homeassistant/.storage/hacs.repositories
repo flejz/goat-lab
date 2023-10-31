@@ -18,7 +18,7 @@
       "category": "integration",
       "description": "HACS gives you a powerful UI to handle downloads of all your custom needs.",
       "domain": "hacs",
-      "downloads": 161231,
+      "downloads": 161276,
       "etag_repository": "W/\"7a41054de7f8ce7781f153c883d59a92ad5e6a8b8bd34f283bbbb01050a6a260\"",
       "full_name": "hacs/integration",
       "last_updated": "2023-10-30T06:05:33Z",
@@ -44,7 +44,7 @@
       "pushed_at": "2023-10-30T06:05:33",
       "releases": true,
       "version_installed": "1.26.2",
-      "last_fetched": 1698782873.948451
+      "last_fetched": 1698783971.282005
     },
     "191831638": {
       "repository_manifest": {
@@ -5522,7 +5522,7 @@
       "pushed_at": "2023-10-19T00:45:02",
       "releases": true,
       "version_installed": "1.5.3",
-      "last_fetched": 1698782873.891873
+      "last_fetched": 1698783971.117398
     },
     "202220932": {
       "repository_manifest": {},
@@ -8755,7 +8755,7 @@
       "pushed_at": "2023-04-06T18:55:12",
       "releases": true,
       "version_installed": "0.11",
-      "last_fetched": 1698782873.695831
+      "last_fetched": 1698783971.076758
     },
     "163446489": {
       "repository_manifest": {
@@ -8977,7 +8977,7 @@
       },
       "category": "plugin",
       "description": "Remote Control for LG TV WebOS",
-      "downloads": 5459,
+      "downloads": 5460,
       "etag_repository": "W/\"f286eeda8ab639d4f9dc99aa6ff98c1ba4a53dd478ab5b9b867c1d18f8b527aa\"",
       "full_name": "madmicio/LG-WebOS-Remote-Control",
       "last_updated": "2023-10-08T14:05:29Z",
@@ -8998,7 +8998,7 @@
       "pushed_at": "2023-10-08T14:05:29",
       "releases": true,
       "version_installed": null,
-      "last_fetched": 1698782873.697511
+      "last_fetched": 1698783971.041336
     },
     "257123327": {
       "repository_manifest": {
@@ -9025,7 +9025,7 @@
       "open_issues": 7,
       "pushed_at": "2020-05-28T19:17:53",
       "version_installed": null,
-      "last_fetched": 1698782873.563258
+      "last_fetched": 1698783970.891296
     },
     "188572845": {
       "repository_manifest": {
@@ -9640,7 +9640,7 @@
       "pushed_at": "2023-09-30T22:19:48",
       "releases": true,
       "version_installed": "3.2.0",
-      "last_fetched": 1698782873.873152
+      "last_fetched": 1698783971.219755
     },
     "161403328": {
       "repository_manifest": {
@@ -17438,7 +17438,7 @@
       "category": "plugin",
       "description": "Mushroom Cards - Build a beautiful dashboard easily \ud83c\udf44",
       "domain": "",
-      "downloads": 72828,
+      "downloads": 72839,
       "etag_repository": "W/\"fb995f93773792c645deb4fb0f5b26f2c7d3b13548f909a7c076ad9575fe047e\"",
       "full_name": "piitaya/lovelace-mushroom",
       "last_updated": "2023-10-28T20:55:07Z",
@@ -17463,7 +17463,7 @@
       "pushed_at": "2023-10-28T20:55:07",
       "releases": true,
       "version_installed": "v2.3.6",
-      "last_fetched": 1698782874.141515
+      "last_fetched": 1698783971.24696
     },
     "453143227": {
       "repository_manifest": {
@@ -18036,7 +18036,7 @@
       "pushed_at": "2023-03-27T22:58:46",
       "releases": true,
       "version_installed": "0.0.4",
-      "last_fetched": 1698782873.754861
+      "last_fetched": 1698783970.993702
     },
     "462430932": {
       "repository_manifest": {
