@@ -1,0 +1,8 @@
+log
+logs
+__pycache__
+*.db
+
+data/adguard/work/**/querylog.json*
+data/homeassistant/home-assistant.log*
+data/homeassistant/home-assistant_v2.db
