@@ -1,0 +1,181 @@
+- id: '1645522553830'
+  alias: Bedroom Lights Toggle
+  description: ''
+  trigger:
+  - platform: device
+    domain: mqtt
+    device_id: b4ad46ac42a749d76df570586afec237
+    type: action
+    subtype: toggle
+    discovery_id: 0x000d6ffffe513e94 action_toggle
+  condition: []
+  action:
+  - type: toggle
+    device_id: 88760b37c08a5506b36c0d5046a1a1e2
+    entity_id: light.broom_spot_light_1
+    domain: light
+  - type: toggle
+    device_id: 6d950a8de8c018ab64d7178b5fe84387
+    entity_id: light.broom_spot_light_2
+    domain: light
+  - type: toggle
+    device_id: ab10f69e8e8f03e3b8addf9a93884ffa
+    entity_id: light.broom_spot_light_3
+    domain: light
+  mode: single
+- id: '1645532422727'
+  alias: Living Room lights toggle
+  description: ''
+  trigger:
+  - platform: device
+    domain: mqtt
+    device_id: 5987a5d88db42c04f8d0fa2286291048
+    type: action
+    subtype: toggle
+    discovery_id: 0xec1bbdfffe3bc954 action_toggle
+  condition: []
+  action:
+  - type: toggle
+    device_id: 0921d80d84cfa8af37c040e2388d5efa
+    entity_id: light.lroom_spot_light_1
+    domain: light
+  - type: toggle
+    device_id: c7db9f30705df815044a104c08635f90
+    entity_id: light.lroom_spot_light_2
+    domain: light
+  - type: toggle
+    device_id: e64c6ceec985703c4a5af9e702996c1c
+    entity_id: light.0xec1bbdfffea8c86f
+    domain: light
+  mode: single
+- id: '1645536231921'
+  alias: Kitchen Lights On
+  description: ''
+  trigger:
+  - platform: device
+    domain: mqtt
+    device_id: 6826cdcc8a185f06459efe0d584a5f30
+    type: action
+    subtype: 'on'
+    discovery_id: 0x04cd15fffe319b86 action_on
+  condition: []
+  action:
+  - type: turn_on
+    device_id: f42749587d13d491e0c31f2d91abdf6f
+    entity_id: switch.kitcken_socket
+    domain: switch
+  mode: single
+- id: '1645536296446'
+  alias: Kitchen Lights Off
+  description: ''
+  trigger:
+  - platform: device
+    domain: mqtt
+    device_id: 6826cdcc8a185f06459efe0d584a5f30
+    type: action
+    subtype: 'off'
+    discovery_id: 0x04cd15fffe319b86 action_off
+  condition: []
+  action:
+  - type: turn_off
+    device_id: f42749587d13d491e0c31f2d91abdf6f
+    entity_id: switch.kitcken_socket
+    domain: switch
+  mode: single
+- id: '1657047419637'
+  alias: Bar Snooze
+  description: ''
+  trigger:
+  - platform: time
+    at: 01:00:00
+  condition: []
+  action:
+  - type: turn_off
+    device_id: 8aaef3f4d1dac2a1cea108140e14c934
+    entity_id: switch.bar_outlet
+    domain: switch
+  mode: single
+- id: '1657047733356'
+  alias: Bar Wakeup
+  description: ''
+  trigger:
+  - platform: time
+    at: 08:00:00
+  condition: []
+  action:
+  - type: turn_on
+    device_id: 8aaef3f4d1dac2a1cea108140e14c934
+    entity_id: switch.bar_outlet
+    domain: switch
+  mode: single
+- id: '1662411324262'
+  alias: Kitchen Lights On on Movement Detected
+  description: ''
+  trigger:
+  - type: motion
+    platform: device
+    device_id: 1db284a8df0cb52fde8a86b2e2b154ed
+    entity_id: binary_sensor.kitcken_mov_sensors_occupancy
+    domain: binary_sensor
+  condition:
+  - condition: device
+    type: is_off
+    device_id: f42749587d13d491e0c31f2d91abdf6f
+    entity_id: switch.kitcken_socket
+    domain: switch
+  - condition: device
+    type: is_off
+    device_id: 1070c6c4991bfe36643547a747295754
+    entity_id: light.wled_kitchen_1
+    domain: light
+  action:
+  - type: turn_on
+    device_id: f42749587d13d491e0c31f2d91abdf6f
+    entity_id: switch.kitcken_socket
+    domain: switch
+  mode: single
+- id: '1662667912082'
+  alias: Kitchen Lights OFF on Movement not Detected
+  description: ''
+  trigger:
+  - type: no_motion
+    platform: device
+    device_id: 1db284a8df0cb52fde8a86b2e2b154ed
+    entity_id: binary_sensor.kitcken_mov_sensors_occupancy
+    domain: binary_sensor
+    for:
+      hours: 0
+      minutes: 2
+      seconds: 0
+  condition:
+  - condition: device
+    type: is_on
+    device_id: f42749587d13d491e0c31f2d91abdf6f
+    entity_id: switch.kitcken_socket
+    domain: switch
+  action:
+  - type: turn_off
+    device_id: f42749587d13d491e0c31f2d91abdf6f
+    entity_id: switch.kitcken_socket
+    domain: switch
+  mode: single
+- id: '1662669567182'
+  alias: Notify when Fridge door is open for too long
+  description: ''
+  trigger:
+  - type: opened
+    platform: device
+    device_id: f6faae63a3872a8b11ab2f01c09148ee
+    entity_id: binary_sensor.fridge_door_sensor_contact
+    domain: binary_sensor
+    for:
+      hours: 0
+      minutes: 1
+      seconds: 0
+  condition: []
+  action:
+  - service: notify.notify
+    data:
+      title: Fridge Door
+      message: Fridge door is open for too long
+  mode: single

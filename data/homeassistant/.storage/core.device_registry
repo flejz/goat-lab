@@ -1,0 +1,1720 @@
+{
+  "version": 1,
+  "minor_version": 3,
+  "key": "core.device_registry",
+  "data": {
+    "devices": [
+      {
+        "config_entries": [
+          "af5fc701111bd91886d8764b46dc7829"
+        ],
+        "connections": [],
+        "identifiers": [
+          [
+            "mqtt",
+            "zigbee2mqtt_0x000d6ffffe513e94"
+          ]
+        ],
+        "manufacturer": "IKEA",
+        "model": "TRADFRI remote control (E1524/E1810)",
+        "name": "broom-switch",
+        "sw_version": "1.2.223",
+        "hw_version": null,
+        "entry_type": null,
+        "id": "db30424f95d85e4c663d4a09170d5ad9",
+        "via_device_id": null,
+        "area_id": null,
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": null
+      },
+      {
+        "config_entries": [
+          "af5fc701111bd91886d8764b46dc7829"
+        ],
+        "connections": [],
+        "identifiers": [
+          [
+            "mqtt",
+            "zigbee2mqtt_0x14b457fffe72077e"
+          ]
+        ],
+        "manufacturer": "IKEA",
+        "model": "TRADFRI LED bulb GU10 400 lumen, dimmable, white spectrum (LED1537R6/LED1739R5)",
+        "name": "broom-spot-light-1",
+        "sw_version": "2.3.091",
+        "hw_version": null,
+        "entry_type": null,
+        "id": "04d2f3dd7b32069b798b33881b61ebea",
+        "via_device_id": null,
+        "area_id": null,
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": null
+      },
+      {
+        "config_entries": [
+          "af5fc701111bd91886d8764b46dc7829"
+        ],
+        "connections": [],
+        "identifiers": [
+          [
+            "mqtt",
+            "zigbee2mqtt_0x14b457fffe6e6711"
+          ]
+        ],
+        "manufacturer": "IKEA",
+        "model": "TRADFRI LED bulb GU10 400 lumen, dimmable, white spectrum (LED1537R6/LED1739R5)",
+        "name": "broom-spot-light-2",
+        "sw_version": "2.3.091",
+        "hw_version": null,
+        "entry_type": null,
+        "id": "ad5d6127659dc23bf9ea6e0946bce12b",
+        "via_device_id": null,
+        "area_id": null,
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": null
+      },
+      {
+        "config_entries": [
+          "af5fc701111bd91886d8764b46dc7829"
+        ],
+        "connections": [],
+        "identifiers": [
+          [
+            "mqtt",
+            "zigbee2mqtt_0x14b457fffe71fa9d"
+          ]
+        ],
+        "manufacturer": "IKEA",
+        "model": "TRADFRI LED bulb GU10 400 lumen, dimmable, white spectrum (LED1537R6/LED1739R5)",
+        "name": "broom-spot-light-3",
+        "sw_version": "2.0.022",
+        "hw_version": null,
+        "entry_type": null,
+        "id": "7678bae649814cba7e1a69438fffb30f",
+        "via_device_id": null,
+        "area_id": null,
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": null
+      },
+      {
+        "config_entries": [
+          "af5fc701111bd91886d8764b46dc7829"
+        ],
+        "connections": [],
+        "identifiers": [
+          [
+            "mqtt",
+            "zigbee2mqtt_0xec1bbdfffe3bc954"
+          ]
+        ],
+        "manufacturer": "IKEA",
+        "model": "TRADFRI remote control (E1524/E1810)",
+        "name": "lroom-switch",
+        "sw_version": "2.3.014",
+        "hw_version": null,
+        "entry_type": null,
+        "id": "8336ef1d80c4121dfe1349b39191b551",
+        "via_device_id": null,
+        "area_id": null,
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": null
+      },
+      {
+        "config_entries": [
+          "af5fc701111bd91886d8764b46dc7829"
+        ],
+        "connections": [],
+        "identifiers": [
+          [
+            "mqtt",
+            "zigbee2mqtt_0xccccccfffed4607f"
+          ]
+        ],
+        "manufacturer": "IKEA",
+        "model": "TRADFRI LED bulb GU10 400 lumen, dimmable, white spectrum (LED1537R6/LED1739R5)",
+        "name": "lroom-spot-light-2",
+        "sw_version": "2.3.091",
+        "hw_version": null,
+        "entry_type": null,
+        "id": "5ac02021bd321f01d06cc6ccbfb351d7",
+        "via_device_id": null,
+        "area_id": null,
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": null
+      },
+      {
+        "config_entries": [
+          "af5fc701111bd91886d8764b46dc7829"
+        ],
+        "connections": [],
+        "identifiers": [
+          [
+            "mqtt",
+            "zigbee2mqtt_0xec1bbdfffeae2d6c"
+          ]
+        ],
+        "manufacturer": "IKEA",
+        "model": "TRADFRI LED bulb GU10 400 lumen, dimmable, white spectrum (LED1537R6/LED1739R5)",
+        "name": "lroom-spot-light-1",
+        "sw_version": "2.3.091",
+        "hw_version": null,
+        "entry_type": null,
+        "id": "3196a07fcec8da4678fcefbab8426087",
+        "via_device_id": null,
+        "area_id": null,
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": null
+      },
+      {
+        "config_entries": [
+          "af5fc701111bd91886d8764b46dc7829"
+        ],
+        "connections": [],
+        "identifiers": [
+          [
+            "mqtt",
+            "zigbee2mqtt_0xec1bbdfffea8c86f"
+          ]
+        ],
+        "manufacturer": "IKEA",
+        "model": "TRADFRI LED bulb GU10 400 lumen, dimmable, white spectrum (LED1537R6/LED1739R5)",
+        "name": "lroom-spot-light-3",
+        "sw_version": "2.0.022",
+        "hw_version": null,
+        "entry_type": null,
+        "id": "cee628ab6e4f3965d750032915dccf2c",
+        "via_device_id": null,
+        "area_id": null,
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": null
+      },
+      {
+        "config_entries": [
+          "af5fc701111bd91886d8764b46dc7829"
+        ],
+        "connections": [],
+        "identifiers": [
+          [
+            "mqtt",
+            "zigbee2mqtt_0x04cd15fffe319b86"
+          ]
+        ],
+        "manufacturer": "IKEA",
+        "model": "TRADFRI ON/OFF switch (E1743)",
+        "name": "kitchen-switch",
+        "sw_version": "2.2.010",
+        "hw_version": null,
+        "entry_type": null,
+        "id": "6826cdcc8a185f06459efe0d584a5f30",
+        "via_device_id": null,
+        "area_id": null,
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": null
+      },
+      {
+        "config_entries": [
+          "af5fc701111bd91886d8764b46dc7829"
+        ],
+        "connections": [],
+        "identifiers": [
+          [
+            "mqtt",
+            "zigbee2mqtt_0xcc86ecfffe20f952"
+          ]
+        ],
+        "manufacturer": "IKEA",
+        "model": "TRADFRI control outlet (E1603/E1702/E1708)",
+        "name": "kitcken-socket",
+        "sw_version": "2.3.089",
+        "hw_version": null,
+        "entry_type": null,
+        "id": "f42749587d13d491e0c31f2d91abdf6f",
+        "via_device_id": null,
+        "area_id": null,
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": null
+      },
+      {
+        "config_entries": [
+          "af5fc701111bd91886d8764b46dc7829"
+        ],
+        "connections": [],
+        "identifiers": [
+          [
+            "mqtt",
+            "zigbee2mqtt_0x04cd15fffe6e239e"
+          ]
+        ],
+        "manufacturer": "IKEA",
+        "model": "TRADFRI LED bulb E26/27 1100/1055/1160 lumen, dimmable, white spectrum, opal white (LED2003G10)",
+        "name": "laundry-light",
+        "sw_version": "1.0.012",
+        "hw_version": null,
+        "entry_type": null,
+        "id": "5c059faf8fd355e14166eed87b589a37",
+        "via_device_id": null,
+        "area_id": null,
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": null
+      },
+      {
+        "config_entries": [
+          "af5fc701111bd91886d8764b46dc7829"
+        ],
+        "connections": [],
+        "identifiers": [
+          [
+            "mqtt",
+            "zigbee2mqtt_0x00124b0024c2a9a4"
+          ]
+        ],
+        "manufacturer": "SONOFF",
+        "model": "Zigbee smart plug (S26R2ZB)",
+        "name": "bar-outlet",
+        "sw_version": "2.0.0",
+        "hw_version": null,
+        "entry_type": null,
+        "id": "66a40cdd84c2e5a8b7cb96dd9e19f08b",
+        "via_device_id": null,
+        "area_id": null,
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": null
+      },
+      {
+        "config_entries": [
+          "085c5dbbbfe33118bece0eee255babf5"
+        ],
+        "connections": [],
+        "identifiers": [
+          [
+            "mobile_app",
+            "0BF00AF6-AB54-4869-ABC9-F943F7226DB7"
+          ]
+        ],
+        "manufacturer": "Apple",
+        "model": "iPhone10,6",
+        "name": "whoami",
+        "sw_version": "16.7.1",
+        "hw_version": null,
+        "entry_type": null,
+        "id": "5845a97549e1c4e14d675247ebe249fa",
+        "via_device_id": null,
+        "area_id": null,
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": null
+      },
+      {
+        "config_entries": [
+          "ccd1ee7ef8485b8c12ac20ac08377efa"
+        ],
+        "connections": [],
+        "identifiers": [
+          [
+            "hacs",
+            "0717a0cd-745c-48fd-9b16-c8534c9704f9-bc944b0f-fd42-4a58-a072-ade38d1444cd"
+          ]
+        ],
+        "manufacturer": "hacs.xyz",
+        "model": "",
+        "name": "HACS",
+        "sw_version": "1.26.2",
+        "hw_version": null,
+        "entry_type": "service",
+        "id": "0611ce1e237fe1012e17c1f7495ea2c6",
+        "via_device_id": null,
+        "area_id": null,
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": "homeassistant://hacs"
+      },
+      {
+        "config_entries": [
+          "0d284767c871e43f246585f0303783c1"
+        ],
+        "connections": [],
+        "identifiers": [
+          [
+            "mobile_app",
+            "A6E88F1D-B4D5-4883-A7F1-5964FF1E84B4"
+          ]
+        ],
+        "manufacturer": "Apple",
+        "model": "iPhone14,2",
+        "name": "Priscila Duarte’s iPhone",
+        "sw_version": "16.6.1",
+        "hw_version": null,
+        "entry_type": null,
+        "id": "9ee2fbe332bc4f7010df3a04667ca6f9",
+        "via_device_id": null,
+        "area_id": null,
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": null
+      },
+      {
+        "config_entries": [
+          "c2b9acf099fb27599cb2878e6d090477"
+        ],
+        "connections": [],
+        "identifiers": [
+          [
+            "browser_mod",
+            "b159c46b-04f4a2f8"
+          ]
+        ],
+        "manufacturer": null,
+        "model": null,
+        "name": "b159c46b-04f4a2f8",
+        "sw_version": null,
+        "hw_version": null,
+        "entry_type": null,
+        "id": "36595a0b7306b84c4cf1e9f1ea62ae8c",
+        "via_device_id": null,
+        "area_id": null,
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": null
+      },
+      {
+        "config_entries": [
+          "fcbb580f94141aa0258dbd0cee7fe189"
+        ],
+        "connections": [],
+        "identifiers": [
+          [
+            "webostv",
+            "518d1ab8-3e75-24c8-7932-d433ae1d3f27"
+          ]
+        ],
+        "manufacturer": "LG",
+        "model": "OLED55B97LA",
+        "name": "TV",
+        "sw_version": "05.30.40",
+        "hw_version": null,
+        "entry_type": null,
+        "id": "2ad26b8f03c55c01fd18d5c22677fb14",
+        "via_device_id": null,
+        "area_id": null,
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": null
+      },
+      {
+        "config_entries": [
+          "c2b9acf099fb27599cb2878e6d090477"
+        ],
+        "connections": [],
+        "identifiers": [
+          [
+            "browser_mod",
+            "94a03461-fa54efe5"
+          ]
+        ],
+        "manufacturer": null,
+        "model": null,
+        "name": "94a03461-fa54efe5",
+        "sw_version": null,
+        "hw_version": null,
+        "entry_type": null,
+        "id": "9bac4f91b40b14238636d5b04f745867",
+        "via_device_id": null,
+        "area_id": null,
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": null
+      },
+      {
+        "config_entries": [
+          "c2b9acf099fb27599cb2878e6d090477"
+        ],
+        "connections": [],
+        "identifiers": [
+          [
+            "browser_mod",
+            "da8e755a-72ec5017"
+          ]
+        ],
+        "manufacturer": null,
+        "model": null,
+        "name": "da8e755a-72ec5017",
+        "sw_version": null,
+        "hw_version": null,
+        "entry_type": null,
+        "id": "613dad11a5f208fd013ddd4eb0d58a03",
+        "via_device_id": null,
+        "area_id": null,
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": null
+      },
+      {
+        "config_entries": [
+          "c2b9acf099fb27599cb2878e6d090477"
+        ],
+        "connections": [],
+        "identifiers": [
+          [
+            "browser_mod",
+            "bad71f2b-4e0fe9c1"
+          ]
+        ],
+        "manufacturer": null,
+        "model": null,
+        "name": "bad71f2b-4e0fe9c1",
+        "sw_version": null,
+        "hw_version": null,
+        "entry_type": null,
+        "id": "1e8761f96ce9eb7a38c1d9ce48f0b0e3",
+        "via_device_id": null,
+        "area_id": null,
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": null
+      },
+      {
+        "config_entries": [
+          "c2b9acf099fb27599cb2878e6d090477"
+        ],
+        "connections": [],
+        "identifiers": [
+          [
+            "browser_mod",
+            "e8a04a5d-2e4eed2a"
+          ]
+        ],
+        "manufacturer": null,
+        "model": null,
+        "name": "e8a04a5d-2e4eed2a",
+        "sw_version": null,
+        "hw_version": null,
+        "entry_type": null,
+        "id": "f0f7e5b1554136801b80e3c2b4cde484",
+        "via_device_id": null,
+        "area_id": null,
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": null
+      },
+      {
+        "config_entries": [
+          "c2b9acf099fb27599cb2878e6d090477"
+        ],
+        "connections": [],
+        "identifiers": [
+          [
+            "browser_mod",
+            "bd81071b-7232d732"
+          ]
+        ],
+        "manufacturer": null,
+        "model": null,
+        "name": "bd81071b-7232d732",
+        "sw_version": null,
+        "hw_version": null,
+        "entry_type": null,
+        "id": "4cd3da0819b33b190e67556adde41cc7",
+        "via_device_id": null,
+        "area_id": null,
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": null
+      },
+      {
+        "config_entries": [
+          "c2b9acf099fb27599cb2878e6d090477"
+        ],
+        "connections": [],
+        "identifiers": [
+          [
+            "browser_mod",
+            "5e9281d1-02c16f58"
+          ]
+        ],
+        "manufacturer": null,
+        "model": null,
+        "name": "5e9281d1-02c16f58",
+        "sw_version": null,
+        "hw_version": null,
+        "entry_type": null,
+        "id": "25d170ba187fa598c6ab10b136ba03bb",
+        "via_device_id": null,
+        "area_id": null,
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": null
+      },
+      {
+        "config_entries": [
+          "c2b9acf099fb27599cb2878e6d090477"
+        ],
+        "connections": [],
+        "identifiers": [
+          [
+            "browser_mod",
+            "29acba9d-c38b1702"
+          ]
+        ],
+        "manufacturer": null,
+        "model": null,
+        "name": "29acba9d-c38b1702",
+        "sw_version": null,
+        "hw_version": null,
+        "entry_type": null,
+        "id": "f0eddf5f75cc7d8c240f86ff3df80d24",
+        "via_device_id": null,
+        "area_id": null,
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": null
+      },
+      {
+        "config_entries": [
+          "c2b9acf099fb27599cb2878e6d090477"
+        ],
+        "connections": [],
+        "identifiers": [
+          [
+            "browser_mod",
+            "7098ffc8-d6bc70f7"
+          ]
+        ],
+        "manufacturer": null,
+        "model": null,
+        "name": "7098ffc8-d6bc70f7",
+        "sw_version": null,
+        "hw_version": null,
+        "entry_type": null,
+        "id": "32f4dd0c943fda7801970d95370ec46e",
+        "via_device_id": null,
+        "area_id": null,
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": null
+      },
+      {
+        "config_entries": [
+          "c2b9acf099fb27599cb2878e6d090477"
+        ],
+        "connections": [],
+        "identifiers": [
+          [
+            "browser_mod",
+            "c8b1cac4-c9f86f41"
+          ]
+        ],
+        "manufacturer": null,
+        "model": null,
+        "name": "c8b1cac4-c9f86f41",
+        "sw_version": null,
+        "hw_version": null,
+        "entry_type": null,
+        "id": "73bdf670c977d12c494d668530e4a71a",
+        "via_device_id": null,
+        "area_id": null,
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": null
+      },
+      {
+        "config_entries": [
+          "c2b9acf099fb27599cb2878e6d090477"
+        ],
+        "connections": [],
+        "identifiers": [
+          [
+            "browser_mod",
+            "b45e5b41-0cf5108e"
+          ]
+        ],
+        "manufacturer": null,
+        "model": null,
+        "name": "b45e5b41-0cf5108e",
+        "sw_version": null,
+        "hw_version": null,
+        "entry_type": null,
+        "id": "05e896e6e9c7ac06d1944a1c221afc97",
+        "via_device_id": null,
+        "area_id": null,
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": null
+      },
+      {
+        "config_entries": [
+          "c2b9acf099fb27599cb2878e6d090477"
+        ],
+        "connections": [],
+        "identifiers": [
+          [
+            "browser_mod",
+            "d729e1b7-fcf40096"
+          ]
+        ],
+        "manufacturer": null,
+        "model": null,
+        "name": "d729e1b7-fcf40096",
+        "sw_version": null,
+        "hw_version": null,
+        "entry_type": null,
+        "id": "37d0ff63cda6e25c06fbc3e45f744af7",
+        "via_device_id": null,
+        "area_id": null,
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": null
+      },
+      {
+        "config_entries": [
+          "c2b9acf099fb27599cb2878e6d090477"
+        ],
+        "connections": [],
+        "identifiers": [
+          [
+            "browser_mod",
+            "a0268810-c3ce04f2"
+          ]
+        ],
+        "manufacturer": null,
+        "model": null,
+        "name": "a0268810-c3ce04f2",
+        "sw_version": null,
+        "hw_version": null,
+        "entry_type": null,
+        "id": "34c8f2a2ba7f076f3550079843270d89",
+        "via_device_id": null,
+        "area_id": null,
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": null
+      },
+      {
+        "config_entries": [
+          "c747e7b347ee95e4139d08decab400ea"
+        ],
+        "connections": [],
+        "identifiers": [
+          [
+            "octoprint",
+            "101052c5-e8b9-481b-be1a-0dbaf996139a"
+          ]
+        ],
+        "manufacturer": "OctoPrint",
+        "model": null,
+        "name": "OctoPrint",
+        "sw_version": null,
+        "hw_version": null,
+        "entry_type": null,
+        "id": "d71050c756cd71a89d004f9d5c69aa9c",
+        "via_device_id": null,
+        "area_id": null,
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": "http://construct-pcu:80/"
+      },
+      {
+        "config_entries": [
+          "c2b9acf099fb27599cb2878e6d090477"
+        ],
+        "connections": [],
+        "identifiers": [
+          [
+            "browser_mod",
+            "a9f181cd-a283ce3b"
+          ]
+        ],
+        "manufacturer": null,
+        "model": null,
+        "name": "a9f181cd-a283ce3b",
+        "sw_version": null,
+        "hw_version": null,
+        "entry_type": null,
+        "id": "2560e3a4ddef313be7d858bfc64b17eb",
+        "via_device_id": null,
+        "area_id": null,
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": null
+      },
+      {
+        "config_entries": [
+          "c2b9acf099fb27599cb2878e6d090477"
+        ],
+        "connections": [],
+        "identifiers": [
+          [
+            "browser_mod",
+            "9226e6cc-c576930c"
+          ]
+        ],
+        "manufacturer": null,
+        "model": null,
+        "name": "9226e6cc-c576930c",
+        "sw_version": null,
+        "hw_version": null,
+        "entry_type": null,
+        "id": "1a6d050d4272dee99b62418ac59fc668",
+        "via_device_id": null,
+        "area_id": null,
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": null
+      },
+      {
+        "config_entries": [
+          "c2b9acf099fb27599cb2878e6d090477"
+        ],
+        "connections": [],
+        "identifiers": [
+          [
+            "browser_mod",
+            "b1a26ba0-c715629e"
+          ]
+        ],
+        "manufacturer": null,
+        "model": null,
+        "name": "b1a26ba0-c715629e",
+        "sw_version": null,
+        "hw_version": null,
+        "entry_type": null,
+        "id": "3987160673d9c2d1841388a85960dd48",
+        "via_device_id": null,
+        "area_id": null,
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": null
+      },
+      {
+        "config_entries": [
+          "ccd1ee7ef8485b8c12ac20ac08377efa"
+        ],
+        "connections": [],
+        "identifiers": [
+          [
+            "hacs",
+            "194140521"
+          ]
+        ],
+        "manufacturer": "",
+        "model": "integration",
+        "name": "browser_mod",
+        "sw_version": null,
+        "hw_version": null,
+        "entry_type": "service",
+        "id": "415725e6f9488af6d30821ccebb2fd3f",
+        "via_device_id": null,
+        "area_id": null,
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": "homeassistant://hacs"
+      },
+      {
+        "config_entries": [
+          "ccd1ee7ef8485b8c12ac20ac08377efa"
+        ],
+        "connections": [],
+        "identifiers": [
+          [
+            "hacs",
+            "257005990"
+          ]
+        ],
+        "manufacturer": "",
+        "model": "plugin",
+        "name": "LG WebOS Remote Control",
+        "sw_version": null,
+        "hw_version": null,
+        "entry_type": "service",
+        "id": "f74a0ea72c7972c794ac2c03c1d0e0c7",
+        "via_device_id": null,
+        "area_id": null,
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": "homeassistant://hacs"
+      },
+      {
+        "config_entries": [
+          "ccd1ee7ef8485b8c12ac20ac08377efa"
+        ],
+        "connections": [],
+        "identifiers": [
+          [
+            "hacs",
+            "257123327"
+          ]
+        ],
+        "manufacturer": "",
+        "model": "plugin",
+        "name": "LG WebOS channel pad",
+        "sw_version": null,
+        "hw_version": null,
+        "entry_type": "service",
+        "id": "47f37fcb3d5947ccaca14e116eca837f",
+        "via_device_id": null,
+        "area_id": null,
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": "homeassistant://hacs"
+      },
+      {
+        "config_entries": [
+          "ccd1ee7ef8485b8c12ac20ac08377efa"
+        ],
+        "connections": [],
+        "identifiers": [
+          [
+            "hacs",
+            "190927524"
+          ]
+        ],
+        "manufacturer": "",
+        "model": "plugin",
+        "name": "card-mod",
+        "sw_version": null,
+        "hw_version": null,
+        "entry_type": "service",
+        "id": "c6e6eab5ee9b1d4dc42ae170ffa91cbd",
+        "via_device_id": null,
+        "area_id": null,
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": "homeassistant://hacs"
+      },
+      {
+        "config_entries": [
+          "ccd1ee7ef8485b8c12ac20ac08377efa"
+        ],
+        "connections": [],
+        "identifiers": [
+          [
+            "hacs",
+            "464998514"
+          ]
+        ],
+        "manufacturer": "",
+        "model": "theme",
+        "name": "Cyberpunk 2077 Theme",
+        "sw_version": null,
+        "hw_version": null,
+        "entry_type": "service",
+        "id": "cdb526187e8875a48ea16226ecbc2bc8",
+        "via_device_id": null,
+        "area_id": null,
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": "homeassistant://hacs"
+      },
+      {
+        "config_entries": [
+          "c2b9acf099fb27599cb2878e6d090477"
+        ],
+        "connections": [],
+        "identifiers": [
+          [
+            "browser_mod",
+            "0099096e-892da027"
+          ]
+        ],
+        "manufacturer": null,
+        "model": null,
+        "name": "0099096e-892da027",
+        "sw_version": null,
+        "hw_version": null,
+        "entry_type": null,
+        "id": "5f63cdc3b7534b5d83e438076d554a9f",
+        "via_device_id": null,
+        "area_id": null,
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": null
+      },
+      {
+        "config_entries": [
+          "c2b9acf099fb27599cb2878e6d090477"
+        ],
+        "connections": [],
+        "identifiers": [
+          [
+            "browser_mod",
+            "e1cf0848-c9159604"
+          ]
+        ],
+        "manufacturer": null,
+        "model": null,
+        "name": "e1cf0848-c9159604",
+        "sw_version": null,
+        "hw_version": null,
+        "entry_type": null,
+        "id": "10d130fb167b23b00f0cde27ed198221",
+        "via_device_id": null,
+        "area_id": null,
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": null
+      },
+      {
+        "config_entries": [
+          "c2b9acf099fb27599cb2878e6d090477"
+        ],
+        "connections": [],
+        "identifiers": [
+          [
+            "browser_mod",
+            "6a98b086-9fb251db"
+          ]
+        ],
+        "manufacturer": null,
+        "model": null,
+        "name": "6a98b086-9fb251db",
+        "sw_version": null,
+        "hw_version": null,
+        "entry_type": null,
+        "id": "4a1c20d720b89a5b33fb94c683b8f579",
+        "via_device_id": null,
+        "area_id": null,
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": null
+      },
+      {
+        "config_entries": [
+          "c2b9acf099fb27599cb2878e6d090477"
+        ],
+        "connections": [],
+        "identifiers": [
+          [
+            "browser_mod",
+            "03809562-a78831ce"
+          ]
+        ],
+        "manufacturer": null,
+        "model": null,
+        "name": "03809562-a78831ce",
+        "sw_version": null,
+        "hw_version": null,
+        "entry_type": null,
+        "id": "a09aebb7f979b9e86dda68fa074423ac",
+        "via_device_id": null,
+        "area_id": null,
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": null
+      },
+      {
+        "config_entries": [
+          "af5fc701111bd91886d8764b46dc7829"
+        ],
+        "connections": [],
+        "identifiers": [
+          [
+            "mqtt",
+            "zigbee2mqtt_0x00158d0003a04127"
+          ]
+        ],
+        "manufacturer": "Xiaomi",
+        "model": "MiJia temperature & humidity sensor (WSDCGQ01LM)",
+        "name": "temp-hum-sensor-external",
+        "sw_version": "3000-0001",
+        "hw_version": null,
+        "entry_type": null,
+        "id": "c177304ed58b693abc547625b91f5c5b",
+        "via_device_id": null,
+        "area_id": null,
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": null
+      },
+      {
+        "config_entries": [
+          "af5fc701111bd91886d8764b46dc7829"
+        ],
+        "connections": [],
+        "identifiers": [
+          [
+            "mqtt",
+            "zigbee2mqtt_0x00158d0004501201"
+          ]
+        ],
+        "manufacturer": "Xiaomi",
+        "model": "Aqara human body movement and illuminance sensor (RTCGQ11LM)",
+        "name": "kitcken-mov-sensor",
+        "sw_version": null,
+        "hw_version": null,
+        "entry_type": null,
+        "id": "1db284a8df0cb52fde8a86b2e2b154ed",
+        "via_device_id": null,
+        "area_id": null,
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": null
+      },
+      {
+        "config_entries": [
+          "af5fc701111bd91886d8764b46dc7829"
+        ],
+        "connections": [],
+        "identifiers": [
+          [
+            "mqtt",
+            "zigbee2mqtt_0x00158d000288578e"
+          ]
+        ],
+        "manufacturer": "Xiaomi",
+        "model": "MiJia door & window contact sensor (MCCGQ01LM)",
+        "name": "main-door-sensor",
+        "sw_version": null,
+        "hw_version": null,
+        "entry_type": null,
+        "id": "d6b0eb89e374751f888ac7a0c696ae77",
+        "via_device_id": null,
+        "area_id": null,
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": null
+      },
+      {
+        "config_entries": [
+          "af5fc701111bd91886d8764b46dc7829"
+        ],
+        "connections": [],
+        "identifiers": [
+          [
+            "mqtt",
+            "zigbee2mqtt_0x00158d0003e72de2"
+          ]
+        ],
+        "manufacturer": "Xiaomi",
+        "model": "MiJia door & window contact sensor (MCCGQ01LM)",
+        "name": "fridge-door-sensor",
+        "sw_version": null,
+        "hw_version": null,
+        "entry_type": null,
+        "id": "f6faae63a3872a8b11ab2f01c09148ee",
+        "via_device_id": null,
+        "area_id": null,
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": null
+      },
+      {
+        "config_entries": [
+          "c2b9acf099fb27599cb2878e6d090477"
+        ],
+        "connections": [],
+        "identifiers": [
+          [
+            "browser_mod",
+            "8877a407-9c17a77d"
+          ]
+        ],
+        "manufacturer": null,
+        "model": null,
+        "name": "8877a407-9c17a77d",
+        "sw_version": null,
+        "hw_version": null,
+        "entry_type": null,
+        "id": "0a5c9ef678e793c0d978ff655b70af19",
+        "via_device_id": null,
+        "area_id": null,
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": null
+      },
+      {
+        "config_entries": [
+          "c2b9acf099fb27599cb2878e6d090477"
+        ],
+        "connections": [],
+        "identifiers": [
+          [
+            "browser_mod",
+            "ada8ef23-acf9c110"
+          ]
+        ],
+        "manufacturer": null,
+        "model": null,
+        "name": "ada8ef23-acf9c110",
+        "sw_version": null,
+        "hw_version": null,
+        "entry_type": null,
+        "id": "dd3991a8ada9718c5a421b00fa99cde8",
+        "via_device_id": null,
+        "area_id": null,
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": null
+      },
+      {
+        "config_entries": [
+          "ccd1ee7ef8485b8c12ac20ac08377efa"
+        ],
+        "connections": [],
+        "identifiers": [
+          [
+            "hacs",
+            "444350375"
+          ]
+        ],
+        "manufacturer": "",
+        "model": "plugin",
+        "name": "Mushroom",
+        "sw_version": null,
+        "hw_version": null,
+        "entry_type": "service",
+        "id": "e2e3702edb140758106d16c17bf4a360",
+        "via_device_id": null,
+        "area_id": null,
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": "homeassistant://hacs"
+      },
+      {
+        "config_entries": [
+          "c2b9acf099fb27599cb2878e6d090477"
+        ],
+        "connections": [],
+        "identifiers": [
+          [
+            "browser_mod",
+            "0ad03b46-b49dfb9d"
+          ]
+        ],
+        "manufacturer": null,
+        "model": null,
+        "name": "0ad03b46-b49dfb9d",
+        "sw_version": null,
+        "hw_version": null,
+        "entry_type": null,
+        "id": "30ffb36d978644f0197aacc1e8fdf22f",
+        "via_device_id": null,
+        "area_id": null,
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": null
+      },
+      {
+        "config_entries": [
+          "c2b9acf099fb27599cb2878e6d090477"
+        ],
+        "connections": [],
+        "identifiers": [
+          [
+            "browser_mod",
+            "058ad59f-40e4d9b0"
+          ]
+        ],
+        "manufacturer": null,
+        "model": null,
+        "name": "058ad59f-40e4d9b0",
+        "sw_version": null,
+        "hw_version": null,
+        "entry_type": null,
+        "id": "ca7fd8c194aa4d1c6c94e6afdad217f1",
+        "via_device_id": null,
+        "area_id": null,
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": null
+      },
+      {
+        "config_entries": [
+          "c2b9acf099fb27599cb2878e6d090477"
+        ],
+        "connections": [],
+        "identifiers": [
+          [
+            "browser_mod",
+            "1416e073-f5ccaf16"
+          ]
+        ],
+        "manufacturer": null,
+        "model": null,
+        "name": "1416e073-f5ccaf16",
+        "sw_version": null,
+        "hw_version": null,
+        "entry_type": null,
+        "id": "a40aba261276071180fcbae3d129c29d",
+        "via_device_id": null,
+        "area_id": null,
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": null
+      },
+      {
+        "config_entries": [
+          "c2b9acf099fb27599cb2878e6d090477"
+        ],
+        "connections": [],
+        "identifiers": [
+          [
+            "browser_mod",
+            "b6e3241a-b0473c8f"
+          ]
+        ],
+        "manufacturer": null,
+        "model": null,
+        "name": "b6e3241a-b0473c8f",
+        "sw_version": null,
+        "hw_version": null,
+        "entry_type": null,
+        "id": "a5de02b5967417d4054e99fc91e05774",
+        "via_device_id": null,
+        "area_id": null,
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": null
+      },
+      {
+        "config_entries": [
+          "c2b9acf099fb27599cb2878e6d090477"
+        ],
+        "connections": [],
+        "identifiers": [
+          [
+            "browser_mod",
+            "f02a4487-97047463"
+          ]
+        ],
+        "manufacturer": null,
+        "model": null,
+        "name": "f02a4487-97047463",
+        "sw_version": null,
+        "hw_version": null,
+        "entry_type": null,
+        "id": "b816a4ee509a87c120fe861c49629f7d",
+        "via_device_id": null,
+        "area_id": null,
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": null
+      },
+      {
+        "config_entries": [
+          "c2b9acf099fb27599cb2878e6d090477"
+        ],
+        "connections": [],
+        "identifiers": [
+          [
+            "browser_mod",
+            "92603517-86e55b3f"
+          ]
+        ],
+        "manufacturer": null,
+        "model": null,
+        "name": "92603517-86e55b3f",
+        "sw_version": null,
+        "hw_version": null,
+        "entry_type": null,
+        "id": "8e54116711f845b3f8bd51a09d0ebd6f",
+        "via_device_id": null,
+        "area_id": null,
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": null
+      },
+      {
+        "config_entries": [
+          "c2b9acf099fb27599cb2878e6d090477"
+        ],
+        "connections": [],
+        "identifiers": [
+          [
+            "browser_mod",
+            "eee95fc6-01f44092"
+          ]
+        ],
+        "manufacturer": null,
+        "model": null,
+        "name": "eee95fc6-01f44092",
+        "sw_version": null,
+        "hw_version": null,
+        "entry_type": null,
+        "id": "742cf62e9bed32b2f3d3093e1d57c353",
+        "via_device_id": null,
+        "area_id": null,
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": null
+      },
+      {
+        "config_entries": [
+          "c2b9acf099fb27599cb2878e6d090477"
+        ],
+        "connections": [],
+        "identifiers": [
+          [
+            "browser_mod",
+            "917dfea4-a7b21cd5"
+          ]
+        ],
+        "manufacturer": null,
+        "model": null,
+        "name": "917dfea4-a7b21cd5",
+        "sw_version": null,
+        "hw_version": null,
+        "entry_type": null,
+        "id": "8693fe82b652cc8057d275de22acaff5",
+        "via_device_id": null,
+        "area_id": null,
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": null
+      },
+      {
+        "config_entries": [
+          "c2b9acf099fb27599cb2878e6d090477"
+        ],
+        "connections": [],
+        "identifiers": [
+          [
+            "browser_mod",
+            "58fdd3ef-904b157b"
+          ]
+        ],
+        "manufacturer": null,
+        "model": null,
+        "name": "58fdd3ef-904b157b",
+        "sw_version": null,
+        "hw_version": null,
+        "entry_type": null,
+        "id": "ad9abf988aba08b85c06d2be6347610e",
+        "via_device_id": null,
+        "area_id": null,
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": null
+      },
+      {
+        "config_entries": [
+          "c2b9acf099fb27599cb2878e6d090477"
+        ],
+        "connections": [],
+        "identifiers": [
+          [
+            "browser_mod",
+            "3c2caa34-17390664"
+          ]
+        ],
+        "manufacturer": null,
+        "model": null,
+        "name": "3c2caa34-17390664",
+        "sw_version": null,
+        "hw_version": null,
+        "entry_type": null,
+        "id": "27798dd6fb2fc6f1a25cf12c2dcc718e",
+        "via_device_id": null,
+        "area_id": null,
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": null
+      },
+      {
+        "config_entries": [
+          "dc00ffd9b309ae1cd5f93bb1bf08bbb6"
+        ],
+        "connections": [
+          [
+            "mac",
+            "34:86:5d:fd:52:f8"
+          ]
+        ],
+        "identifiers": [
+          [
+            "wled",
+            "34865dfd52f8"
+          ]
+        ],
+        "manufacturer": "WLED",
+        "model": "FOSS",
+        "name": "WLED",
+        "sw_version": "0.13.3",
+        "hw_version": "esp32",
+        "entry_type": null,
+        "id": "5469f1e556aa05b5e514b08970b99ee5",
+        "via_device_id": null,
+        "area_id": "living_room",
+        "name_by_user": "wled-lroom-corner",
+        "disabled_by": null,
+        "configuration_url": "http://192.168.178.86"
+      },
+      {
+        "config_entries": [
+          "6686ebef515afbfcd48500491eb3d795"
+        ],
+        "connections": [
+          [
+            "mac",
+            "34:86:5d:fd:77:8c"
+          ]
+        ],
+        "identifiers": [
+          [
+            "wled",
+            "34865dfd778c"
+          ]
+        ],
+        "manufacturer": "WLED",
+        "model": "FOSS",
+        "name": "WLED",
+        "sw_version": "0.13.3",
+        "hw_version": "esp32",
+        "entry_type": null,
+        "id": "1070c6c4991bfe36643547a747295754",
+        "via_device_id": null,
+        "area_id": "kitchen",
+        "name_by_user": "wled-kitchen-ceiling-1",
+        "disabled_by": null,
+        "configuration_url": "http://192.168.178.81"
+      },
+      {
+        "config_entries": [
+          "c2b9acf099fb27599cb2878e6d090477"
+        ],
+        "connections": [],
+        "identifiers": [
+          [
+            "browser_mod",
+            "c161d6c3-f99abf9a"
+          ]
+        ],
+        "manufacturer": null,
+        "model": null,
+        "name": "c161d6c3-f99abf9a",
+        "sw_version": null,
+        "hw_version": null,
+        "entry_type": null,
+        "id": "57b48714425854045e673eb49d4b9b17",
+        "via_device_id": null,
+        "area_id": null,
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": null
+      },
+      {
+        "config_entries": [
+          "c2b9acf099fb27599cb2878e6d090477"
+        ],
+        "connections": [],
+        "identifiers": [
+          [
+            "browser_mod",
+            "a762e5c5-e43654f8"
+          ]
+        ],
+        "manufacturer": null,
+        "model": null,
+        "name": "a762e5c5-e43654f8",
+        "sw_version": null,
+        "hw_version": null,
+        "entry_type": null,
+        "id": "53352b0041a29ba7160057a73a79c9ea",
+        "via_device_id": null,
+        "area_id": null,
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": null
+      },
+      {
+        "config_entries": [
+          "c2b9acf099fb27599cb2878e6d090477"
+        ],
+        "connections": [],
+        "identifiers": [
+          [
+            "browser_mod",
+            "dbc65c9a-7860ba58"
+          ]
+        ],
+        "manufacturer": null,
+        "model": null,
+        "name": "dbc65c9a-7860ba58",
+        "sw_version": null,
+        "hw_version": null,
+        "entry_type": null,
+        "id": "3a4d1fa2cc56f53ed47c2158e466b82a",
+        "via_device_id": null,
+        "area_id": null,
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": null
+      },
+      {
+        "config_entries": [
+          "c2b9acf099fb27599cb2878e6d090477"
+        ],
+        "connections": [],
+        "identifiers": [
+          [
+            "browser_mod",
+            "9de06a00-67a82de5"
+          ]
+        ],
+        "manufacturer": null,
+        "model": null,
+        "name": "9de06a00-67a82de5",
+        "sw_version": null,
+        "hw_version": null,
+        "entry_type": null,
+        "id": "a58aaed774e85c9df3ce2e05731197c6",
+        "via_device_id": null,
+        "area_id": null,
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": null
+      },
+      {
+        "config_entries": [
+          "63fa3e6730c615cb2076190fd25bb98f"
+        ],
+        "connections": [
+          [
+            "mac",
+            "50:14:79:89:bf:e4"
+          ]
+        ],
+        "identifiers": [
+          [
+            "roomba",
+            "roomba_89FCD906F696470296C632291661A5A0"
+          ]
+        ],
+        "manufacturer": "iRobot",
+        "model": "i715640",
+        "name": "Wall-E",
+        "sw_version": "lewis+22.52.5+2023-02-16-7e788e611c3+Firmware-Build+2880",
+        "hw_version": null,
+        "entry_type": null,
+        "id": "f61cb27bf9d608c545a745f01d034d3b",
+        "via_device_id": null,
+        "area_id": null,
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": null
+      },
+      {
+        "config_entries": [
+          "ccd1ee7ef8485b8c12ac20ac08377efa"
+        ],
+        "connections": [],
+        "identifiers": [
+          [
+            "hacs",
+            "238802974"
+          ]
+        ],
+        "manufacturer": "",
+        "model": "plugin",
+        "name": "Roomba Vacuum Card",
+        "sw_version": null,
+        "hw_version": null,
+        "entry_type": "service",
+        "id": "bd9278f3ad0e215e5c06a326f2a1d5c0",
+        "via_device_id": null,
+        "area_id": null,
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": "homeassistant://hacs"
+      },
+      {
+        "config_entries": [
+          "c2b9acf099fb27599cb2878e6d090477"
+        ],
+        "connections": [],
+        "identifiers": [
+          [
+            "browser_mod",
+            "166f1442-bf6effbc"
+          ]
+        ],
+        "manufacturer": null,
+        "model": null,
+        "name": "166f1442-bf6effbc",
+        "sw_version": null,
+        "hw_version": null,
+        "entry_type": null,
+        "id": "812c58ced29a4d6aed6417cafe19c131",
+        "via_device_id": null,
+        "area_id": null,
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": null
+      },
+      {
+        "config_entries": [
+          "af5fc701111bd91886d8764b46dc7829"
+        ],
+        "connections": [],
+        "identifiers": [
+          [
+            "mqtt",
+            "zigbee2mqtt_0x385cfbfffe78f932"
+          ]
+        ],
+        "manufacturer": "IKEA",
+        "model": "TRADFRI bulb E27 WW 470 lumen, wireless dimmable warm white/globe clear (LED2102G3)",
+        "name": "dining-table-light",
+        "sw_version": "1.1.006",
+        "hw_version": null,
+        "entry_type": null,
+        "id": "40ec9f1e1757ba6d8262d28c082518c6",
+        "via_device_id": null,
+        "area_id": null,
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": null
+      },
+      {
+        "config_entries": [
+          "c2b9acf099fb27599cb2878e6d090477"
+        ],
+        "connections": [],
+        "identifiers": [
+          [
+            "browser_mod",
+            "b62cc518-b6476e08"
+          ]
+        ],
+        "manufacturer": null,
+        "model": null,
+        "name": "b62cc518-b6476e08",
+        "sw_version": null,
+        "hw_version": null,
+        "entry_type": null,
+        "id": "19edfdf7e1c6913843c9296e2be6542c",
+        "via_device_id": null,
+        "area_id": null,
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": null
+      }
+    ],
+    "deleted_devices": [
+      {
+        "config_entries": [
+          "af5fc701111bd91886d8764b46dc7829"
+        ],
+        "connections": [],
+        "identifiers": [
+          [
+            "mqtt",
+            "zigbee2mqtt_0x04cd15fffe92fda6"
+          ]
+        ],
+        "id": "8ceee9b001b86ec5f29f64765865fb62",
+        "orphaned_timestamp": null
+      }
+    ]
+  }
+}
