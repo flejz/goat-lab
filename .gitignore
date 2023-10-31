@@ -3,6 +3,6 @@ logs
 __pycache__
 *.db
 
-data/adguard/work/**/querylog.json*
-data/homeassistant/home-assistant.log*
-data/homeassistant/home-assistant_v2.db
+adguard/work/**/querylog.json*
+homeassistant/home-assistant.log*
+homeassistant/home-assistant_v2.db

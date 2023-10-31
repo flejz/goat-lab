@@ -1,28 +1,24 @@
 version: '3'
 services:
-  nginx:
-    container_name: nginx
-    image: nginx:1.15-alpine
-    depends_on: 
-      - homeassistant
-      - zigbee2mqtt
-      - adguard
-    volumes:
-      - ./data/nginx:/etc/nginx/conf.d
-      - ./data/nginx/ssl/cyber0s8.net:/etc/nginx/ssl
+  nginxproxymanager:
+    image: 'jc21/nginx-proxy-manager:latest' 
+    container_name: nginxproxymanager
     ports:
       - 80:80
+      - 81:81
       - 443:443
-    command: "/bin/sh -c 'while :; do sleep 6h & wait $${!}; nginx -s reload; done & nginx -g \"daemon off;\"'"
+    volumes:
+      - ./nginx/data:/data
+      - ./nginx/letsencrypt:/etc/letsencrypt 
     networks:
       - priv-nginx-net
-    restart: unless-stopped
+    restart: unless-stopped 
 
   homeassistant:
     container_name: homeassistant
     image: "ghcr.io/home-assistant/home-assistant:stable"
     volumes:
-      - ./data/homeassistant:/config
+      - ./homeassistant:/config
       - /etc/localtime:/etc/localtime:ro
     networks:
       - priv-adguard-net
@@ -30,16 +26,18 @@ services:
       - priv-nginx-net
     restart: unless-stopped
     privileged: true
+
   mosquitto:
     container_name: mosquitto
     image: eclipse-mosquitto:latest
     volumes:
-      - ./data/mosquitto/config:/mosquitto/config:rw
-      - ./data/mosquitto/data:/mosquitto/data
-      - ./data/mosquitto/log:/mosquitto/log
+      - ./mosquitto/config:/mosquitto/config:rw
+      - ./mosquitto/data:/mosquitto/data
+      - ./mosquitto/log:/mosquitto/log
     networks:
       - priv-mosquitto-net
     restart: unless-stopped
+
   zigbee2mqtt:
     container_name: zigbee2mqtt
     depends_on: 
@@ -47,7 +45,7 @@ services:
       - mosquitto
     image: koenkk/zigbee2mqtt
     volumes:
-      - ./data/zigbee2mqtt:/app/data
+      - ./zigbee2mqtt:/app/data
       - /run/udev:/run/udv:ro
       - /etc/localtime:/etc/localtime:ro
     devices:
@@ -63,8 +61,8 @@ services:
     image: adguard/adguardhome
     restart: unless-stopped
     volumes:
-      - ./data/adguard/work:/opt/adguardhome/work
-      - ./data/adguard/conf:/opt/adguardhome/conf
+      - ./adguard/work:/opt/adguardhome/work
+      - ./adguard/conf:/opt/adguardhome/conf
     ports:
       - 53:53/tcp
       - 53:53/udp

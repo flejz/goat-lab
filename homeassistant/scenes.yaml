@@ -1,0 +1,132 @@
+- id: '1662670436100'
+  name: Movie Theather
+  entities:
+    light.lroom_spot_light_1:
+      min_mireds: 250
+      max_mireds: 454
+      effect_list:
+      - blink
+      - breathe
+      - okay
+      - channel_change
+      - finish_effect
+      - stop_effect
+      supported_color_modes:
+      - color_temp
+      linkquality: 108
+      power_on_behavior:
+      update:
+        state: idle
+      update_available: false
+      friendly_name: lroom-spot-light-1
+      supported_features: 47
+      color_mode: color_temp
+      brightness: 255
+      color_temp: 314
+      hs_color:
+      - 27.547
+      - 52.114
+      rgb_color:
+      - 255
+      - 183
+      - 122
+      xy_color:
+      - 0.479
+      - 0.38
+      state: 'on'
+    light.lroom_spot_light_2:
+      min_mireds: 250
+      max_mireds: 454
+      effect_list:
+      - blink
+      - breathe
+      - okay
+      - channel_change
+      - finish_effect
+      - stop_effect
+      supported_color_modes:
+      - color_temp
+      linkquality: 63
+      power_on_behavior:
+      update:
+        state: idle
+      update_available: false
+      friendly_name: lroom-spot-light-2
+      supported_features: 47
+      color_mode: color_temp
+      brightness: 255
+      color_temp: 314
+      hs_color:
+      - 27.547
+      - 52.114
+      rgb_color:
+      - 255
+      - 183
+      - 122
+      xy_color:
+      - 0.479
+      - 0.38
+      state: 'on'
+    light.lroom_spot_light_3:
+      min_mireds: 250
+      max_mireds: 454
+      effect_list:
+      - blink
+      - breathe
+      - okay
+      - channel_change
+      - finish_effect
+      - stop_effect
+      supported_color_modes:
+      - color_temp
+      linkquality: 111
+      power_on_behavior:
+      update:
+        state: available
+      update_available: true
+      friendly_name: lroom-spot-light-3
+      supported_features: 47
+      color_mode: color_temp
+      brightness: 255
+      color_temp: 314
+      hs_color:
+      - 27.547
+      - 52.114
+      rgb_color:
+      - 255
+      - 183
+      - 122
+      xy_color:
+      - 0.479
+      - 0.38
+      state: 'on'
+    light.dining_table_light:
+      min_mireds: 250
+      max_mireds: 454
+      effect_list:
+      - blink
+      - breathe
+      - okay
+      - channel_change
+      - finish_effect
+      - stop_effect
+      supported_color_modes:
+      - color_temp
+      linkquality: 87
+      power_on_behavior:
+      update:
+        state: idle
+      update_available: false
+      friendly_name: dining-table-light
+      supported_features: 47
+      state: 'off'
+    switch.kitcken_socket:
+      linkquality: 108
+      power_on_behavior:
+      update:
+        state: idle
+      update_available: false
+      friendly_name: kitcken-socket
+      state: 'on'
+  icon: mdi:television
+  metadata: {}

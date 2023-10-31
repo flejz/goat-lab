@@ -1,0 +1,34 @@
+{
+  "version": 1,
+  "minor_version": 1,
+  "key": "lovelace_resources",
+  "data": {
+    "items": [
+      {
+        "url": "/hacsfiles/lovelace-card-mod/card-mod.js?hacstag=190927524315",
+        "type": "module",
+        "id": "cd9fd5b7dd5e43cfb92a67a4b83f45a4"
+      },
+      {
+        "url": "/hacsfiles/channel-pad/card-channel-pad.js?hacstag=2571233279",
+        "type": "module",
+        "id": "44aa782b9f45465c9f1b26633acfb06c"
+      },
+      {
+        "url": "/hacsfiles/LG-WebOS-Remote-Control/lg-remote-control.js?hacstag=2570059905637",
+        "type": "module",
+        "id": "458fbf443b5040f3ac6a7a3e3e32d9a3"
+      },
+      {
+        "url": "/hacsfiles/lovelace-mushroom/mushroom.js?hacstag=444350375213",
+        "type": "module",
+        "id": "fc9cb1abc915438dafb7304fe816c618"
+      },
+      {
+        "url": "/hacsfiles/lovelace-roomba-vacuum-card/roomba-vacuum-card.js?hacstag=238802974011",
+        "type": "module",
+        "id": "8c12a28a3fb3424684157ac29952a504"
+      }
+    ]
+  }
+}

@@ -1,0 +1,34 @@
+'0x000d6ffffe513e94':
+  friendly_name: broom-switch
+'0x14b457fffe72077e':
+  friendly_name: broom-spot-light-1
+'0x14b457fffe6e6711':
+  friendly_name: broom-spot-light-2
+'0x14b457fffe71fa9d':
+  friendly_name: broom-spot-light-3
+'0xec1bbdfffe3bc954':
+  friendly_name: lroom-switch
+'0xec1bbdfffeae2d6c':
+  friendly_name: lroom-spot-light-1
+'0xccccccfffed4607f':
+  friendly_name: lroom-spot-light-2
+'0xec1bbdfffea8c86f':
+  friendly_name: lroom-spot-light-3
+'0x04cd15fffe319b86':
+  friendly_name: kitchen-switch
+'0xcc86ecfffe20f952':
+  friendly_name: kitcken-socket
+'0x04cd15fffe6e239e':
+  friendly_name: laundry-light
+'0x00124b0024c2a9a4':
+  friendly_name: bar-outlet
+'0x00158d0003a04127':
+  friendly_name: temp-hum-sensor-external
+'0x00158d0004501201':
+  friendly_name: kitcken-mov-sensor
+'0x00158d000288578e':
+  friendly_name: main-door-sensor
+'0x00158d0003e72de2':
+  friendly_name: fridge-door-sensor
+'0x385cfbfffe78f932':
+  friendly_name: dining-table-light
