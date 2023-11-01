@@ -24,11 +24,11 @@
             "latest_version": 604241926
         },
         "update_available": true,
-        "battery": 34,
+        "battery": 74,
         "linkquality": 75
     },
     "0xcc86ecfffe20f952": {
-        "state": "ON",
+        "state": "OFF",
         "update": {
             "state": "idle",
             "installed_version": 587765297,
@@ -49,19 +49,6 @@
         "color_temp": 250,
         "brightness": 254,
         "linkquality": 78
-    },
-    "0xec1bbdfffea8c86f": {
-        "color_mode": "color_temp",
-        "state": "ON",
-        "brightness": 254,
-        "color_temp": 370,
-        "update": {
-            "state": "available",
-            "installed_version": 537011747,
-            "latest_version": 587814449
-        },
-        "update_available": true,
-        "linkquality": 126
     },
     "0x14b457fffe72077e": {
         "color_mode": "color_temp",
@@ -147,7 +134,7 @@
         "linkquality": 129,
         "voltage": 3115,
         "battery": 100,
-        "device_temperature": 28,
+        "device_temperature": 27,
         "power_outage_count": 28
     },
     "0x00158d000288578e": {

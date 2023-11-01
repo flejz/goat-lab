@@ -8,63 +8,268 @@
         "entity_id": "person.flejz",
         "state": "unknown",
         "attributes": {
-          "editable": false,
+          "editable": true,
           "id": "flejz",
           "user_id": "af3043b044a0489294f35d30899bf650",
+          "device_trackers": [
+            "device_tracker.whoami"
+          ],
           "friendly_name": "flejz"
         },
-        "last_changed": "2023-10-31T20:26:06.255179+00:00",
-        "last_updated": "2023-10-31T20:26:08.746601+00:00",
+        "last_changed": "2023-11-01T07:59:01.315356+00:00",
+        "last_updated": "2023-11-01T08:00:26.857867+00:00",
         "context": {
-          "id": "01HE3PMFFAJ37J642RBQPWQR41",
+          "id": "01HE4YBS79D8SC6Y7DXYJDDG65",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2023-10-31T21:56:08.751386+00:00"
+      "last_seen": "2023-11-01T09:45:26.868382+00:00"
     },
     {
       "state": {
         "entity_id": "person.tiabenie",
         "state": "unknown",
         "attributes": {
-          "editable": false,
+          "editable": true,
           "id": "tiabenie",
           "user_id": "67f5fab97136411bb3159e587f35a9df",
+          "device_trackers": [
+            "device_tracker.priscila_duartes_iphone"
+          ],
           "friendly_name": "tiabenie"
         },
-        "last_changed": "2023-10-31T20:26:06.255636+00:00",
-        "last_updated": "2023-10-31T20:26:08.746660+00:00",
+        "last_changed": "2023-11-01T07:59:01.315954+00:00",
+        "last_updated": "2023-11-01T08:00:26.858169+00:00",
         "context": {
-          "id": "01HE3PMFFAGJB1S1SW6ZT8P0WE",
+          "id": "01HE4YBS7A0QFN2SWGQR1F6AEE",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2023-10-31T21:56:08.751386+00:00"
+      "last_seen": "2023-11-01T09:45:26.868382+00:00"
     },
     {
       "state": {
         "entity_id": "person.ghibli",
         "state": "unknown",
         "attributes": {
-          "editable": false,
+          "editable": true,
           "id": "ghibli",
           "user_id": "883499b27f7a4261b03247f8d456b077",
+          "device_trackers": [],
           "friendly_name": "ghibli"
         },
-        "last_changed": "2023-10-31T20:26:06.255681+00:00",
-        "last_updated": "2023-10-31T20:26:08.746697+00:00",
+        "last_changed": "2023-11-01T07:59:01.316443+00:00",
+        "last_updated": "2023-11-01T08:00:26.858335+00:00",
         "context": {
-          "id": "01HE3PMFFAT331SRQCBF3ZXRHY",
+          "id": "01HE4YBS7A7JRZ7B47FEK5D4VY",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2023-10-31T21:56:08.751386+00:00"
+      "last_seen": "2023-11-01T09:45:26.868382+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "automation.bedroom_lights_toggle",
+        "state": "on",
+        "attributes": {
+          "id": "1645522553830",
+          "last_triggered": "2023-10-28T01:26:53.924722+00:00",
+          "mode": "single",
+          "current": 0,
+          "friendly_name": "Bedroom Lights Toggle"
+        },
+        "last_changed": "2023-11-01T07:59:14.567908+00:00",
+        "last_updated": "2023-11-01T07:59:14.567908+00:00",
+        "context": {
+          "id": "01HE4Y9JM7KNRRKT7MNP0FH2FA",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2023-11-01T09:45:26.868382+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "automation.living_room_lights_toggle",
+        "state": "on",
+        "attributes": {
+          "id": "1645532422727",
+          "last_triggered": "2023-05-26T05:48:20.653009+00:00",
+          "mode": "single",
+          "current": 0,
+          "friendly_name": "Living Room lights toggle"
+        },
+        "last_changed": "2023-11-01T07:59:14.568758+00:00",
+        "last_updated": "2023-11-01T07:59:14.568758+00:00",
+        "context": {
+          "id": "01HE4Y9JM8QJA6M9HRSRHM7S5N",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2023-11-01T09:45:26.868382+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "automation.kitchen_lights_on",
+        "state": "on",
+        "attributes": {
+          "id": "1645536231921",
+          "last_triggered": "2023-10-31T18:23:08.995520+00:00",
+          "mode": "single",
+          "current": 0,
+          "friendly_name": "Kitchen Lights On"
+        },
+        "last_changed": "2023-11-01T07:59:14.569900+00:00",
+        "last_updated": "2023-11-01T07:59:14.569900+00:00",
+        "context": {
+          "id": "01HE4Y9JM9A8YSXVM6BK7QPFAZ",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2023-11-01T09:45:26.868382+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "automation.kitchen_lights_off",
+        "state": "on",
+        "attributes": {
+          "id": "1645536296446",
+          "last_triggered": "2023-10-31T17:40:42.678071+00:00",
+          "mode": "single",
+          "current": 0,
+          "friendly_name": "Kitchen Lights Off"
+        },
+        "last_changed": "2023-11-01T07:59:14.570760+00:00",
+        "last_updated": "2023-11-01T07:59:14.570760+00:00",
+        "context": {
+          "id": "01HE4Y9JMAR4XZEBKTHCJXV6F9",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2023-11-01T09:45:26.868382+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "automation.bar_snooze",
+        "state": "on",
+        "attributes": {
+          "id": "1657047419637",
+          "last_triggered": "2023-10-31T00:00:00.002177+00:00",
+          "mode": "single",
+          "current": 0,
+          "friendly_name": "Bar Snooze"
+        },
+        "last_changed": "2023-11-01T07:59:14.571708+00:00",
+        "last_updated": "2023-11-01T07:59:14.571708+00:00",
+        "context": {
+          "id": "01HE4Y9JMBMSZAYY67M7Q9G90P",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2023-11-01T09:45:26.868382+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "automation.bar_wakeup",
+        "state": "on",
+        "attributes": {
+          "id": "1657047733356",
+          "last_triggered": "2023-10-31T07:00:00.002390+00:00",
+          "mode": "single",
+          "current": 0,
+          "friendly_name": "Bar Wakeup"
+        },
+        "last_changed": "2023-11-01T07:59:14.572406+00:00",
+        "last_updated": "2023-11-01T07:59:14.572406+00:00",
+        "context": {
+          "id": "01HE4Y9JMC5JRA8PMA0Y6DSNJT",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2023-11-01T09:45:26.868382+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "automation.new_automation",
+        "state": "on",
+        "attributes": {
+          "id": "1662411324262",
+          "last_triggered": "2022-11-26T16:52:11.024813+00:00",
+          "mode": "single",
+          "current": 0,
+          "friendly_name": "Kitchen Lights On on Movement Detected"
+        },
+        "last_changed": "2023-11-01T07:59:14.573061+00:00",
+        "last_updated": "2023-11-01T07:59:14.573061+00:00",
+        "context": {
+          "id": "01HE4Y9JMDEDQA03WAFHZXNDP0",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2023-11-01T09:45:26.868382+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "automation.kitchen_lights_off_on_movement_not_detected",
+        "state": "off",
+        "attributes": {
+          "id": "1662667912082",
+          "last_triggered": "2023-02-07T12:50:44.627411+00:00",
+          "mode": "single",
+          "current": 0,
+          "friendly_name": "Kitchen Lights OFF on Movement not Detected"
+        },
+        "last_changed": "2023-11-01T07:59:14.573756+00:00",
+        "last_updated": "2023-11-01T07:59:14.573756+00:00",
+        "context": {
+          "id": "01HE4Y9JMDNHQECQKWJBT6S75P",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2023-11-01T09:45:26.868382+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "automation.new_automation_2",
+        "state": "on",
+        "attributes": {
+          "id": "1662669567182",
+          "last_triggered": "2023-10-31T17:39:07.069963+00:00",
+          "mode": "single",
+          "current": 0,
+          "friendly_name": "Notify when Fridge door is open for too long"
+        },
+        "last_changed": "2023-11-01T07:59:14.574295+00:00",
+        "last_updated": "2023-11-01T07:59:14.574295+00:00",
+        "context": {
+          "id": "01HE4Y9JMEQM8D07E8FB4XW83N",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2023-11-01T09:45:26.868382+00:00"
     },
     {
       "state": {
@@ -82,363 +287,210 @@
           "icon": "mdi:television",
           "friendly_name": "Movie Theather"
         },
-        "last_changed": "2023-10-31T20:26:06.471934+00:00",
-        "last_updated": "2023-10-31T20:26:06.471934+00:00",
+        "last_changed": "2023-11-01T07:59:14.586420+00:00",
+        "last_updated": "2023-11-01T07:59:14.586420+00:00",
         "context": {
-          "id": "01HE3PMD87JHSVY3NC0VZE44PT",
+          "id": "01HE4Y9JMTMBZ9YXKGCRQE27PX",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2023-10-31T21:56:08.751386+00:00"
+      "last_seen": "2023-11-01T09:45:26.868382+00:00"
     },
     {
       "state": {
-        "entity_id": "automation.bedroom_lights_toggle",
-        "state": "on",
-        "attributes": {
-          "last_triggered": "2023-10-28T01:26:53.924722+00:00",
-          "mode": "single",
-          "current": 0,
-          "id": "1645522553830",
-          "friendly_name": "Bedroom Lights Toggle"
-        },
-        "last_changed": "2023-10-31T20:26:07.237471+00:00",
-        "last_updated": "2023-10-31T20:26:07.237471+00:00",
-        "context": {
-          "id": "01HE3PME05ETJPCRHDCEF85221",
-          "parent_id": null,
-          "user_id": null
-        }
-      },
-      "extra_data": null,
-      "last_seen": "2023-10-31T21:56:08.751386+00:00"
-    },
-    {
-      "state": {
-        "entity_id": "automation.living_room_lights_toggle",
-        "state": "on",
-        "attributes": {
-          "last_triggered": "2023-05-26T05:48:20.653009+00:00",
-          "mode": "single",
-          "current": 0,
-          "id": "1645532422727",
-          "friendly_name": "Living Room lights toggle"
-        },
-        "last_changed": "2023-10-31T20:26:07.237541+00:00",
-        "last_updated": "2023-10-31T20:26:07.237541+00:00",
-        "context": {
-          "id": "01HE3PME05KHPRG19JYP68HWT5",
-          "parent_id": null,
-          "user_id": null
-        }
-      },
-      "extra_data": null,
-      "last_seen": "2023-10-31T21:56:08.751386+00:00"
-    },
-    {
-      "state": {
-        "entity_id": "automation.kitchen_lights_on",
-        "state": "on",
-        "attributes": {
-          "last_triggered": "2023-10-31T18:23:08.995520+00:00",
-          "mode": "single",
-          "current": 0,
-          "id": "1645536231921",
-          "friendly_name": "Kitchen Lights On"
-        },
-        "last_changed": "2023-10-31T20:26:07.237597+00:00",
-        "last_updated": "2023-10-31T20:26:07.237597+00:00",
-        "context": {
-          "id": "01HE3PME053S0258K6BT7PS3T3",
-          "parent_id": null,
-          "user_id": null
-        }
-      },
-      "extra_data": null,
-      "last_seen": "2023-10-31T21:56:08.751386+00:00"
-    },
-    {
-      "state": {
-        "entity_id": "automation.kitchen_lights_off",
-        "state": "on",
-        "attributes": {
-          "last_triggered": "2023-10-31T17:40:42.678071+00:00",
-          "mode": "single",
-          "current": 0,
-          "id": "1645536296446",
-          "friendly_name": "Kitchen Lights Off"
-        },
-        "last_changed": "2023-10-31T20:26:07.237651+00:00",
-        "last_updated": "2023-10-31T20:26:07.237651+00:00",
-        "context": {
-          "id": "01HE3PME05EKG1K6P0N69VEF4K",
-          "parent_id": null,
-          "user_id": null
-        }
-      },
-      "extra_data": null,
-      "last_seen": "2023-10-31T21:56:08.751386+00:00"
-    },
-    {
-      "state": {
-        "entity_id": "automation.bar_snooze",
-        "state": "on",
-        "attributes": {
-          "last_triggered": "2023-10-31T00:00:00.002177+00:00",
-          "mode": "single",
-          "current": 0,
-          "id": "1657047419637",
-          "friendly_name": "Bar Snooze"
-        },
-        "last_changed": "2023-10-31T20:26:07.237702+00:00",
-        "last_updated": "2023-10-31T20:26:07.237702+00:00",
-        "context": {
-          "id": "01HE3PME05BRPPB8NQCKWTFV8F",
-          "parent_id": null,
-          "user_id": null
-        }
-      },
-      "extra_data": null,
-      "last_seen": "2023-10-31T21:56:08.751386+00:00"
-    },
-    {
-      "state": {
-        "entity_id": "automation.bar_wakeup",
-        "state": "on",
-        "attributes": {
-          "last_triggered": "2023-10-31T07:00:00.002390+00:00",
-          "mode": "single",
-          "current": 0,
-          "id": "1657047733356",
-          "friendly_name": "Bar Wakeup"
-        },
-        "last_changed": "2023-10-31T20:26:07.237752+00:00",
-        "last_updated": "2023-10-31T20:26:07.237752+00:00",
-        "context": {
-          "id": "01HE3PME056NKSAZ1JJQT010WK",
-          "parent_id": null,
-          "user_id": null
-        }
-      },
-      "extra_data": null,
-      "last_seen": "2023-10-31T21:56:08.751386+00:00"
-    },
-    {
-      "state": {
-        "entity_id": "automation.new_automation",
-        "state": "on",
-        "attributes": {
-          "last_triggered": "2022-11-26T16:52:11.024813+00:00",
-          "mode": "single",
-          "current": 0,
-          "id": "1662411324262",
-          "friendly_name": "Kitchen Lights On on Movement Detected"
-        },
-        "last_changed": "2023-10-31T20:26:07.237803+00:00",
-        "last_updated": "2023-10-31T20:26:07.237803+00:00",
-        "context": {
-          "id": "01HE3PME05C6GZJZFAB6KMJ2GV",
-          "parent_id": null,
-          "user_id": null
-        }
-      },
-      "extra_data": null,
-      "last_seen": "2023-10-31T21:56:08.751386+00:00"
-    },
-    {
-      "state": {
-        "entity_id": "automation.kitchen_lights_off_on_movement_not_detected",
+        "entity_id": "media_player.lg_webos_smart_tv",
         "state": "off",
         "attributes": {
-          "last_triggered": "2023-02-07T12:50:44.627411+00:00",
-          "mode": "single",
-          "current": 0,
-          "id": "1662667912082",
-          "friendly_name": "Kitchen Lights OFF on Movement not Detected"
+          "source_list": [
+            "Live TV"
+          ],
+          "assumed_state": true,
+          "device_class": "tv",
+          "friendly_name": "TV",
+          "supported_features": 24381
         },
-        "last_changed": "2023-10-31T20:26:07.237847+00:00",
-        "last_updated": "2023-10-31T20:26:07.237847+00:00",
+        "last_changed": "2023-11-01T07:59:17.394658+00:00",
+        "last_updated": "2023-11-01T07:59:17.394658+00:00",
         "context": {
-          "id": "01HE3PME05MJ5VW243E8HJKB8K",
+          "id": "01HE4Y9NCJ241WEADN0CSAVAXN",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2023-10-31T21:56:08.751386+00:00"
-    },
-    {
-      "state": {
-        "entity_id": "automation.new_automation_2",
-        "state": "on",
-        "attributes": {
-          "last_triggered": "2023-10-31T17:39:07.069963+00:00",
-          "mode": "single",
-          "current": 0,
-          "id": "1662669567182",
-          "friendly_name": "Notify when Fridge door is open for too long"
-        },
-        "last_changed": "2023-10-31T20:26:07.237894+00:00",
-        "last_updated": "2023-10-31T20:26:07.237894+00:00",
-        "context": {
-          "id": "01HE3PME05CBCAW8FM2YGQMQAY",
-          "parent_id": null,
-          "user_id": null
-        }
-      },
-      "extra_data": null,
-      "last_seen": "2023-10-31T21:56:08.751386+00:00"
+      "last_seen": "2023-11-01T09:45:26.868382+00:00"
     },
     {
       "state": {
         "entity_id": "sensor.priscila_duartes_iphone_activity",
-        "state": "Unknown",
+        "state": "unknown",
         "attributes": {
           "Confidence": "High",
           "Types": [
             "Unknown"
           ],
           "icon": "mdi:help-circle",
-          "friendly_name": "Priscila Duarte\u2019s iPhone Activity"
+          "friendly_name": "Priscila Duarte’s iPhone Activity"
         },
-        "last_changed": "2023-10-31T20:26:07.271943+00:00",
-        "last_updated": "2023-10-31T20:26:07.271943+00:00",
+        "last_changed": "2023-11-01T07:59:17.446636+00:00",
+        "last_updated": "2023-11-01T07:59:17.446636+00:00",
         "context": {
-          "id": "01HE3PME17E9FRECTWM56JTRWD",
+          "id": "01HE4Y9NE60VY7CANMARNESCMX",
           "parent_id": null,
           "user_id": null
         }
       },
-      "extra_data": null,
-      "last_seen": "2023-10-31T21:56:08.751386+00:00"
+      "extra_data": {
+        "native_value": null,
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2023-11-01T09:45:26.868382+00:00"
     },
     {
       "state": {
         "entity_id": "sensor.priscila_duartes_iphone_floors_descended",
-        "state": "8",
+        "state": "unknown",
         "attributes": {
           "unit_of_measurement": "floors",
           "icon": "mdi:stairs-down",
-          "friendly_name": "Priscila Duarte\u2019s iPhone Floors Descended"
+          "friendly_name": "Priscila Duarte’s iPhone Floors Descended"
         },
-        "last_changed": "2023-10-31T20:26:07.272000+00:00",
-        "last_updated": "2023-10-31T20:26:07.272000+00:00",
+        "last_changed": "2023-11-01T07:59:17.447452+00:00",
+        "last_updated": "2023-11-01T07:59:17.447452+00:00",
         "context": {
-          "id": "01HE3PME18TAJEAXD5FB14TPN6",
+          "id": "01HE4Y9NE7BMHBNQ7GYF5Z6TGC",
           "parent_id": null,
           "user_id": null
         }
       },
-      "extra_data": null,
-      "last_seen": "2023-10-31T21:56:08.751386+00:00"
+      "extra_data": {
+        "native_value": null,
+        "native_unit_of_measurement": "floors"
+      },
+      "last_seen": "2023-11-01T09:45:26.868382+00:00"
     },
     {
       "state": {
         "entity_id": "sensor.priscila_duartes_iphone_steps",
-        "state": "3097",
+        "state": "unknown",
         "attributes": {
           "unit_of_measurement": "steps",
           "icon": "mdi:walk",
-          "friendly_name": "Priscila Duarte\u2019s iPhone Steps"
+          "friendly_name": "Priscila Duarte’s iPhone Steps"
         },
-        "last_changed": "2023-10-31T20:26:07.272049+00:00",
-        "last_updated": "2023-10-31T20:26:07.272049+00:00",
+        "last_changed": "2023-11-01T07:59:17.448123+00:00",
+        "last_updated": "2023-11-01T07:59:17.448123+00:00",
         "context": {
-          "id": "01HE3PME18VS2V204JGCNTNKCS",
+          "id": "01HE4Y9NE87WGBK83ZYRNYEH60",
           "parent_id": null,
           "user_id": null
         }
       },
-      "extra_data": null,
-      "last_seen": "2023-10-31T21:56:08.751386+00:00"
+      "extra_data": {
+        "native_value": null,
+        "native_unit_of_measurement": "steps"
+      },
+      "last_seen": "2023-11-01T09:45:26.868382+00:00"
     },
     {
       "state": {
         "entity_id": "sensor.priscila_duartes_iphone_average_active_pace",
-        "state": "1",
+        "state": "unknown",
         "attributes": {
           "unit_of_measurement": "m/s",
           "icon": "mdi:speedometer",
-          "friendly_name": "Priscila Duarte\u2019s iPhone Average Active Pace"
+          "friendly_name": "Priscila Duarte’s iPhone Average Active Pace"
         },
-        "last_changed": "2023-10-31T20:26:07.272091+00:00",
-        "last_updated": "2023-10-31T20:26:07.272091+00:00",
+        "last_changed": "2023-11-01T07:59:17.448764+00:00",
+        "last_updated": "2023-11-01T07:59:17.448764+00:00",
         "context": {
-          "id": "01HE3PME18XT9XB30GNAKSMQ7W",
+          "id": "01HE4Y9NE8VTAY9WZW0TBX0MRM",
           "parent_id": null,
           "user_id": null
         }
       },
-      "extra_data": null,
-      "last_seen": "2023-10-31T21:56:08.751386+00:00"
+      "extra_data": {
+        "native_value": null,
+        "native_unit_of_measurement": "m/s"
+      },
+      "last_seen": "2023-11-01T09:45:26.868382+00:00"
     },
     {
       "state": {
         "entity_id": "sensor.priscila_duartes_iphone_distance",
-        "state": "1908",
+        "state": "unknown",
         "attributes": {
           "unit_of_measurement": "m",
           "icon": "mdi:hiking",
-          "friendly_name": "Priscila Duarte\u2019s iPhone Distance"
+          "friendly_name": "Priscila Duarte’s iPhone Distance"
         },
-        "last_changed": "2023-10-31T20:26:07.272132+00:00",
-        "last_updated": "2023-10-31T20:26:07.272132+00:00",
+        "last_changed": "2023-11-01T07:59:17.453662+00:00",
+        "last_updated": "2023-11-01T07:59:17.453662+00:00",
         "context": {
-          "id": "01HE3PME18VV4BMKX4VSTYMYXG",
+          "id": "01HE4Y9NED1QPAYDNZ1SJMGKNR",
           "parent_id": null,
           "user_id": null
         }
       },
-      "extra_data": null,
-      "last_seen": "2023-10-31T21:56:08.751386+00:00"
+      "extra_data": {
+        "native_value": null,
+        "native_unit_of_measurement": "m"
+      },
+      "last_seen": "2023-11-01T09:45:26.868382+00:00"
     },
     {
       "state": {
         "entity_id": "sensor.priscila_duartes_iphone_floors_ascended",
-        "state": "9",
+        "state": "unknown",
         "attributes": {
           "unit_of_measurement": "floors",
           "icon": "mdi:stairs-up",
-          "friendly_name": "Priscila Duarte\u2019s iPhone Floors Ascended"
+          "friendly_name": "Priscila Duarte’s iPhone Floors Ascended"
         },
-        "last_changed": "2023-10-31T20:26:07.272172+00:00",
-        "last_updated": "2023-10-31T20:26:07.272172+00:00",
+        "last_changed": "2023-11-01T07:59:17.454471+00:00",
+        "last_updated": "2023-11-01T07:59:17.454471+00:00",
         "context": {
-          "id": "01HE3PME18ANB78129J3QB57CC",
+          "id": "01HE4Y9NEEYCWPXA2EWQ20Q2CK",
           "parent_id": null,
           "user_id": null
         }
       },
-      "extra_data": null,
-      "last_seen": "2023-10-31T21:56:08.751386+00:00"
+      "extra_data": {
+        "native_value": null,
+        "native_unit_of_measurement": "floors"
+      },
+      "last_seen": "2023-11-01T09:45:26.868382+00:00"
     },
     {
       "state": {
         "entity_id": "sensor.priscila_duartes_iphone_battery_level",
-        "state": "31",
+        "state": "unknown",
         "attributes": {
           "unit_of_measurement": "%",
           "device_class": "battery",
           "icon": "mdi:battery-30",
-          "friendly_name": "Priscila Duarte\u2019s iPhone Battery Level"
+          "friendly_name": "Priscila Duarte’s iPhone Battery Level"
         },
-        "last_changed": "2023-10-31T20:26:07.272214+00:00",
-        "last_updated": "2023-10-31T20:26:07.272214+00:00",
+        "last_changed": "2023-11-01T07:59:17.455400+00:00",
+        "last_updated": "2023-11-01T07:59:17.455400+00:00",
         "context": {
-          "id": "01HE3PME18XMK16V35D9ZXDJ1E",
+          "id": "01HE4Y9NEF4Q6RZ5K0Q81WT363",
           "parent_id": null,
           "user_id": null
         }
       },
-      "extra_data": null,
-      "last_seen": "2023-10-31T21:56:08.751386+00:00"
+      "extra_data": {
+        "native_value": null,
+        "native_unit_of_measurement": "%"
+      },
+      "last_seen": "2023-11-01T09:45:26.868382+00:00"
     },
     {
       "state": {
         "entity_id": "sensor.priscila_duartes_iphone_storage",
-        "state": "16.06",
+        "state": "unknown",
         "attributes": {
           "Available": "10,32 GB",
           "Available (Important)": "25,81 GB",
@@ -446,100 +498,115 @@
           "Total": "127,88 GB",
           "unit_of_measurement": "% available",
           "icon": "mdi:database",
-          "friendly_name": "Priscila Duarte\u2019s iPhone Storage"
+          "friendly_name": "Priscila Duarte’s iPhone Storage"
         },
-        "last_changed": "2023-10-31T20:26:07.272254+00:00",
-        "last_updated": "2023-10-31T20:26:07.272254+00:00",
+        "last_changed": "2023-11-01T07:59:17.456137+00:00",
+        "last_updated": "2023-11-01T07:59:17.456137+00:00",
         "context": {
-          "id": "01HE3PME18J8GX37V29PNAWQFN",
+          "id": "01HE4Y9NEGWHSHQWW1X0X5D426",
           "parent_id": null,
           "user_id": null
         }
       },
-      "extra_data": null,
-      "last_seen": "2023-10-31T21:56:08.751386+00:00"
+      "extra_data": {
+        "native_value": null,
+        "native_unit_of_measurement": "% available"
+      },
+      "last_seen": "2023-11-01T09:45:26.868382+00:00"
     },
     {
       "state": {
         "entity_id": "sensor.priscila_duartes_iphone_battery_state",
-        "state": "Not Charging",
+        "state": "unknown",
         "attributes": {
           "Low Power Mode": false,
           "icon": "mdi:battery-30",
-          "friendly_name": "Priscila Duarte\u2019s iPhone Battery State"
+          "friendly_name": "Priscila Duarte’s iPhone Battery State"
         },
-        "last_changed": "2023-10-31T20:26:07.272296+00:00",
-        "last_updated": "2023-10-31T20:26:07.272296+00:00",
+        "last_changed": "2023-11-01T07:59:17.456879+00:00",
+        "last_updated": "2023-11-01T07:59:17.456879+00:00",
         "context": {
-          "id": "01HE3PME18ENK7F5V753TWMK07",
+          "id": "01HE4Y9NEGFP729W56DHPE828Y",
           "parent_id": null,
           "user_id": null
         }
       },
-      "extra_data": null,
-      "last_seen": "2023-10-31T21:56:08.751386+00:00"
+      "extra_data": {
+        "native_value": null,
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2023-11-01T09:45:26.868382+00:00"
     },
     {
       "state": {
         "entity_id": "sensor.priscila_duartes_iphone_ssid",
-        "state": "Not Connected",
+        "state": "unknown",
         "attributes": {
           "icon": "mdi:wifi-off",
-          "friendly_name": "Priscila Duarte\u2019s iPhone SSID"
+          "friendly_name": "Priscila Duarte’s iPhone SSID"
         },
-        "last_changed": "2023-10-31T20:26:07.272335+00:00",
-        "last_updated": "2023-10-31T20:26:07.272335+00:00",
+        "last_changed": "2023-11-01T07:59:17.457552+00:00",
+        "last_updated": "2023-11-01T07:59:17.457552+00:00",
         "context": {
-          "id": "01HE3PME1868WWV63STT0HY72W",
+          "id": "01HE4Y9NEH4XWHKP2AJZQRR817",
           "parent_id": null,
           "user_id": null
         }
       },
-      "extra_data": null,
-      "last_seen": "2023-10-31T21:56:08.751386+00:00"
+      "extra_data": {
+        "native_value": null,
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2023-11-01T09:45:26.868382+00:00"
     },
     {
       "state": {
         "entity_id": "sensor.priscila_duartes_iphone_connection_type",
-        "state": "Wi-Fi",
+        "state": "unknown",
         "attributes": {
           "icon": "mdi:wifi",
-          "friendly_name": "Priscila Duarte\u2019s iPhone Connection Type"
+          "friendly_name": "Priscila Duarte’s iPhone Connection Type"
         },
-        "last_changed": "2023-10-31T20:26:07.272374+00:00",
-        "last_updated": "2023-10-31T20:26:07.272374+00:00",
+        "last_changed": "2023-11-01T07:59:17.458186+00:00",
+        "last_updated": "2023-11-01T07:59:17.458186+00:00",
         "context": {
-          "id": "01HE3PME180WA9ZKPYSTNGTD7T",
+          "id": "01HE4Y9NEJRSX0G8XY1EQPRR00",
           "parent_id": null,
           "user_id": null
         }
       },
-      "extra_data": null,
-      "last_seen": "2023-10-31T21:56:08.751386+00:00"
+      "extra_data": {
+        "native_value": null,
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2023-11-01T09:45:26.868382+00:00"
     },
     {
       "state": {
         "entity_id": "sensor.priscila_duartes_iphone_bssid",
-        "state": "Not Connected",
+        "state": "unknown",
         "attributes": {
           "icon": "mdi:wifi-off",
-          "friendly_name": "Priscila Duarte\u2019s iPhone BSSID"
+          "friendly_name": "Priscila Duarte’s iPhone BSSID"
         },
-        "last_changed": "2023-10-31T20:26:07.272414+00:00",
-        "last_updated": "2023-10-31T20:26:07.272414+00:00",
+        "last_changed": "2023-11-01T07:59:17.458800+00:00",
+        "last_updated": "2023-11-01T07:59:17.458800+00:00",
         "context": {
-          "id": "01HE3PME18BA1GAQQDT5CDAPFX",
+          "id": "01HE4Y9NEJ90P81WF6C9PW0T34",
           "parent_id": null,
           "user_id": null
         }
       },
-      "extra_data": null,
-      "last_seen": "2023-10-31T21:56:08.751386+00:00"
+      "extra_data": {
+        "native_value": null,
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2023-11-01T09:45:26.868382+00:00"
     },
     {
       "state": {
         "entity_id": "sensor.priscila_duartes_iphone_sim_2",
-        "state": "N/A",
+        "state": "unknown",
         "attributes": {
           "Allows VoIP": true,
           "Carrier ID": "0000000100000002",
@@ -548,23 +615,26 @@
           "Mobile Country Code": "N/A",
           "Mobile Network Code": "N/A",
           "icon": "mdi:sim",
-          "friendly_name": "Priscila Duarte\u2019s iPhone SIM 2"
+          "friendly_name": "Priscila Duarte’s iPhone SIM 2"
         },
-        "last_changed": "2023-10-31T20:26:07.272454+00:00",
-        "last_updated": "2023-10-31T20:26:07.272454+00:00",
+        "last_changed": "2023-11-01T07:59:17.459409+00:00",
+        "last_updated": "2023-11-01T07:59:17.459409+00:00",
         "context": {
-          "id": "01HE3PME181C6SV61S2DDMJ2QZ",
+          "id": "01HE4Y9NEK9HQPH8YP18XSJCAZ",
           "parent_id": null,
           "user_id": null
         }
       },
-      "extra_data": null,
-      "last_seen": "2023-10-31T21:56:08.751386+00:00"
+      "extra_data": {
+        "native_value": null,
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2023-11-01T09:45:26.868382+00:00"
     },
     {
       "state": {
         "entity_id": "sensor.priscila_duartes_iphone_sim_1",
-        "state": "o2-de",
+        "state": "unknown",
         "attributes": {
           "Allows VoIP": true,
           "Carrier ID": "0000000100000001",
@@ -574,56 +644,65 @@
           "Mobile Country Code": "262",
           "Mobile Network Code": "07",
           "icon": "mdi:sim",
-          "friendly_name": "Priscila Duarte\u2019s iPhone SIM 1"
+          "friendly_name": "Priscila Duarte’s iPhone SIM 1"
         },
-        "last_changed": "2023-10-31T20:26:07.272492+00:00",
-        "last_updated": "2023-10-31T20:26:07.272492+00:00",
+        "last_changed": "2023-11-01T07:59:17.460211+00:00",
+        "last_updated": "2023-11-01T07:59:17.460211+00:00",
         "context": {
-          "id": "01HE3PME18XHYV23G3NM0JZE3N",
+          "id": "01HE4Y9NEMPJ8WJV11G7AE45CG",
           "parent_id": null,
           "user_id": null
         }
       },
-      "extra_data": null,
-      "last_seen": "2023-10-31T21:56:08.751386+00:00"
+      "extra_data": {
+        "native_value": null,
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2023-11-01T09:45:26.868382+00:00"
     },
     {
       "state": {
         "entity_id": "sensor.priscila_duartes_iphone_geocoded_location",
-        "state": "Unknown",
+        "state": "unknown",
         "attributes": {
           "icon": "mdi:map",
-          "friendly_name": "Priscila Duarte\u2019s iPhone Geocoded Location"
+          "friendly_name": "Priscila Duarte’s iPhone Geocoded Location"
         },
-        "last_changed": "2023-10-31T20:26:07.272530+00:00",
-        "last_updated": "2023-10-31T20:26:07.272530+00:00",
+        "last_changed": "2023-11-01T07:59:17.460882+00:00",
+        "last_updated": "2023-11-01T07:59:17.460882+00:00",
         "context": {
-          "id": "01HE3PME184EDYYPFQ9D57BF0E",
+          "id": "01HE4Y9NEM8QQJTA70KTW4JG39",
           "parent_id": null,
           "user_id": null
         }
       },
-      "extra_data": null,
-      "last_seen": "2023-10-31T21:56:08.751386+00:00"
+      "extra_data": {
+        "native_value": null,
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2023-11-01T09:45:26.868382+00:00"
     },
     {
       "state": {
         "entity_id": "sensor.priscila_duartes_iphone_last_update_trigger",
-        "state": "Launch",
+        "state": "unknown",
         "attributes": {
           "icon": "mdi:cellphone-wireless",
-          "friendly_name": "Priscila Duarte\u2019s iPhone Last Update Trigger"
+          "friendly_name": "Priscila Duarte’s iPhone Last Update Trigger"
         },
-        "last_changed": "2023-10-31T20:26:07.272569+00:00",
-        "last_updated": "2023-10-31T20:26:07.272569+00:00",
+        "last_changed": "2023-11-01T07:59:17.461535+00:00",
+        "last_updated": "2023-11-01T07:59:17.461535+00:00",
         "context": {
-          "id": "01HE3PME18H70REZ529WJZDW99",
+          "id": "01HE4Y9NENENG03CA3W1D58P6Y",
           "parent_id": null,
           "user_id": null
         }
       },
-      "extra_data": null,
-      "last_seen": "2023-10-31T21:56:08.751386+00:00"
+      "extra_data": {
+        "native_value": null,
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2023-11-01T09:45:26.868382+00:00"
     },
     {
       "state": {
@@ -631,18 +710,18 @@
         "state": "off",
         "attributes": {
           "icon": "mdi:moon-waning-crescent",
-          "friendly_name": "Priscila Duarte\u2019s iPhone Focus"
+          "friendly_name": "Priscila Duarte’s iPhone Focus"
         },
-        "last_changed": "2023-10-31T20:26:07.272610+00:00",
-        "last_updated": "2023-10-31T20:26:07.272610+00:00",
+        "last_changed": "2023-11-01T07:59:17.469682+00:00",
+        "last_updated": "2023-11-01T07:59:17.469682+00:00",
         "context": {
-          "id": "01HE3PME188DEPARWY6GMMQNAS",
+          "id": "01HE4Y9NEXFR3DCEZMEA9SYE5X",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2023-10-31T21:56:08.751386+00:00"
+      "last_seen": "2023-11-01T09:45:26.868382+00:00"
     },
     {
       "state": {
@@ -650,23 +729,23 @@
         "state": "unknown",
         "attributes": {
           "source_type": "gps",
-          "friendly_name": "Priscila Duarte\u2019s iPhone"
+          "friendly_name": "Priscila Duarte’s iPhone"
         },
-        "last_changed": "2023-10-31T20:26:07.272660+00:00",
-        "last_updated": "2023-10-31T20:26:07.272660+00:00",
+        "last_changed": "2023-11-01T07:59:17.478015+00:00",
+        "last_updated": "2023-11-01T07:59:17.478015+00:00",
         "context": {
-          "id": "01HE3PME18PCS5A5Y7770D4FZC",
+          "id": "01HE4Y9NF6CXV8P961E8W3JCZC",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2023-10-31T21:56:08.751386+00:00"
+      "last_seen": "2023-11-01T09:45:26.868382+00:00"
     },
     {
       "state": {
         "entity_id": "sensor.whoami_activity",
-        "state": "Stationary",
+        "state": "unknown",
         "attributes": {
           "Confidence": "High",
           "Types": [
@@ -675,142 +754,163 @@
           "icon": "mdi:human-male",
           "friendly_name": "whoami Activity"
         },
-        "last_changed": "2023-10-31T20:26:07.272705+00:00",
-        "last_updated": "2023-10-31T20:26:07.272705+00:00",
+        "last_changed": "2023-11-01T07:59:17.481007+00:00",
+        "last_updated": "2023-11-01T07:59:17.481007+00:00",
         "context": {
-          "id": "01HE3PME18ZM9Z9TRFGGBXJ06W",
+          "id": "01HE4Y9NF9EZHK5A35KB65XTE1",
           "parent_id": null,
           "user_id": null
         }
       },
-      "extra_data": null,
-      "last_seen": "2023-10-31T21:56:08.751386+00:00"
+      "extra_data": {
+        "native_value": null,
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2023-11-01T09:45:26.868382+00:00"
     },
     {
       "state": {
         "entity_id": "sensor.whoami_floors_descended",
-        "state": "0",
+        "state": "unknown",
         "attributes": {
           "unit_of_measurement": "floors",
           "icon": "mdi:stairs-down",
           "friendly_name": "whoami Floors Descended"
         },
-        "last_changed": "2023-10-31T20:26:07.272745+00:00",
-        "last_updated": "2023-10-31T20:26:07.272745+00:00",
+        "last_changed": "2023-11-01T07:59:17.481695+00:00",
+        "last_updated": "2023-11-01T07:59:17.481695+00:00",
         "context": {
-          "id": "01HE3PME18P86A0SYC96YPQS94",
+          "id": "01HE4Y9NF91D75FFMD9PGMNER0",
           "parent_id": null,
           "user_id": null
         }
       },
-      "extra_data": null,
-      "last_seen": "2023-10-31T21:56:08.751386+00:00"
+      "extra_data": {
+        "native_value": null,
+        "native_unit_of_measurement": "floors"
+      },
+      "last_seen": "2023-11-01T09:45:26.868382+00:00"
     },
     {
       "state": {
         "entity_id": "sensor.whoami_distance",
-        "state": "73",
+        "state": "unknown",
         "attributes": {
           "unit_of_measurement": "m",
           "icon": "mdi:hiking",
           "friendly_name": "whoami Distance"
         },
-        "last_changed": "2023-10-31T20:26:07.272784+00:00",
-        "last_updated": "2023-10-31T20:26:07.272784+00:00",
+        "last_changed": "2023-11-01T07:59:17.482333+00:00",
+        "last_updated": "2023-11-01T07:59:17.482333+00:00",
         "context": {
-          "id": "01HE3PME188NH7X3ZK2K2N6MT1",
+          "id": "01HE4Y9NFA5XAYKQ41ED4QT84F",
           "parent_id": null,
           "user_id": null
         }
       },
-      "extra_data": null,
-      "last_seen": "2023-10-31T21:56:08.751386+00:00"
+      "extra_data": {
+        "native_value": null,
+        "native_unit_of_measurement": "m"
+      },
+      "last_seen": "2023-11-01T09:45:26.868382+00:00"
     },
     {
       "state": {
         "entity_id": "sensor.whoami_floors_ascended",
-        "state": "0",
+        "state": "unknown",
         "attributes": {
           "unit_of_measurement": "floors",
           "icon": "mdi:stairs-up",
           "friendly_name": "whoami Floors Ascended"
         },
-        "last_changed": "2023-10-31T20:26:07.272822+00:00",
-        "last_updated": "2023-10-31T20:26:07.272822+00:00",
+        "last_changed": "2023-11-01T07:59:17.482983+00:00",
+        "last_updated": "2023-11-01T07:59:17.482983+00:00",
         "context": {
-          "id": "01HE3PME18TJWW7GBDS9C0T1C2",
+          "id": "01HE4Y9NFAVS7V3YCNBA86H3AJ",
           "parent_id": null,
           "user_id": null
         }
       },
-      "extra_data": null,
-      "last_seen": "2023-10-31T21:56:08.751386+00:00"
+      "extra_data": {
+        "native_value": null,
+        "native_unit_of_measurement": "floors"
+      },
+      "last_seen": "2023-11-01T09:45:26.868382+00:00"
     },
     {
       "state": {
         "entity_id": "sensor.whoami_steps",
-        "state": "97",
+        "state": "unknown",
         "attributes": {
           "unit_of_measurement": "steps",
           "icon": "mdi:walk",
           "friendly_name": "whoami Steps"
         },
-        "last_changed": "2023-10-31T20:26:07.272863+00:00",
-        "last_updated": "2023-10-31T20:26:07.272863+00:00",
+        "last_changed": "2023-11-01T07:59:17.483694+00:00",
+        "last_updated": "2023-11-01T07:59:17.483694+00:00",
         "context": {
-          "id": "01HE3PME18S8TASF39543FTZFF",
+          "id": "01HE4Y9NFBAG06DS90AHK5XJZY",
           "parent_id": null,
           "user_id": null
         }
       },
-      "extra_data": null,
-      "last_seen": "2023-10-31T21:56:08.751386+00:00"
+      "extra_data": {
+        "native_value": null,
+        "native_unit_of_measurement": "steps"
+      },
+      "last_seen": "2023-11-01T09:45:26.868382+00:00"
     },
     {
       "state": {
         "entity_id": "sensor.whoami_battery_state",
-        "state": "Not Charging",
+        "state": "unknown",
         "attributes": {
           "Low Power Mode": false,
           "icon": "mdi:battery-30",
           "friendly_name": "whoami Battery State"
         },
-        "last_changed": "2023-10-31T20:26:07.272902+00:00",
-        "last_updated": "2023-10-31T20:26:07.272902+00:00",
+        "last_changed": "2023-11-01T07:59:17.485520+00:00",
+        "last_updated": "2023-11-01T07:59:17.485520+00:00",
         "context": {
-          "id": "01HE3PME180EH264NN81HH8R22",
+          "id": "01HE4Y9NFDDKA7CH1TXAGY02JS",
           "parent_id": null,
           "user_id": null
         }
       },
-      "extra_data": null,
-      "last_seen": "2023-10-31T21:56:08.751386+00:00"
+      "extra_data": {
+        "native_value": null,
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2023-11-01T09:45:26.868382+00:00"
     },
     {
       "state": {
         "entity_id": "sensor.whoami_battery_level",
-        "state": "32",
+        "state": "unknown",
         "attributes": {
           "unit_of_measurement": "%",
           "device_class": "battery",
           "icon": "mdi:battery-30",
           "friendly_name": "whoami Battery Level"
         },
-        "last_changed": "2023-10-31T20:26:07.272943+00:00",
-        "last_updated": "2023-10-31T20:26:07.272943+00:00",
+        "last_changed": "2023-11-01T07:59:17.486337+00:00",
+        "last_updated": "2023-11-01T07:59:17.486337+00:00",
         "context": {
-          "id": "01HE3PME18DQ4R35XE4Y19G70X",
+          "id": "01HE4Y9NFE7AHZSSG3GDD6YH3Q",
           "parent_id": null,
           "user_id": null
         }
       },
-      "extra_data": null,
-      "last_seen": "2023-10-31T21:56:08.751386+00:00"
+      "extra_data": {
+        "native_value": null,
+        "native_unit_of_measurement": "%"
+      },
+      "last_seen": "2023-11-01T09:45:26.868382+00:00"
     },
     {
       "state": {
         "entity_id": "sensor.whoami_storage",
-        "state": "4.86",
+        "state": "unknown",
         "attributes": {
           "Available": "2,35 GB",
           "Available (Important)": "6,00 GB",
@@ -820,78 +920,90 @@
           "icon": "mdi:database",
           "friendly_name": "whoami Storage"
         },
-        "last_changed": "2023-10-31T20:26:07.272997+00:00",
-        "last_updated": "2023-10-31T20:26:07.272997+00:00",
+        "last_changed": "2023-11-01T07:59:17.487094+00:00",
+        "last_updated": "2023-11-01T07:59:17.487094+00:00",
         "context": {
-          "id": "01HE3PME18S7XSDGYWD7Q23PNH",
+          "id": "01HE4Y9NFFNSDPB4HKWN0WD440",
           "parent_id": null,
           "user_id": null
         }
       },
-      "extra_data": null,
-      "last_seen": "2023-10-31T21:56:08.751386+00:00"
+      "extra_data": {
+        "native_value": null,
+        "native_unit_of_measurement": "% available"
+      },
+      "last_seen": "2023-11-01T09:45:26.868382+00:00"
     },
     {
       "state": {
         "entity_id": "sensor.whoami_ssid",
-        "state": "Not Connected",
+        "state": "unknown",
         "attributes": {
           "icon": "mdi:wifi-off",
           "friendly_name": "whoami SSID"
         },
-        "last_changed": "2023-10-31T20:26:07.273040+00:00",
-        "last_updated": "2023-10-31T20:26:07.273040+00:00",
+        "last_changed": "2023-11-01T07:59:17.487756+00:00",
+        "last_updated": "2023-11-01T07:59:17.487756+00:00",
         "context": {
-          "id": "01HE3PME19DAEQF4WE8RHRFQ57",
+          "id": "01HE4Y9NFF36FE1FZSPZGKG6RZ",
           "parent_id": null,
           "user_id": null
         }
       },
-      "extra_data": null,
-      "last_seen": "2023-10-31T21:56:08.751386+00:00"
+      "extra_data": {
+        "native_value": null,
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2023-11-01T09:45:26.868382+00:00"
     },
     {
       "state": {
         "entity_id": "sensor.whoami_connection_type",
-        "state": "Wi-Fi",
+        "state": "unknown",
         "attributes": {
           "icon": "mdi:wifi",
           "friendly_name": "whoami Connection Type"
         },
-        "last_changed": "2023-10-31T20:26:07.273082+00:00",
-        "last_updated": "2023-10-31T20:26:07.273082+00:00",
+        "last_changed": "2023-11-01T07:59:17.488379+00:00",
+        "last_updated": "2023-11-01T07:59:17.488379+00:00",
         "context": {
-          "id": "01HE3PME1930FJDN4K2RP6DJ7M",
+          "id": "01HE4Y9NFG195NHCMVTQ2QCA0M",
           "parent_id": null,
           "user_id": null
         }
       },
-      "extra_data": null,
-      "last_seen": "2023-10-31T21:56:08.751386+00:00"
+      "extra_data": {
+        "native_value": null,
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2023-11-01T09:45:26.868382+00:00"
     },
     {
       "state": {
         "entity_id": "sensor.whoami_bssid",
-        "state": "Not Connected",
+        "state": "unknown",
         "attributes": {
           "icon": "mdi:wifi-off",
           "friendly_name": "whoami BSSID"
         },
-        "last_changed": "2023-10-31T20:26:07.273126+00:00",
-        "last_updated": "2023-10-31T20:26:07.273126+00:00",
+        "last_changed": "2023-11-01T07:59:17.488999+00:00",
+        "last_updated": "2023-11-01T07:59:17.488999+00:00",
         "context": {
-          "id": "01HE3PME19ZPZ1KNXAK091EDTM",
+          "id": "01HE4Y9NFGEVGDAZJHW8421GBK",
           "parent_id": null,
           "user_id": null
         }
       },
-      "extra_data": null,
-      "last_seen": "2023-10-31T21:56:08.751386+00:00"
+      "extra_data": {
+        "native_value": null,
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2023-11-01T09:45:26.868382+00:00"
     },
     {
       "state": {
         "entity_id": "sensor.whoami_sim_1",
-        "state": "o2-de",
+        "state": "unknown",
         "attributes": {
           "Allows VoIP": true,
           "Carrier ID": "0000000100000001",
@@ -903,55 +1015,64 @@
           "icon": "mdi:sim",
           "friendly_name": "whoami SIM 1"
         },
-        "last_changed": "2023-10-31T20:26:07.273165+00:00",
-        "last_updated": "2023-10-31T20:26:07.273165+00:00",
+        "last_changed": "2023-11-01T07:59:17.489605+00:00",
+        "last_updated": "2023-11-01T07:59:17.489605+00:00",
         "context": {
-          "id": "01HE3PME19F20SG6RDAFMWYPEP",
+          "id": "01HE4Y9NFHJE39P2ZT8BMMMX3Y",
           "parent_id": null,
           "user_id": null
         }
       },
-      "extra_data": null,
-      "last_seen": "2023-10-31T21:56:08.751386+00:00"
+      "extra_data": {
+        "native_value": null,
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2023-11-01T09:45:26.868382+00:00"
     },
     {
       "state": {
         "entity_id": "sensor.whoami_last_update_trigger",
-        "state": "Siri",
+        "state": "unknown",
         "attributes": {
           "icon": "mdi:cellphone-wireless",
           "friendly_name": "whoami Last Update Trigger"
         },
-        "last_changed": "2023-10-31T20:26:07.273203+00:00",
-        "last_updated": "2023-10-31T20:26:07.273203+00:00",
+        "last_changed": "2023-11-01T07:59:17.490312+00:00",
+        "last_updated": "2023-11-01T07:59:17.490312+00:00",
         "context": {
-          "id": "01HE3PME19BCM1KPWH63P7N9Y1",
+          "id": "01HE4Y9NFJHR4XWBGSMY7HWRDS",
           "parent_id": null,
           "user_id": null
         }
       },
-      "extra_data": null,
-      "last_seen": "2023-10-31T21:56:08.751386+00:00"
+      "extra_data": {
+        "native_value": null,
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2023-11-01T09:45:26.868382+00:00"
     },
     {
       "state": {
         "entity_id": "sensor.whoami_average_active_pace",
-        "state": "2",
+        "state": "unknown",
         "attributes": {
           "unit_of_measurement": "m/s",
           "icon": "mdi:speedometer",
           "friendly_name": "whoami Average Active Pace"
         },
-        "last_changed": "2023-10-31T20:26:07.273244+00:00",
-        "last_updated": "2023-10-31T20:26:07.273244+00:00",
+        "last_changed": "2023-11-01T07:59:17.491285+00:00",
+        "last_updated": "2023-11-01T07:59:17.491285+00:00",
         "context": {
-          "id": "01HE3PME19RHXJVTQ67ZJ2YDNX",
+          "id": "01HE4Y9NFKSWMGV0988WY4RWZJ",
           "parent_id": null,
           "user_id": null
         }
       },
-      "extra_data": null,
-      "last_seen": "2023-10-31T21:56:08.751386+00:00"
+      "extra_data": {
+        "native_value": null,
+        "native_unit_of_measurement": "m/s"
+      },
+      "last_seen": "2023-11-01T09:45:26.868382+00:00"
     },
     {
       "state": {
@@ -961,16 +1082,16 @@
           "icon": "mdi:moon-waning-crescent",
           "friendly_name": "whoami Focus"
         },
-        "last_changed": "2023-10-31T20:26:07.273283+00:00",
-        "last_updated": "2023-10-31T20:26:07.273283+00:00",
+        "last_changed": "2023-11-01T07:59:17.495601+00:00",
+        "last_updated": "2023-11-01T07:59:17.495601+00:00",
         "context": {
-          "id": "01HE3PME191DF2ESH1RNEJTT5B",
+          "id": "01HE4Y9NFQRN290SXH7KR7F3C0",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2023-10-31T21:56:08.751386+00:00"
+      "last_seen": "2023-11-01T09:45:26.868382+00:00"
     },
     {
       "state": {
@@ -980,16 +1101,330 @@
           "source_type": "gps",
           "friendly_name": "whoami"
         },
-        "last_changed": "2023-10-31T20:26:07.273325+00:00",
-        "last_updated": "2023-10-31T20:26:07.273325+00:00",
+        "last_changed": "2023-11-01T07:59:17.498321+00:00",
+        "last_updated": "2023-11-01T07:59:17.498321+00:00",
         "context": {
-          "id": "01HE3PME19AQWQ8XR96YAJ2C08",
+          "id": "01HE4Y9NFT1FGTVKTA3WZJ6M57",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2023-10-31T21:56:08.751386+00:00"
+      "last_seen": "2023-11-01T09:45:26.868382+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "update.hacs_update",
+        "state": "on",
+        "attributes": {
+          "auto_update": false,
+          "installed_version": "1.26.2",
+          "in_progress": false,
+          "latest_version": "1.33.0",
+          "release_summary": null,
+          "release_url": "https://github.com/hacs/integration/releases/1.33.0",
+          "skipped_version": null,
+          "title": null,
+          "entity_picture": "https://brands.home-assistant.io/_/hacs/icon.png",
+          "friendly_name": "HACS update",
+          "supported_features": 21
+        },
+        "last_changed": "2023-11-01T07:59:22.328070+00:00",
+        "last_updated": "2023-11-01T07:59:22.328070+00:00",
+        "context": {
+          "id": "01HE4Y9T6R4MJ68MZK54E7XB20",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2023-11-01T09:45:26.868382+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "update.browser_mod_update",
+        "state": "on",
+        "attributes": {
+          "auto_update": false,
+          "installed_version": "1.5.3",
+          "in_progress": false,
+          "latest_version": "2.3.0",
+          "release_summary": null,
+          "release_url": "https://github.com/thomasloven/hass-browser_mod/releases/2.3.0",
+          "skipped_version": null,
+          "title": null,
+          "entity_picture": "https://brands.home-assistant.io/_/browser_mod/icon.png",
+          "friendly_name": "browser_mod update",
+          "supported_features": 21
+        },
+        "last_changed": "2023-11-01T07:59:22.331185+00:00",
+        "last_updated": "2023-11-01T07:59:22.331185+00:00",
+        "context": {
+          "id": "01HE4Y9T6VJ8PC5NF9GBBQZHM5",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2023-11-01T09:45:26.868382+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "update.roomba_vacuum_card_update",
+        "state": "off",
+        "attributes": {
+          "auto_update": false,
+          "installed_version": "0.11",
+          "in_progress": false,
+          "latest_version": "0.11",
+          "release_summary": null,
+          "release_url": "https://github.com/jeremywillans/lovelace-roomba-vacuum-card/releases/0.11",
+          "skipped_version": null,
+          "title": null,
+          "friendly_name": "Roomba Vacuum Card update",
+          "supported_features": 21
+        },
+        "last_changed": "2023-11-01T07:59:22.332060+00:00",
+        "last_updated": "2023-11-01T07:59:22.332060+00:00",
+        "context": {
+          "id": "01HE4Y9T6WJXVCMPSN4W46TMME",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2023-11-01T09:45:26.868382+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "update.lg_webos_remote_control_update",
+        "state": "on",
+        "attributes": {
+          "auto_update": false,
+          "installed_version": "a9f37d0",
+          "in_progress": false,
+          "latest_version": "1.1.3",
+          "release_summary": null,
+          "release_url": "https://github.com/madmicio/LG-WebOS-Remote-Control/releases/1.1.3",
+          "skipped_version": null,
+          "title": null,
+          "friendly_name": "LG WebOS Remote Control update",
+          "supported_features": 21
+        },
+        "last_changed": "2023-11-01T07:59:22.333234+00:00",
+        "last_updated": "2023-11-01T07:59:22.333234+00:00",
+        "context": {
+          "id": "01HE4Y9T6X4PHR95BA9NDG9JVX",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2023-11-01T09:45:26.868382+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "update.lg_webos_channel_pad_update",
+        "state": "off",
+        "attributes": {
+          "auto_update": false,
+          "installed_version": "abdbcc9",
+          "in_progress": false,
+          "latest_version": "abdbcc9",
+          "release_summary": null,
+          "release_url": "https://github.com/madmicio/channel-pad",
+          "skipped_version": null,
+          "title": null,
+          "friendly_name": "LG WebOS channel pad update",
+          "supported_features": 21
+        },
+        "last_changed": "2023-11-01T07:59:22.334078+00:00",
+        "last_updated": "2023-11-01T07:59:22.334078+00:00",
+        "context": {
+          "id": "01HE4Y9T6YD1941MHC6M2GVK95",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2023-11-01T09:45:26.868382+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "update.card_mod_update",
+        "state": "on",
+        "attributes": {
+          "auto_update": false,
+          "installed_version": "3.2.0",
+          "in_progress": false,
+          "latest_version": "3.2.3",
+          "release_summary": null,
+          "release_url": "https://github.com/thomasloven/lovelace-card-mod/releases/3.2.3",
+          "skipped_version": null,
+          "title": null,
+          "friendly_name": "card-mod update",
+          "supported_features": 21
+        },
+        "last_changed": "2023-11-01T07:59:22.336855+00:00",
+        "last_updated": "2023-11-01T07:59:22.336855+00:00",
+        "context": {
+          "id": "01HE4Y9T70AKXDJRX7VD11D6NS",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2023-11-01T09:45:26.868382+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "update.mushroom_update",
+        "state": "on",
+        "attributes": {
+          "auto_update": false,
+          "installed_version": "v2.3.6",
+          "in_progress": false,
+          "latest_version": "v3.1.0",
+          "release_summary": null,
+          "release_url": "https://github.com/piitaya/lovelace-mushroom/releases/v3.1.0",
+          "skipped_version": null,
+          "title": null,
+          "friendly_name": "Mushroom update",
+          "supported_features": 21
+        },
+        "last_changed": "2023-11-01T07:59:22.341903+00:00",
+        "last_updated": "2023-11-01T07:59:22.341903+00:00",
+        "context": {
+          "id": "01HE4Y9T75QQP7NQSY21D2G7A8",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2023-11-01T09:45:26.868382+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "update.cyberpunk_2077_theme_update",
+        "state": "off",
+        "attributes": {
+          "auto_update": false,
+          "installed_version": "0.0.4",
+          "in_progress": false,
+          "latest_version": "0.0.4",
+          "release_summary": null,
+          "release_url": "https://github.com/flejz/hass-cyberpunk-2077-theme/releases/0.0.4",
+          "skipped_version": null,
+          "title": null,
+          "friendly_name": "Cyberpunk 2077 Theme update",
+          "supported_features": 21
+        },
+        "last_changed": "2023-11-01T07:59:22.342818+00:00",
+        "last_updated": "2023-11-01T07:59:22.342818+00:00",
+        "context": {
+          "id": "01HE4Y9T763ENQW67X0TD4Q1TY",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2023-11-01T09:45:26.868382+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "button.wled_lroom_corner_restart",
+        "state": "unknown",
+        "attributes": {
+          "device_class": "restart",
+          "friendly_name": "wled-lroom-corner Restart"
+        },
+        "last_changed": "2023-11-01T07:59:32.788504+00:00",
+        "last_updated": "2023-11-01T07:59:32.788504+00:00",
+        "context": {
+          "id": "01HE4YA4DMM8045GWSNH1218H6",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2023-11-01T09:45:26.868382+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "update.wled_lroom_corner_firmware",
+        "state": "unknown",
+        "attributes": {
+          "auto_update": false,
+          "installed_version": "0.13.3",
+          "in_progress": false,
+          "latest_version": null,
+          "release_summary": null,
+          "release_url": null,
+          "skipped_version": null,
+          "title": "WLED",
+          "device_class": "firmware",
+          "entity_picture": "https://brands.home-assistant.io/_/wled/icon.png",
+          "friendly_name": "wled-lroom-corner Firmware",
+          "supported_features": 3
+        },
+        "last_changed": "2023-11-01T07:59:32.818193+00:00",
+        "last_updated": "2023-11-01T07:59:32.818193+00:00",
+        "context": {
+          "id": "01HE4YA4EJ19XJPYH62YQ0C1VY",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2023-11-01T09:45:26.868382+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "button.wled_kitchen_ceiling_1_restart",
+        "state": "unknown",
+        "attributes": {
+          "device_class": "restart",
+          "friendly_name": "wled-kitchen-ceiling-1 Restart"
+        },
+        "last_changed": "2023-11-01T07:59:32.822400+00:00",
+        "last_updated": "2023-11-01T07:59:32.822400+00:00",
+        "context": {
+          "id": "01HE4YA4EPCJ2D86B3N21EE5QJ",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2023-11-01T09:45:26.868382+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "update.wled_kitchen_ceiling_1_firmware",
+        "state": "unknown",
+        "attributes": {
+          "auto_update": false,
+          "installed_version": "0.13.3",
+          "in_progress": false,
+          "latest_version": null,
+          "release_summary": null,
+          "release_url": null,
+          "skipped_version": null,
+          "title": "WLED",
+          "device_class": "firmware",
+          "entity_picture": "https://brands.home-assistant.io/_/wled/icon.png",
+          "friendly_name": "wled-kitchen-ceiling-1 Firmware",
+          "supported_features": 3
+        },
+        "last_changed": "2023-11-01T07:59:32.849735+00:00",
+        "last_updated": "2023-11-01T07:59:32.849735+00:00",
+        "context": {
+          "id": "01HE4YA4FHEEV1XKN681ESSQVE",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2023-11-01T09:45:26.868382+00:00"
     },
     {
       "state": {
@@ -1181,7 +1616,7 @@
         "state": "unknown",
         "attributes": {
           "state_class": "measurement",
-          "unit_of_measurement": "\u00b0C",
+          "unit_of_measurement": "°C",
           "device_class": "temperature",
           "friendly_name": "temp-hum-sensor-external temperature"
         },
@@ -1195,7 +1630,7 @@
       },
       "extra_data": {
         "native_value": null,
-        "native_unit_of_measurement": "\u00b0C"
+        "native_unit_of_measurement": "°C"
       },
       "last_seen": "2023-10-31T21:56:08.751386+00:00"
     },
@@ -1253,7 +1688,7 @@
         "state": "unknown",
         "attributes": {
           "state_class": "measurement",
-          "unit_of_measurement": "\u00b0C",
+          "unit_of_measurement": "°C",
           "device_class": "temperature",
           "friendly_name": "kitcken-mov-sensor device temperature"
         },
@@ -1267,7 +1702,7 @@
       },
       "extra_data": {
         "native_value": null,
-        "native_unit_of_measurement": "\u00b0C"
+        "native_unit_of_measurement": "°C"
       },
       "last_seen": "2023-10-31T21:56:08.751386+00:00"
     },
@@ -2180,379 +2615,6 @@
         "last_updated": "2023-10-31T20:26:07.406460+00:00",
         "context": {
           "id": "01HE3PME5EDTSWVKT06738TSPD",
-          "parent_id": null,
-          "user_id": null
-        }
-      },
-      "extra_data": null,
-      "last_seen": "2023-10-31T21:56:08.751386+00:00"
-    },
-    {
-      "state": {
-        "entity_id": "update.hacs_update",
-        "state": "on",
-        "attributes": {
-          "auto_update": false,
-          "installed_version": "1.26.2",
-          "in_progress": false,
-          "latest_version": "1.33.0",
-          "release_summary": "<ha-alert alert-type='warning'>Requires Home Assistant 2023.6.0</ha-alert>",
-          "release_url": "https://github.com/hacs/integration/releases/1.33.0",
-          "skipped_version": null,
-          "title": null,
-          "entity_picture": "https://brands.home-assistant.io/_/hacs/icon.png",
-          "friendly_name": "HACS update",
-          "supported_features": 20
-        },
-        "last_changed": "2023-10-31T20:26:07.470895+00:00",
-        "last_updated": "2023-10-31T20:26:07.470895+00:00",
-        "context": {
-          "id": "01HE3PME7E12KXSGMD2RY2TYMJ",
-          "parent_id": null,
-          "user_id": null
-        }
-      },
-      "extra_data": null,
-      "last_seen": "2023-10-31T21:56:08.751386+00:00"
-    },
-    {
-      "state": {
-        "entity_id": "update.browser_mod_update",
-        "state": "on",
-        "attributes": {
-          "auto_update": false,
-          "installed_version": "1.5.3",
-          "in_progress": false,
-          "latest_version": "2.3.0",
-          "release_summary": "<ha-alert alert-type='warning'>Requires Home Assistant 2023.4.0</ha-alert>",
-          "release_url": "https://github.com/thomasloven/hass-browser_mod/releases/2.3.0",
-          "skipped_version": null,
-          "title": null,
-          "entity_picture": "https://brands.home-assistant.io/_/browser_mod/icon.png",
-          "friendly_name": "browser_mod update",
-          "supported_features": 20
-        },
-        "last_changed": "2023-10-31T20:26:07.471013+00:00",
-        "last_updated": "2023-10-31T20:26:07.471013+00:00",
-        "context": {
-          "id": "01HE3PME7FN777CP5402VB1A2W",
-          "parent_id": null,
-          "user_id": null
-        }
-      },
-      "extra_data": null,
-      "last_seen": "2023-10-31T21:56:08.751386+00:00"
-    },
-    {
-      "state": {
-        "entity_id": "update.roomba_vacuum_card_update",
-        "state": "off",
-        "attributes": {
-          "auto_update": false,
-          "installed_version": "0.11",
-          "in_progress": false,
-          "latest_version": "0.11",
-          "release_summary": null,
-          "release_url": "https://github.com/jeremywillans/lovelace-roomba-vacuum-card/releases/0.11",
-          "skipped_version": null,
-          "title": null,
-          "friendly_name": "Roomba Vacuum Card update",
-          "supported_features": 21
-        },
-        "last_changed": "2023-10-31T20:26:07.471074+00:00",
-        "last_updated": "2023-10-31T20:26:07.471074+00:00",
-        "context": {
-          "id": "01HE3PME7FZ6GVE4K1H0GYRAAG",
-          "parent_id": null,
-          "user_id": null
-        }
-      },
-      "extra_data": null,
-      "last_seen": "2023-10-31T21:56:08.751386+00:00"
-    },
-    {
-      "state": {
-        "entity_id": "update.lg_webos_remote_control_update",
-        "state": "on",
-        "attributes": {
-          "auto_update": false,
-          "installed_version": "a9f37d0",
-          "in_progress": false,
-          "latest_version": "1.1.3",
-          "release_summary": null,
-          "release_url": "https://github.com/madmicio/LG-WebOS-Remote-Control/releases/1.1.3",
-          "skipped_version": null,
-          "title": null,
-          "friendly_name": "LG WebOS Remote Control update",
-          "supported_features": 21
-        },
-        "last_changed": "2023-10-31T20:26:07.471156+00:00",
-        "last_updated": "2023-10-31T20:26:07.471156+00:00",
-        "context": {
-          "id": "01HE3PME7FRWFQXT1P7ZDSNQES",
-          "parent_id": null,
-          "user_id": null
-        }
-      },
-      "extra_data": null,
-      "last_seen": "2023-10-31T21:56:08.751386+00:00"
-    },
-    {
-      "state": {
-        "entity_id": "update.lg_webos_channel_pad_update",
-        "state": "off",
-        "attributes": {
-          "auto_update": false,
-          "installed_version": "abdbcc9",
-          "in_progress": false,
-          "latest_version": "abdbcc9",
-          "release_summary": null,
-          "release_url": "https://github.com/madmicio/channel-pad",
-          "skipped_version": null,
-          "title": null,
-          "friendly_name": "LG WebOS channel pad update",
-          "supported_features": 21
-        },
-        "last_changed": "2023-10-31T20:26:07.471216+00:00",
-        "last_updated": "2023-10-31T20:26:07.471216+00:00",
-        "context": {
-          "id": "01HE3PME7FTCBMST0BJZ50CZPZ",
-          "parent_id": null,
-          "user_id": null
-        }
-      },
-      "extra_data": null,
-      "last_seen": "2023-10-31T21:56:08.751386+00:00"
-    },
-    {
-      "state": {
-        "entity_id": "update.card_mod_update",
-        "state": "on",
-        "attributes": {
-          "auto_update": false,
-          "installed_version": "3.2.0",
-          "in_progress": false,
-          "latest_version": "3.2.3",
-          "release_summary": "<ha-alert alert-type='warning'>Requires Home Assistant 2023.10.0b3</ha-alert>",
-          "release_url": "https://github.com/thomasloven/lovelace-card-mod/releases/3.2.3",
-          "skipped_version": null,
-          "title": null,
-          "friendly_name": "card-mod update",
-          "supported_features": 20
-        },
-        "last_changed": "2023-10-31T20:26:07.471324+00:00",
-        "last_updated": "2023-10-31T20:26:07.471324+00:00",
-        "context": {
-          "id": "01HE3PME7F5J5KP73NWACANZ2Y",
-          "parent_id": null,
-          "user_id": null
-        }
-      },
-      "extra_data": null,
-      "last_seen": "2023-10-31T21:56:08.751386+00:00"
-    },
-    {
-      "state": {
-        "entity_id": "update.mushroom_update",
-        "state": "on",
-        "attributes": {
-          "auto_update": false,
-          "installed_version": "v2.3.6",
-          "in_progress": false,
-          "latest_version": "v3.1.0",
-          "release_summary": "<ha-alert alert-type='warning'>Requires Home Assistant 2023.7.0</ha-alert>",
-          "release_url": "https://github.com/piitaya/lovelace-mushroom/releases/v3.1.0",
-          "skipped_version": null,
-          "title": null,
-          "friendly_name": "Mushroom update",
-          "supported_features": 20
-        },
-        "last_changed": "2023-10-31T20:26:07.471420+00:00",
-        "last_updated": "2023-10-31T20:26:07.471420+00:00",
-        "context": {
-          "id": "01HE3PME7F9ZT5RMWWH5MYM3TN",
-          "parent_id": null,
-          "user_id": null
-        }
-      },
-      "extra_data": null,
-      "last_seen": "2023-10-31T21:56:08.751386+00:00"
-    },
-    {
-      "state": {
-        "entity_id": "update.cyberpunk_2077_theme_update",
-        "state": "off",
-        "attributes": {
-          "auto_update": false,
-          "installed_version": "0.0.4",
-          "in_progress": false,
-          "latest_version": "0.0.4",
-          "release_summary": null,
-          "release_url": "https://github.com/flejz/hass-cyberpunk-2077-theme/releases/0.0.4",
-          "skipped_version": null,
-          "title": null,
-          "friendly_name": "Cyberpunk 2077 Theme update",
-          "supported_features": 21
-        },
-        "last_changed": "2023-10-31T20:26:07.471475+00:00",
-        "last_updated": "2023-10-31T20:26:07.471475+00:00",
-        "context": {
-          "id": "01HE3PME7FD7QVNNW4N0B3M0HB",
-          "parent_id": null,
-          "user_id": null
-        }
-      },
-      "extra_data": null,
-      "last_seen": "2023-10-31T21:56:08.751386+00:00"
-    },
-    {
-      "state": {
-        "entity_id": "button.wled_lroom_corner_restart",
-        "state": "unknown",
-        "attributes": {
-          "device_class": "restart",
-          "friendly_name": "wled-lroom-corner Restart"
-        },
-        "last_changed": "2023-10-31T20:26:07.481844+00:00",
-        "last_updated": "2023-10-31T20:26:07.481844+00:00",
-        "context": {
-          "id": "01HE3PME7SFX6C785Y2PE8SXQE",
-          "parent_id": null,
-          "user_id": null
-        }
-      },
-      "extra_data": null,
-      "last_seen": "2023-10-31T21:56:08.751386+00:00"
-    },
-    {
-      "state": {
-        "entity_id": "update.wled_lroom_corner_firmware",
-        "state": "on",
-        "attributes": {
-          "auto_update": false,
-          "installed_version": "0.13.3",
-          "in_progress": false,
-          "latest_version": "0.14.0",
-          "release_summary": null,
-          "release_url": "https://github.com/Aircoookie/WLED/releases/tag/v0.14.0",
-          "skipped_version": null,
-          "title": "WLED",
-          "device_class": "firmware",
-          "entity_picture": "https://brands.home-assistant.io/_/wled/icon.png",
-          "friendly_name": "wled-lroom-corner Firmware",
-          "supported_features": 3
-        },
-        "last_changed": "2023-10-31T20:26:17.112610+00:00",
-        "last_updated": "2023-10-31T20:26:17.112610+00:00",
-        "context": {
-          "id": "01HE3PMQMR4HP7783PQGWZH4NR",
-          "parent_id": null,
-          "user_id": null
-        }
-      },
-      "extra_data": null,
-      "last_seen": "2023-10-31T21:56:08.751386+00:00"
-    },
-    {
-      "state": {
-        "entity_id": "button.wled_kitchen_ceiling_1_restart",
-        "state": "unknown",
-        "attributes": {
-          "device_class": "restart",
-          "friendly_name": "wled-kitchen-ceiling-1 Restart"
-        },
-        "last_changed": "2023-10-31T20:26:07.502462+00:00",
-        "last_updated": "2023-10-31T20:26:07.502462+00:00",
-        "context": {
-          "id": "01HE3PME8E5CJY3F6MFVHM999K",
-          "parent_id": null,
-          "user_id": null
-        }
-      },
-      "extra_data": null,
-      "last_seen": "2023-10-31T21:56:08.751386+00:00"
-    },
-    {
-      "state": {
-        "entity_id": "update.wled_kitchen_ceiling_1_firmware",
-        "state": "on",
-        "attributes": {
-          "auto_update": false,
-          "installed_version": "0.13.3",
-          "in_progress": false,
-          "latest_version": "0.14.0",
-          "release_summary": null,
-          "release_url": "https://github.com/Aircoookie/WLED/releases/tag/v0.14.0",
-          "skipped_version": null,
-          "title": "WLED",
-          "device_class": "firmware",
-          "entity_picture": "https://brands.home-assistant.io/_/wled/icon.png",
-          "friendly_name": "wled-kitchen-ceiling-1 Firmware",
-          "supported_features": 3
-        },
-        "last_changed": "2023-10-31T20:26:17.276712+00:00",
-        "last_updated": "2023-10-31T20:26:17.276712+00:00",
-        "context": {
-          "id": "01HE3PMQSW9S5XGJ3J93M2WZ56",
-          "parent_id": null,
-          "user_id": null
-        }
-      },
-      "extra_data": null,
-      "last_seen": "2023-10-31T21:56:08.751386+00:00"
-    },
-    {
-      "state": {
-        "entity_id": "media_player.lg_webos_smart_tv",
-        "state": "on",
-        "attributes": {
-          "source_list": [
-            "Amazon Alexa",
-            "Apple TV",
-            "BBC iPlayer",
-            "Brasil Play",
-            "Channel 4",
-            "Disney+",
-            "GALLERY",
-            "Google Play Movies & TV",
-            "HDMI 2",
-            "HDMI 3",
-            "HDMI 4",
-            "ITVX",
-            "LG Channels",
-            "LG Content Store",
-            "Live TV",
-            "Music",
-            "My5",
-            "NOW",
-            "Netflix",
-            "Nintendo Switch",
-            "Photo & Video",
-            "Pluto TV",
-            "Prime Video",
-            "Rakuten TV",
-            "Sky Store",
-            "Spotify - Music and Podcasts",
-            "TV Cast",
-            "WOW",
-            "Web Browser",
-            "Web Video Caster",
-            "YouTube"
-          ],
-          "volume_level": 0.0,
-          "is_volume_muted": false,
-          "source": "Netflix",
-          "sound_output": "external_optical",
-          "assumed_state": true,
-          "device_class": "tv",
-          "entity_picture": "/api/media_player_proxy/media_player.lg_webos_smart_tv?token=726a241f36dd1dc344c5b169abcef8c3cd0763c1e45ad7d8782904cb66011ce7&cache=87fec0d3c9f211fd",
-          "friendly_name": "TV",
-          "supported_features": 24381
-        },
-        "last_changed": "2023-10-31T21:10:29.502560+00:00",
-        "last_updated": "2023-10-31T21:10:29.502560+00:00",
-        "context": {
-          "id": "01HE3S5NVYGXAFE2NWBBPP4WEH",
           "parent_id": null,
           "user_id": null
         }
