@@ -2,5 +2,1706 @@
   "version": 1,
   "minor_version": 1,
   "key": "trace.saved_traces",
-  "data": {}
+  "data": {
+    "automation.1662667912082": [
+      {
+        "extended_dict": {
+          "last_step": "action/0",
+          "run_id": "dc33fc5496bea0d3e016dca992c50953",
+          "state": "stopped",
+          "script_execution": "finished",
+          "timestamp": {
+            "start": "2024-11-23T11:11:28.015319+00:00",
+            "finish": "2024-11-23T11:11:28.022747+00:00"
+          },
+          "domain": "automation",
+          "item_id": "1662667912082",
+          "trigger": "state of binary_sensor.kitchen_motion_sensor_occupancy",
+          "trace": {
+            "trigger/0": [
+              {
+                "path": "trigger/0",
+                "timestamp": "2024-11-23T11:11:28.015395+00:00",
+                "changed_variables": {
+                  "this": {
+                    "entity_id": "automation.kitchen_lights_off_on_movement_not_detected",
+                    "state": "on",
+                    "attributes": {
+                      "id": "1662667912082",
+                      "last_triggered": "2024-11-23T09:41:26.902521+00:00",
+                      "mode": "single",
+                      "current": 0,
+                      "friendly_name": "Turn off Counter lights when movement is not detected for a while"
+                    },
+                    "last_changed": "2024-11-23T10:47:11.458802+00:00",
+                    "last_reported": "2024-11-23T10:47:11.458802+00:00",
+                    "last_updated": "2024-11-23T10:47:11.458802+00:00",
+                    "context": {
+                      "id": "01JDCA3ZB2P1ET9PM4N1PFHA00",
+                      "parent_id": null,
+                      "user_id": null
+                    }
+                  },
+                  "trigger": {
+                    "id": "0",
+                    "idx": "0",
+                    "alias": null,
+                    "platform": "device",
+                    "entity_id": "binary_sensor.kitchen_motion_sensor_occupancy",
+                    "from_state": {
+                      "entity_id": "binary_sensor.kitchen_motion_sensor_occupancy",
+                      "state": "on",
+                      "attributes": {
+                        "battery": 100,
+                        "device_temperature": 30,
+                        "illuminance": 33,
+                        "illuminance_lux": 33,
+                        "linkquality": 105,
+                        "occupancy": true,
+                        "power_outage_count": 10,
+                        "voltage": 3025,
+                        "device_class": "occupancy",
+                        "friendly_name": "Kitchen Motion Sensor Occupancy"
+                      },
+                      "last_changed": "2024-11-23T11:05:28.005159+00:00",
+                      "last_reported": "2024-11-23T11:05:28.006302+00:00",
+                      "last_updated": "2024-11-23T11:05:28.006302+00:00",
+                      "context": {
+                        "id": "01JDCB5E66P9FBFEVHGW0VM2AQ",
+                        "parent_id": null,
+                        "user_id": null
+                      }
+                    },
+                    "to_state": {
+                      "entity_id": "binary_sensor.kitchen_motion_sensor_occupancy",
+                      "state": "off",
+                      "attributes": {
+                        "battery": 100,
+                        "device_temperature": 30,
+                        "illuminance": 33,
+                        "illuminance_lux": 33,
+                        "linkquality": 105,
+                        "occupancy": false,
+                        "power_outage_count": 10,
+                        "voltage": 3025,
+                        "device_class": "occupancy",
+                        "friendly_name": "Kitchen Motion Sensor Occupancy"
+                      },
+                      "last_changed": "2024-11-23T11:06:28.013407+00:00",
+                      "last_reported": "2024-11-23T11:06:28.013407+00:00",
+                      "last_updated": "2024-11-23T11:06:28.013407+00:00",
+                      "context": {
+                        "id": "01JDCB78SDNC3R3F1JDEC22MXJ",
+                        "parent_id": null,
+                        "user_id": null
+                      }
+                    },
+                    "for": {
+                      "__type": "<class 'datetime.timedelta'>",
+                      "total_seconds": 300.0
+                    },
+                    "attribute": null,
+                    "description": "state of binary_sensor.kitchen_motion_sensor_occupancy"
+                  }
+                }
+              }
+            ],
+            "condition/0": [
+              {
+                "path": "condition/0",
+                "timestamp": "2024-11-23T11:11:28.015457+00:00",
+                "result": {
+                  "result": true
+                }
+              },
+              {
+                "path": "condition/0",
+                "timestamp": "2024-11-23T11:11:28.015493+00:00",
+                "result": {
+                  "result": true
+                }
+              }
+            ],
+            "condition/0/entity_id/0": [
+              {
+                "path": "condition/0/entity_id/0",
+                "timestamp": "2024-11-23T11:11:28.015525+00:00",
+                "result": {
+                  "result": true,
+                  "state": "on",
+                  "wanted_state": "on"
+                }
+              }
+            ],
+            "action/0": [
+              {
+                "path": "action/0",
+                "timestamp": "2024-11-23T11:11:28.016093+00:00",
+                "changed_variables": {
+                  "context": {
+                    "id": "01JDCBGDRFF4GZCHSBP3MYYR39",
+                    "parent_id": "01JDCB78SDNC3R3F1JDEC22MXJ",
+                    "user_id": null
+                  }
+                }
+              }
+            ]
+          },
+          "config": {
+            "id": "1662667912082",
+            "alias": "Turn off Counter lights when movement is not detected for a while",
+            "description": "",
+            "trigger": [
+              {
+                "type": "no_motion",
+                "platform": "device",
+                "device_id": "b5b82ec695758901879fc898e0c05502",
+                "entity_id": "2913f47a72dbf0bdcd37c960b544b8c6",
+                "domain": "binary_sensor",
+                "for": {
+                  "hours": 0,
+                  "minutes": 5,
+                  "seconds": 0
+                }
+              }
+            ],
+            "condition": [
+              {
+                "condition": "device",
+                "type": "is_on",
+                "device_id": "f42749587d13d491e0c31f2d91abdf6f",
+                "entity_id": "5662e243cd72c1e3a1f58a2feedc3b0f",
+                "domain": "switch"
+              }
+            ],
+            "action": [
+              {
+                "type": "turn_off",
+                "device_id": "f42749587d13d491e0c31f2d91abdf6f",
+                "entity_id": "5662e243cd72c1e3a1f58a2feedc3b0f",
+                "domain": "switch"
+              }
+            ],
+            "mode": "single"
+          },
+          "blueprint_inputs": null,
+          "context": {
+            "id": "01JDCBGDRFF4GZCHSBP3MYYR39",
+            "parent_id": "01JDCB78SDNC3R3F1JDEC22MXJ",
+            "user_id": null
+          }
+        },
+        "short_dict": {
+          "last_step": "action/0",
+          "run_id": "dc33fc5496bea0d3e016dca992c50953",
+          "state": "stopped",
+          "script_execution": "finished",
+          "timestamp": {
+            "start": "2024-11-23T11:11:28.015319+00:00",
+            "finish": "2024-11-23T11:11:28.022747+00:00"
+          },
+          "domain": "automation",
+          "item_id": "1662667912082",
+          "trigger": "state of binary_sensor.kitchen_motion_sensor_occupancy"
+        }
+      },
+      {
+        "extended_dict": {
+          "last_step": "condition/0/entity_id/0",
+          "run_id": "4975ef0065b70c2514f1edac3239875b",
+          "state": "stopped",
+          "script_execution": "failed_conditions",
+          "timestamp": {
+            "start": "2024-11-23T11:22:37.409866+00:00",
+            "finish": "2024-11-23T11:22:37.410270+00:00"
+          },
+          "domain": "automation",
+          "item_id": "1662667912082",
+          "trigger": "state of binary_sensor.kitchen_motion_sensor_occupancy",
+          "trace": {
+            "trigger/0": [
+              {
+                "path": "trigger/0",
+                "timestamp": "2024-11-23T11:22:37.409971+00:00",
+                "changed_variables": {
+                  "this": {
+                    "entity_id": "automation.kitchen_lights_off_on_movement_not_detected",
+                    "state": "on",
+                    "attributes": {
+                      "id": "1662667912082",
+                      "last_triggered": "2024-11-23T11:11:28.015743+00:00",
+                      "mode": "single",
+                      "current": 0,
+                      "friendly_name": "Turn off Counter lights when movement is not detected for a while"
+                    },
+                    "last_changed": "2024-11-23T11:13:20.567178+00:00",
+                    "last_reported": "2024-11-23T11:13:20.567178+00:00",
+                    "last_updated": "2024-11-23T11:13:20.567178+00:00",
+                    "context": {
+                      "id": "01JDCBKVNQQNKZ4F6CDBDWH2Y5",
+                      "parent_id": null,
+                      "user_id": null
+                    }
+                  },
+                  "trigger": {
+                    "id": "0",
+                    "idx": "0",
+                    "alias": null,
+                    "platform": "device",
+                    "entity_id": "binary_sensor.kitchen_motion_sensor_occupancy",
+                    "from_state": {
+                      "entity_id": "binary_sensor.kitchen_motion_sensor_occupancy",
+                      "state": "unavailable",
+                      "attributes": {
+                        "device_class": "occupancy",
+                        "friendly_name": "Kitchen Motion Sensor Occupancy"
+                      },
+                      "last_changed": "2024-11-23T11:17:25.778927+00:00",
+                      "last_reported": "2024-11-23T11:17:25.778927+00:00",
+                      "last_updated": "2024-11-23T11:17:25.778927+00:00",
+                      "context": {
+                        "id": "01JDCBVB4JB2H1S3TYZ7FXAFBA",
+                        "parent_id": null,
+                        "user_id": null
+                      }
+                    },
+                    "to_state": {
+                      "entity_id": "binary_sensor.kitchen_motion_sensor_occupancy",
+                      "state": "off",
+                      "attributes": {
+                        "battery": 100,
+                        "device_temperature": 30,
+                        "illuminance": 33,
+                        "illuminance_lux": 33,
+                        "linkquality": 105,
+                        "occupancy": false,
+                        "power_outage_count": 10,
+                        "voltage": 3025,
+                        "device_class": "occupancy",
+                        "friendly_name": "Kitchen Motion Sensor Occupancy"
+                      },
+                      "last_changed": "2024-11-23T11:17:37.406910+00:00",
+                      "last_reported": "2024-11-23T11:17:37.406910+00:00",
+                      "last_updated": "2024-11-23T11:17:37.406910+00:00",
+                      "context": {
+                        "id": "01JDCBVPFYGMJA6BYYBP83FKNK",
+                        "parent_id": null,
+                        "user_id": null
+                      }
+                    },
+                    "for": {
+                      "__type": "<class 'datetime.timedelta'>",
+                      "total_seconds": 300.0
+                    },
+                    "attribute": null,
+                    "description": "state of binary_sensor.kitchen_motion_sensor_occupancy"
+                  }
+                }
+              }
+            ],
+            "condition/0": [
+              {
+                "path": "condition/0",
+                "timestamp": "2024-11-23T11:22:37.410059+00:00",
+                "result": {
+                  "result": false
+                }
+              },
+              {
+                "path": "condition/0",
+                "timestamp": "2024-11-23T11:22:37.410107+00:00",
+                "result": {
+                  "result": false
+                }
+              }
+            ],
+            "condition/0/entity_id/0": [
+              {
+                "path": "condition/0/entity_id/0",
+                "timestamp": "2024-11-23T11:22:37.410149+00:00",
+                "result": {
+                  "result": false,
+                  "state": "off",
+                  "wanted_state": "on"
+                }
+              }
+            ]
+          },
+          "config": {
+            "id": "1662667912082",
+            "alias": "Turn off Counter lights when movement is not detected for a while",
+            "description": "",
+            "trigger": [
+              {
+                "type": "no_motion",
+                "platform": "device",
+                "device_id": "b5b82ec695758901879fc898e0c05502",
+                "entity_id": "2913f47a72dbf0bdcd37c960b544b8c6",
+                "domain": "binary_sensor",
+                "for": {
+                  "hours": 0,
+                  "minutes": 5,
+                  "seconds": 0
+                }
+              }
+            ],
+            "condition": [
+              {
+                "condition": "device",
+                "type": "is_on",
+                "device_id": "f42749587d13d491e0c31f2d91abdf6f",
+                "entity_id": "5662e243cd72c1e3a1f58a2feedc3b0f",
+                "domain": "switch"
+              }
+            ],
+            "action": [
+              {
+                "type": "turn_off",
+                "device_id": "f42749587d13d491e0c31f2d91abdf6f",
+                "entity_id": "5662e243cd72c1e3a1f58a2feedc3b0f",
+                "domain": "switch"
+              }
+            ],
+            "mode": "single"
+          },
+          "blueprint_inputs": null,
+          "context": {
+            "id": "01JDCC4VF1FKVMSJHG13BZ3YM9",
+            "parent_id": "01JDCBVPFYGMJA6BYYBP83FKNK",
+            "user_id": null
+          }
+        },
+        "short_dict": {
+          "last_step": "condition/0/entity_id/0",
+          "run_id": "4975ef0065b70c2514f1edac3239875b",
+          "state": "stopped",
+          "script_execution": "failed_conditions",
+          "timestamp": {
+            "start": "2024-11-23T11:22:37.409866+00:00",
+            "finish": "2024-11-23T11:22:37.410270+00:00"
+          },
+          "domain": "automation",
+          "item_id": "1662667912082",
+          "trigger": "state of binary_sensor.kitchen_motion_sensor_occupancy"
+        }
+      },
+      {
+        "extended_dict": {
+          "last_step": "condition/0/entity_id/0",
+          "run_id": "ca035fc8912844764e384d7ae5ac027d",
+          "state": "stopped",
+          "script_execution": "failed_conditions",
+          "timestamp": {
+            "start": "2024-11-23T11:38:57.476329+00:00",
+            "finish": "2024-11-23T11:38:57.476625+00:00"
+          },
+          "domain": "automation",
+          "item_id": "1662667912082",
+          "trigger": "state of binary_sensor.kitchen_motion_sensor_occupancy",
+          "trace": {
+            "trigger/0": [
+              {
+                "path": "trigger/0",
+                "timestamp": "2024-11-23T11:38:57.476398+00:00",
+                "changed_variables": {
+                  "this": {
+                    "entity_id": "automation.kitchen_lights_off_on_movement_not_detected",
+                    "state": "on",
+                    "attributes": {
+                      "id": "1662667912082",
+                      "last_triggered": "2024-11-23T11:11:28.015743+00:00",
+                      "mode": "single",
+                      "current": 0,
+                      "friendly_name": "Turn off Counter lights when movement is not detected for a while"
+                    },
+                    "last_changed": "2024-11-23T11:13:20.567178+00:00",
+                    "last_reported": "2024-11-23T11:13:20.567178+00:00",
+                    "last_updated": "2024-11-23T11:13:20.567178+00:00",
+                    "context": {
+                      "id": "01JDCBKVNQQNKZ4F6CDBDWH2Y5",
+                      "parent_id": null,
+                      "user_id": null
+                    }
+                  },
+                  "trigger": {
+                    "id": "0",
+                    "idx": "0",
+                    "alias": null,
+                    "platform": "device",
+                    "entity_id": "binary_sensor.kitchen_motion_sensor_occupancy",
+                    "from_state": {
+                      "entity_id": "binary_sensor.kitchen_motion_sensor_occupancy",
+                      "state": "on",
+                      "attributes": {
+                        "battery": 100,
+                        "device_temperature": 30,
+                        "illuminance": 30,
+                        "illuminance_lux": 30,
+                        "linkquality": 108,
+                        "occupancy": true,
+                        "power_outage_count": 10,
+                        "voltage": 3025,
+                        "device_class": "occupancy",
+                        "friendly_name": "Kitchen Motion Sensor Occupancy"
+                      },
+                      "last_changed": "2024-11-23T11:32:57.468620+00:00",
+                      "last_reported": "2024-11-23T11:32:57.468620+00:00",
+                      "last_updated": "2024-11-23T11:32:57.468620+00:00",
+                      "context": {
+                        "id": "01JDCCQRZW33HA7D8YNT8F2MZ9",
+                        "parent_id": null,
+                        "user_id": null
+                      }
+                    },
+                    "to_state": {
+                      "entity_id": "binary_sensor.kitchen_motion_sensor_occupancy",
+                      "state": "off",
+                      "attributes": {
+                        "battery": 100,
+                        "device_temperature": 30,
+                        "illuminance": 30,
+                        "illuminance_lux": 30,
+                        "linkquality": 108,
+                        "occupancy": false,
+                        "power_outage_count": 10,
+                        "voltage": 3025,
+                        "device_class": "occupancy",
+                        "friendly_name": "Kitchen Motion Sensor Occupancy"
+                      },
+                      "last_changed": "2024-11-23T11:33:57.474477+00:00",
+                      "last_reported": "2024-11-23T11:33:57.474477+00:00",
+                      "last_updated": "2024-11-23T11:33:57.474477+00:00",
+                      "context": {
+                        "id": "01JDCCSKK2998Z6J4Q6HBXXGC0",
+                        "parent_id": null,
+                        "user_id": null
+                      }
+                    },
+                    "for": {
+                      "__type": "<class 'datetime.timedelta'>",
+                      "total_seconds": 300.0
+                    },
+                    "attribute": null,
+                    "description": "state of binary_sensor.kitchen_motion_sensor_occupancy"
+                  }
+                }
+              }
+            ],
+            "condition/0": [
+              {
+                "path": "condition/0",
+                "timestamp": "2024-11-23T11:38:57.476461+00:00",
+                "result": {
+                  "result": false
+                }
+              },
+              {
+                "path": "condition/0",
+                "timestamp": "2024-11-23T11:38:57.476495+00:00",
+                "result": {
+                  "result": false
+                }
+              }
+            ],
+            "condition/0/entity_id/0": [
+              {
+                "path": "condition/0/entity_id/0",
+                "timestamp": "2024-11-23T11:38:57.476525+00:00",
+                "result": {
+                  "result": false,
+                  "state": "off",
+                  "wanted_state": "on"
+                }
+              }
+            ]
+          },
+          "config": {
+            "id": "1662667912082",
+            "alias": "Turn off Counter lights when movement is not detected for a while",
+            "description": "",
+            "trigger": [
+              {
+                "type": "no_motion",
+                "platform": "device",
+                "device_id": "b5b82ec695758901879fc898e0c05502",
+                "entity_id": "2913f47a72dbf0bdcd37c960b544b8c6",
+                "domain": "binary_sensor",
+                "for": {
+                  "hours": 0,
+                  "minutes": 5,
+                  "seconds": 0
+                }
+              }
+            ],
+            "condition": [
+              {
+                "condition": "device",
+                "type": "is_on",
+                "device_id": "f42749587d13d491e0c31f2d91abdf6f",
+                "entity_id": "5662e243cd72c1e3a1f58a2feedc3b0f",
+                "domain": "switch"
+              }
+            ],
+            "action": [
+              {
+                "type": "turn_off",
+                "device_id": "f42749587d13d491e0c31f2d91abdf6f",
+                "entity_id": "5662e243cd72c1e3a1f58a2feedc3b0f",
+                "domain": "switch"
+              }
+            ],
+            "mode": "single"
+          },
+          "blueprint_inputs": null,
+          "context": {
+            "id": "01JDCD2RJ414KQV05KNCXDSBV8",
+            "parent_id": "01JDCCSKK2998Z6J4Q6HBXXGC0",
+            "user_id": null
+          }
+        },
+        "short_dict": {
+          "last_step": "condition/0/entity_id/0",
+          "run_id": "ca035fc8912844764e384d7ae5ac027d",
+          "state": "stopped",
+          "script_execution": "failed_conditions",
+          "timestamp": {
+            "start": "2024-11-23T11:38:57.476329+00:00",
+            "finish": "2024-11-23T11:38:57.476625+00:00"
+          },
+          "domain": "automation",
+          "item_id": "1662667912082",
+          "trigger": "state of binary_sensor.kitchen_motion_sensor_occupancy"
+        }
+      },
+      {
+        "extended_dict": {
+          "last_step": "action/0",
+          "run_id": "d1f763cb92138dd91f684d21fa33cc1f",
+          "state": "stopped",
+          "script_execution": "finished",
+          "timestamp": {
+            "start": "2024-11-23T11:50:24.200707+00:00",
+            "finish": "2024-11-23T11:50:24.206314+00:00"
+          },
+          "domain": "automation",
+          "item_id": "1662667912082",
+          "trigger": "state of binary_sensor.kitchen_motion_sensor_occupancy",
+          "trace": {
+            "trigger/0": [
+              {
+                "path": "trigger/0",
+                "timestamp": "2024-11-23T11:50:24.200775+00:00",
+                "changed_variables": {
+                  "this": {
+                    "entity_id": "automation.kitchen_lights_off_on_movement_not_detected",
+                    "state": "on",
+                    "attributes": {
+                      "id": "1662667912082",
+                      "last_triggered": "2024-11-23T11:11:28.015743+00:00",
+                      "mode": "single",
+                      "current": 0,
+                      "friendly_name": "Turn off Counter lights when movement is not detected for a while"
+                    },
+                    "last_changed": "2024-11-23T11:13:20.567178+00:00",
+                    "last_reported": "2024-11-23T11:13:20.567178+00:00",
+                    "last_updated": "2024-11-23T11:13:20.567178+00:00",
+                    "context": {
+                      "id": "01JDCBKVNQQNKZ4F6CDBDWH2Y5",
+                      "parent_id": null,
+                      "user_id": null
+                    }
+                  },
+                  "trigger": {
+                    "id": "0",
+                    "idx": "0",
+                    "alias": null,
+                    "platform": "device",
+                    "entity_id": "binary_sensor.kitchen_motion_sensor_occupancy",
+                    "from_state": {
+                      "entity_id": "binary_sensor.kitchen_motion_sensor_occupancy",
+                      "state": "on",
+                      "attributes": {
+                        "battery": 100,
+                        "device_temperature": 29,
+                        "illuminance": 34,
+                        "illuminance_lux": 34,
+                        "linkquality": 102,
+                        "occupancy": true,
+                        "power_outage_count": 10,
+                        "voltage": 3025,
+                        "device_class": "occupancy",
+                        "friendly_name": "Kitchen Motion Sensor Occupancy"
+                      },
+                      "last_changed": "2024-11-23T11:44:24.196272+00:00",
+                      "last_reported": "2024-11-23T11:44:24.196272+00:00",
+                      "last_updated": "2024-11-23T11:44:24.196272+00:00",
+                      "context": {
+                        "id": "01JDCDCQM4H7XR2MW8DBY745ZC",
+                        "parent_id": null,
+                        "user_id": null
+                      }
+                    },
+                    "to_state": {
+                      "entity_id": "binary_sensor.kitchen_motion_sensor_occupancy",
+                      "state": "off",
+                      "attributes": {
+                        "battery": 100,
+                        "device_temperature": 29,
+                        "illuminance": 34,
+                        "illuminance_lux": 34,
+                        "linkquality": 102,
+                        "occupancy": false,
+                        "power_outage_count": 10,
+                        "voltage": 3025,
+                        "device_class": "occupancy",
+                        "friendly_name": "Kitchen Motion Sensor Occupancy"
+                      },
+                      "last_changed": "2024-11-23T11:45:24.198516+00:00",
+                      "last_reported": "2024-11-23T11:45:24.198516+00:00",
+                      "last_updated": "2024-11-23T11:45:24.198516+00:00",
+                      "context": {
+                        "id": "01JDCDEJ76VDZGHWS51GR2HJ88",
+                        "parent_id": null,
+                        "user_id": null
+                      }
+                    },
+                    "for": {
+                      "__type": "<class 'datetime.timedelta'>",
+                      "total_seconds": 300.0
+                    },
+                    "attribute": null,
+                    "description": "state of binary_sensor.kitchen_motion_sensor_occupancy"
+                  }
+                }
+              }
+            ],
+            "condition/0": [
+              {
+                "path": "condition/0",
+                "timestamp": "2024-11-23T11:50:24.200836+00:00",
+                "result": {
+                  "result": true
+                }
+              },
+              {
+                "path": "condition/0",
+                "timestamp": "2024-11-23T11:50:24.200871+00:00",
+                "result": {
+                  "result": true
+                }
+              }
+            ],
+            "condition/0/entity_id/0": [
+              {
+                "path": "condition/0/entity_id/0",
+                "timestamp": "2024-11-23T11:50:24.200904+00:00",
+                "result": {
+                  "result": true,
+                  "state": "on",
+                  "wanted_state": "on"
+                }
+              }
+            ],
+            "action/0": [
+              {
+                "path": "action/0",
+                "timestamp": "2024-11-23T11:50:24.201532+00:00",
+                "changed_variables": {
+                  "context": {
+                    "id": "01JDCDQQ68D9KHN3FT1926DJZX",
+                    "parent_id": "01JDCDEJ76VDZGHWS51GR2HJ88",
+                    "user_id": null
+                  }
+                }
+              }
+            ]
+          },
+          "config": {
+            "id": "1662667912082",
+            "alias": "Turn off Counter lights when movement is not detected for a while",
+            "description": "",
+            "trigger": [
+              {
+                "type": "no_motion",
+                "platform": "device",
+                "device_id": "b5b82ec695758901879fc898e0c05502",
+                "entity_id": "2913f47a72dbf0bdcd37c960b544b8c6",
+                "domain": "binary_sensor",
+                "for": {
+                  "hours": 0,
+                  "minutes": 5,
+                  "seconds": 0
+                }
+              }
+            ],
+            "condition": [
+              {
+                "condition": "device",
+                "type": "is_on",
+                "device_id": "f42749587d13d491e0c31f2d91abdf6f",
+                "entity_id": "5662e243cd72c1e3a1f58a2feedc3b0f",
+                "domain": "switch"
+              }
+            ],
+            "action": [
+              {
+                "type": "turn_off",
+                "device_id": "f42749587d13d491e0c31f2d91abdf6f",
+                "entity_id": "5662e243cd72c1e3a1f58a2feedc3b0f",
+                "domain": "switch"
+              }
+            ],
+            "mode": "single"
+          },
+          "blueprint_inputs": null,
+          "context": {
+            "id": "01JDCDQQ68D9KHN3FT1926DJZX",
+            "parent_id": "01JDCDEJ76VDZGHWS51GR2HJ88",
+            "user_id": null
+          }
+        },
+        "short_dict": {
+          "last_step": "action/0",
+          "run_id": "d1f763cb92138dd91f684d21fa33cc1f",
+          "state": "stopped",
+          "script_execution": "finished",
+          "timestamp": {
+            "start": "2024-11-23T11:50:24.200707+00:00",
+            "finish": "2024-11-23T11:50:24.206314+00:00"
+          },
+          "domain": "automation",
+          "item_id": "1662667912082",
+          "trigger": "state of binary_sensor.kitchen_motion_sensor_occupancy"
+        }
+      }
+    ],
+    "automation.1662411324262": [
+      {
+        "extended_dict": {
+          "last_step": "condition/0/entity_id/0",
+          "run_id": "2999523fa2514bf1d2bfec47ce64a766",
+          "state": "stopped",
+          "script_execution": "failed_conditions",
+          "timestamp": {
+            "start": "2024-11-23T11:00:47.254807+00:00",
+            "finish": "2024-11-23T11:00:47.254875+00:00"
+          },
+          "domain": "automation",
+          "item_id": "1662411324262",
+          "trigger": "state of binary_sensor.kitchen_motion_sensor_occupancy",
+          "trace": {
+            "trigger/0": [
+              {
+                "path": "trigger/0",
+                "timestamp": "2024-11-23T11:00:47.254824+00:00",
+                "changed_variables": {
+                  "this": {
+                    "entity_id": "automation.new_automation",
+                    "state": "on",
+                    "attributes": {
+                      "id": "1662411324262",
+                      "last_triggered": "2024-11-23T10:46:46.260463+00:00",
+                      "mode": "single",
+                      "current": 0,
+                      "friendly_name": "Turn on Counter lights when movement is detected"
+                    },
+                    "last_changed": "2024-11-23T10:47:11.458707+00:00",
+                    "last_reported": "2024-11-23T10:47:11.458707+00:00",
+                    "last_updated": "2024-11-23T10:47:11.458707+00:00",
+                    "context": {
+                      "id": "01JDCA3ZB2042WZZDCQZVBPHXV",
+                      "parent_id": null,
+                      "user_id": null
+                    }
+                  },
+                  "trigger": {
+                    "id": "0",
+                    "idx": "0",
+                    "alias": null,
+                    "platform": "device",
+                    "entity_id": "binary_sensor.kitchen_motion_sensor_occupancy",
+                    "from_state": {
+                      "entity_id": "binary_sensor.kitchen_motion_sensor_occupancy",
+                      "state": "off",
+                      "attributes": {
+                        "battery": 100,
+                        "device_temperature": 30,
+                        "illuminance": 30,
+                        "illuminance_lux": 30,
+                        "linkquality": 108,
+                        "occupancy": false,
+                        "power_outage_count": 10,
+                        "voltage": 3025,
+                        "device_class": "occupancy",
+                        "friendly_name": "Kitchen Motion Sensor Occupancy"
+                      },
+                      "last_changed": "2024-11-23T10:59:24.757121+00:00",
+                      "last_reported": "2024-11-23T10:59:24.757121+00:00",
+                      "last_updated": "2024-11-23T10:59:24.757121+00:00",
+                      "context": {
+                        "id": "01JDCATBENCZKEQ0J63MF0NN9J",
+                        "parent_id": null,
+                        "user_id": null
+                      }
+                    },
+                    "to_state": {
+                      "entity_id": "binary_sensor.kitchen_motion_sensor_occupancy",
+                      "state": "on",
+                      "attributes": {
+                        "battery": 100,
+                        "device_temperature": 30,
+                        "illuminance": 33,
+                        "illuminance_lux": 33,
+                        "linkquality": 99,
+                        "occupancy": true,
+                        "power_outage_count": 10,
+                        "voltage": 3025,
+                        "device_class": "occupancy",
+                        "friendly_name": "Kitchen Motion Sensor Occupancy"
+                      },
+                      "last_changed": "2024-11-23T11:00:47.254644+00:00",
+                      "last_reported": "2024-11-23T11:00:47.254644+00:00",
+                      "last_updated": "2024-11-23T11:00:47.254644+00:00",
+                      "context": {
+                        "id": "01JDCAWW0PJPP4NBVATSD8FS0C",
+                        "parent_id": null,
+                        "user_id": null
+                      }
+                    },
+                    "for": null,
+                    "attribute": null,
+                    "description": "state of binary_sensor.kitchen_motion_sensor_occupancy"
+                  }
+                }
+              }
+            ],
+            "condition/0": [
+              {
+                "path": "condition/0",
+                "timestamp": "2024-11-23T11:00:47.254840+00:00",
+                "result": {
+                  "result": false
+                }
+              },
+              {
+                "path": "condition/0",
+                "timestamp": "2024-11-23T11:00:47.254847+00:00",
+                "result": {
+                  "result": false
+                }
+              }
+            ],
+            "condition/0/entity_id/0": [
+              {
+                "path": "condition/0/entity_id/0",
+                "timestamp": "2024-11-23T11:00:47.254854+00:00",
+                "result": {
+                  "result": false,
+                  "state": "on",
+                  "wanted_state": "off"
+                }
+              }
+            ]
+          },
+          "config": {
+            "id": "1662411324262",
+            "alias": "Turn on Counter lights when movement is detected",
+            "description": "",
+            "trigger": [
+              {
+                "type": "motion",
+                "platform": "device",
+                "device_id": "b5b82ec695758901879fc898e0c05502",
+                "entity_id": "2913f47a72dbf0bdcd37c960b544b8c6",
+                "domain": "binary_sensor"
+              }
+            ],
+            "condition": [
+              {
+                "condition": "device",
+                "type": "is_off",
+                "device_id": "f42749587d13d491e0c31f2d91abdf6f",
+                "entity_id": "5662e243cd72c1e3a1f58a2feedc3b0f",
+                "domain": "switch"
+              }
+            ],
+            "action": [
+              {
+                "type": "turn_on",
+                "device_id": "f42749587d13d491e0c31f2d91abdf6f",
+                "entity_id": "5662e243cd72c1e3a1f58a2feedc3b0f",
+                "domain": "switch"
+              }
+            ],
+            "mode": "single"
+          },
+          "blueprint_inputs": null,
+          "context": {
+            "id": "01JDCAWW0PVFAFW1B4BJXH2VPH",
+            "parent_id": "01JDCAWW0PJPP4NBVATSD8FS0C",
+            "user_id": null
+          }
+        },
+        "short_dict": {
+          "last_step": "condition/0/entity_id/0",
+          "run_id": "2999523fa2514bf1d2bfec47ce64a766",
+          "state": "stopped",
+          "script_execution": "failed_conditions",
+          "timestamp": {
+            "start": "2024-11-23T11:00:47.254807+00:00",
+            "finish": "2024-11-23T11:00:47.254875+00:00"
+          },
+          "domain": "automation",
+          "item_id": "1662411324262",
+          "trigger": "state of binary_sensor.kitchen_motion_sensor_occupancy"
+        }
+      },
+      {
+        "extended_dict": {
+          "last_step": "condition/0/entity_id/0",
+          "run_id": "697b3c25f5415d7918014eccb296d0bc",
+          "state": "stopped",
+          "script_execution": "failed_conditions",
+          "timestamp": {
+            "start": "2024-11-23T11:05:28.005330+00:00",
+            "finish": "2024-11-23T11:05:28.005423+00:00"
+          },
+          "domain": "automation",
+          "item_id": "1662411324262",
+          "trigger": "state of binary_sensor.kitchen_motion_sensor_occupancy",
+          "trace": {
+            "trigger/0": [
+              {
+                "path": "trigger/0",
+                "timestamp": "2024-11-23T11:05:28.005347+00:00",
+                "changed_variables": {
+                  "this": {
+                    "entity_id": "automation.new_automation",
+                    "state": "on",
+                    "attributes": {
+                      "id": "1662411324262",
+                      "last_triggered": "2024-11-23T10:46:46.260463+00:00",
+                      "mode": "single",
+                      "current": 0,
+                      "friendly_name": "Turn on Counter lights when movement is detected"
+                    },
+                    "last_changed": "2024-11-23T10:47:11.458707+00:00",
+                    "last_reported": "2024-11-23T10:47:11.458707+00:00",
+                    "last_updated": "2024-11-23T10:47:11.458707+00:00",
+                    "context": {
+                      "id": "01JDCA3ZB2042WZZDCQZVBPHXV",
+                      "parent_id": null,
+                      "user_id": null
+                    }
+                  },
+                  "trigger": {
+                    "id": "0",
+                    "idx": "0",
+                    "alias": null,
+                    "platform": "device",
+                    "entity_id": "binary_sensor.kitchen_motion_sensor_occupancy",
+                    "from_state": {
+                      "entity_id": "binary_sensor.kitchen_motion_sensor_occupancy",
+                      "state": "off",
+                      "attributes": {
+                        "battery": 100,
+                        "device_temperature": 30,
+                        "illuminance": 33,
+                        "illuminance_lux": 33,
+                        "linkquality": 96,
+                        "occupancy": false,
+                        "power_outage_count": 10,
+                        "voltage": 3025,
+                        "device_class": "occupancy",
+                        "friendly_name": "Kitchen Motion Sensor Occupancy"
+                      },
+                      "last_changed": "2024-11-23T11:01:47.262556+00:00",
+                      "last_reported": "2024-11-23T11:01:47.262556+00:00",
+                      "last_updated": "2024-11-23T11:01:47.262556+00:00",
+                      "context": {
+                        "id": "01JDCAYPKYMK2C8MF69R186A37",
+                        "parent_id": null,
+                        "user_id": null
+                      }
+                    },
+                    "to_state": {
+                      "entity_id": "binary_sensor.kitchen_motion_sensor_occupancy",
+                      "state": "on",
+                      "attributes": {
+                        "battery": 100,
+                        "device_temperature": 30,
+                        "illuminance": 33,
+                        "illuminance_lux": 33,
+                        "linkquality": 99,
+                        "occupancy": true,
+                        "power_outage_count": 10,
+                        "voltage": 3025,
+                        "device_class": "occupancy",
+                        "friendly_name": "Kitchen Motion Sensor Occupancy"
+                      },
+                      "last_changed": "2024-11-23T11:05:28.005159+00:00",
+                      "last_reported": "2024-11-23T11:05:28.005159+00:00",
+                      "last_updated": "2024-11-23T11:05:28.005159+00:00",
+                      "context": {
+                        "id": "01JDCB5E65HMMF4060KDFCN3JM",
+                        "parent_id": null,
+                        "user_id": null
+                      }
+                    },
+                    "for": null,
+                    "attribute": null,
+                    "description": "state of binary_sensor.kitchen_motion_sensor_occupancy"
+                  }
+                }
+              }
+            ],
+            "condition/0": [
+              {
+                "path": "condition/0",
+                "timestamp": "2024-11-23T11:05:28.005361+00:00",
+                "result": {
+                  "result": false
+                }
+              },
+              {
+                "path": "condition/0",
+                "timestamp": "2024-11-23T11:05:28.005393+00:00",
+                "result": {
+                  "result": false
+                }
+              }
+            ],
+            "condition/0/entity_id/0": [
+              {
+                "path": "condition/0/entity_id/0",
+                "timestamp": "2024-11-23T11:05:28.005400+00:00",
+                "result": {
+                  "result": false,
+                  "state": "on",
+                  "wanted_state": "off"
+                }
+              }
+            ]
+          },
+          "config": {
+            "id": "1662411324262",
+            "alias": "Turn on Counter lights when movement is detected",
+            "description": "",
+            "trigger": [
+              {
+                "type": "motion",
+                "platform": "device",
+                "device_id": "b5b82ec695758901879fc898e0c05502",
+                "entity_id": "2913f47a72dbf0bdcd37c960b544b8c6",
+                "domain": "binary_sensor"
+              }
+            ],
+            "condition": [
+              {
+                "condition": "device",
+                "type": "is_off",
+                "device_id": "f42749587d13d491e0c31f2d91abdf6f",
+                "entity_id": "5662e243cd72c1e3a1f58a2feedc3b0f",
+                "domain": "switch"
+              }
+            ],
+            "action": [
+              {
+                "type": "turn_on",
+                "device_id": "f42749587d13d491e0c31f2d91abdf6f",
+                "entity_id": "5662e243cd72c1e3a1f58a2feedc3b0f",
+                "domain": "switch"
+              }
+            ],
+            "mode": "single"
+          },
+          "blueprint_inputs": null,
+          "context": {
+            "id": "01JDCB5E65AR0H5WCN84KAJDSX",
+            "parent_id": "01JDCB5E65HMMF4060KDFCN3JM",
+            "user_id": null
+          }
+        },
+        "short_dict": {
+          "last_step": "condition/0/entity_id/0",
+          "run_id": "697b3c25f5415d7918014eccb296d0bc",
+          "state": "stopped",
+          "script_execution": "failed_conditions",
+          "timestamp": {
+            "start": "2024-11-23T11:05:28.005330+00:00",
+            "finish": "2024-11-23T11:05:28.005423+00:00"
+          },
+          "domain": "automation",
+          "item_id": "1662411324262",
+          "trigger": "state of binary_sensor.kitchen_motion_sensor_occupancy"
+        }
+      },
+      {
+        "extended_dict": {
+          "last_step": "action/0",
+          "run_id": "0625a763f4d58f8e404d7bce71b448ed",
+          "state": "stopped",
+          "script_execution": "finished",
+          "timestamp": {
+            "start": "2024-11-23T11:32:57.468924+00:00",
+            "finish": "2024-11-23T11:32:57.472468+00:00"
+          },
+          "domain": "automation",
+          "item_id": "1662411324262",
+          "trigger": "state of binary_sensor.kitchen_motion_sensor_occupancy",
+          "trace": {
+            "trigger/0": [
+              {
+                "path": "trigger/0",
+                "timestamp": "2024-11-23T11:32:57.468964+00:00",
+                "changed_variables": {
+                  "this": {
+                    "entity_id": "automation.new_automation",
+                    "state": "on",
+                    "attributes": {
+                      "id": "1662411324262",
+                      "last_triggered": "2024-11-23T10:46:46.260463+00:00",
+                      "mode": "single",
+                      "current": 0,
+                      "friendly_name": "Turn on Counter lights when movement is detected"
+                    },
+                    "last_changed": "2024-11-23T11:13:20.567042+00:00",
+                    "last_reported": "2024-11-23T11:13:20.567042+00:00",
+                    "last_updated": "2024-11-23T11:13:20.567042+00:00",
+                    "context": {
+                      "id": "01JDCBKVNQ241WEADN0CSAVAXN",
+                      "parent_id": null,
+                      "user_id": null
+                    }
+                  },
+                  "trigger": {
+                    "id": "0",
+                    "idx": "0",
+                    "alias": null,
+                    "platform": "device",
+                    "entity_id": "binary_sensor.kitchen_motion_sensor_occupancy",
+                    "from_state": {
+                      "entity_id": "binary_sensor.kitchen_motion_sensor_occupancy",
+                      "state": "off",
+                      "attributes": {
+                        "battery": 100,
+                        "device_temperature": 30,
+                        "illuminance": 33,
+                        "illuminance_lux": 33,
+                        "linkquality": 105,
+                        "occupancy": false,
+                        "power_outage_count": 10,
+                        "voltage": 3025,
+                        "device_class": "occupancy",
+                        "friendly_name": "Kitchen Motion Sensor Occupancy"
+                      },
+                      "last_changed": "2024-11-23T11:17:37.406910+00:00",
+                      "last_reported": "2024-11-23T11:17:37.406910+00:00",
+                      "last_updated": "2024-11-23T11:17:37.406910+00:00",
+                      "context": {
+                        "id": "01JDCBVPFYGMJA6BYYBP83FKNK",
+                        "parent_id": null,
+                        "user_id": null
+                      }
+                    },
+                    "to_state": {
+                      "entity_id": "binary_sensor.kitchen_motion_sensor_occupancy",
+                      "state": "on",
+                      "attributes": {
+                        "battery": 100,
+                        "device_temperature": 30,
+                        "illuminance": 30,
+                        "illuminance_lux": 30,
+                        "linkquality": 108,
+                        "occupancy": true,
+                        "power_outage_count": 10,
+                        "voltage": 3025,
+                        "device_class": "occupancy",
+                        "friendly_name": "Kitchen Motion Sensor Occupancy"
+                      },
+                      "last_changed": "2024-11-23T11:32:57.468620+00:00",
+                      "last_reported": "2024-11-23T11:32:57.468620+00:00",
+                      "last_updated": "2024-11-23T11:32:57.468620+00:00",
+                      "context": {
+                        "id": "01JDCCQRZW33HA7D8YNT8F2MZ9",
+                        "parent_id": null,
+                        "user_id": null
+                      }
+                    },
+                    "for": null,
+                    "attribute": null,
+                    "description": "state of binary_sensor.kitchen_motion_sensor_occupancy"
+                  }
+                }
+              }
+            ],
+            "condition/0": [
+              {
+                "path": "condition/0",
+                "timestamp": "2024-11-23T11:32:57.468980+00:00",
+                "result": {
+                  "result": true
+                }
+              },
+              {
+                "path": "condition/0",
+                "timestamp": "2024-11-23T11:32:57.468988+00:00",
+                "result": {
+                  "result": true
+                }
+              }
+            ],
+            "condition/0/entity_id/0": [
+              {
+                "path": "condition/0/entity_id/0",
+                "timestamp": "2024-11-23T11:32:57.468996+00:00",
+                "result": {
+                  "result": true,
+                  "state": "off",
+                  "wanted_state": "off"
+                }
+              }
+            ],
+            "action/0": [
+              {
+                "path": "action/0",
+                "timestamp": "2024-11-23T11:32:57.469152+00:00",
+                "changed_variables": {
+                  "context": {
+                    "id": "01JDCCQRZWERM039VCFB621DA6",
+                    "parent_id": "01JDCCQRZW33HA7D8YNT8F2MZ9",
+                    "user_id": null
+                  }
+                }
+              }
+            ]
+          },
+          "config": {
+            "id": "1662411324262",
+            "alias": "Turn on Counter lights when movement is detected",
+            "description": "",
+            "trigger": [
+              {
+                "type": "motion",
+                "platform": "device",
+                "device_id": "b5b82ec695758901879fc898e0c05502",
+                "entity_id": "2913f47a72dbf0bdcd37c960b544b8c6",
+                "domain": "binary_sensor"
+              }
+            ],
+            "condition": [
+              {
+                "condition": "device",
+                "type": "is_off",
+                "device_id": "f42749587d13d491e0c31f2d91abdf6f",
+                "entity_id": "5662e243cd72c1e3a1f58a2feedc3b0f",
+                "domain": "switch"
+              }
+            ],
+            "action": [
+              {
+                "type": "turn_on",
+                "device_id": "f42749587d13d491e0c31f2d91abdf6f",
+                "entity_id": "5662e243cd72c1e3a1f58a2feedc3b0f",
+                "domain": "switch"
+              }
+            ],
+            "mode": "single"
+          },
+          "blueprint_inputs": null,
+          "context": {
+            "id": "01JDCCQRZWERM039VCFB621DA6",
+            "parent_id": "01JDCCQRZW33HA7D8YNT8F2MZ9",
+            "user_id": null
+          }
+        },
+        "short_dict": {
+          "last_step": "action/0",
+          "run_id": "0625a763f4d58f8e404d7bce71b448ed",
+          "state": "stopped",
+          "script_execution": "finished",
+          "timestamp": {
+            "start": "2024-11-23T11:32:57.468924+00:00",
+            "finish": "2024-11-23T11:32:57.472468+00:00"
+          },
+          "domain": "automation",
+          "item_id": "1662411324262",
+          "trigger": "state of binary_sensor.kitchen_motion_sensor_occupancy"
+        }
+      },
+      {
+        "extended_dict": {
+          "last_step": "action/0",
+          "run_id": "ea151d75d154540ba48a197b94c01d62",
+          "state": "stopped",
+          "script_execution": "finished",
+          "timestamp": {
+            "start": "2024-11-23T11:43:20.201293+00:00",
+            "finish": "2024-11-23T11:43:20.205580+00:00"
+          },
+          "domain": "automation",
+          "item_id": "1662411324262",
+          "trigger": "state of binary_sensor.kitchen_motion_sensor_occupancy",
+          "trace": {
+            "trigger/0": [
+              {
+                "path": "trigger/0",
+                "timestamp": "2024-11-23T11:43:20.201342+00:00",
+                "changed_variables": {
+                  "this": {
+                    "entity_id": "automation.new_automation",
+                    "state": "on",
+                    "attributes": {
+                      "id": "1662411324262",
+                      "last_triggered": "2024-11-23T11:32:57.469061+00:00",
+                      "mode": "single",
+                      "current": 0,
+                      "friendly_name": "Turn on Counter lights when movement is detected"
+                    },
+                    "last_changed": "2024-11-23T11:13:20.567042+00:00",
+                    "last_reported": "2024-11-23T11:32:57.472217+00:00",
+                    "last_updated": "2024-11-23T11:32:57.472217+00:00",
+                    "context": {
+                      "id": "01JDCCQRZWERM039VCFB621DA6",
+                      "parent_id": "01JDCCQRZW33HA7D8YNT8F2MZ9",
+                      "user_id": null
+                    }
+                  },
+                  "trigger": {
+                    "id": "0",
+                    "idx": "0",
+                    "alias": null,
+                    "platform": "device",
+                    "entity_id": "binary_sensor.kitchen_motion_sensor_occupancy",
+                    "from_state": {
+                      "entity_id": "binary_sensor.kitchen_motion_sensor_occupancy",
+                      "state": "off",
+                      "attributes": {
+                        "battery": 100,
+                        "device_temperature": 29,
+                        "illuminance": 34,
+                        "illuminance_lux": 34,
+                        "linkquality": 102,
+                        "occupancy": false,
+                        "power_outage_count": 10,
+                        "voltage": 3025,
+                        "device_class": "occupancy",
+                        "friendly_name": "Kitchen Motion Sensor Occupancy"
+                      },
+                      "last_changed": "2024-11-23T11:33:57.474477+00:00",
+                      "last_reported": "2024-11-23T11:35:16.929588+00:00",
+                      "last_updated": "2024-11-23T11:35:16.929588+00:00",
+                      "context": {
+                        "id": "01JDCCW16131HBSMQBF6JYA94B",
+                        "parent_id": null,
+                        "user_id": null
+                      }
+                    },
+                    "to_state": {
+                      "entity_id": "binary_sensor.kitchen_motion_sensor_occupancy",
+                      "state": "on",
+                      "attributes": {
+                        "battery": 100,
+                        "device_temperature": 29,
+                        "illuminance": 30,
+                        "illuminance_lux": 30,
+                        "linkquality": 102,
+                        "occupancy": true,
+                        "power_outage_count": 10,
+                        "voltage": 3025,
+                        "device_class": "occupancy",
+                        "friendly_name": "Kitchen Motion Sensor Occupancy"
+                      },
+                      "last_changed": "2024-11-23T11:43:20.201063+00:00",
+                      "last_reported": "2024-11-23T11:43:20.201063+00:00",
+                      "last_updated": "2024-11-23T11:43:20.201063+00:00",
+                      "context": {
+                        "id": "01JDCDAS491X22086PDN3CQH3X",
+                        "parent_id": null,
+                        "user_id": null
+                      }
+                    },
+                    "for": null,
+                    "attribute": null,
+                    "description": "state of binary_sensor.kitchen_motion_sensor_occupancy"
+                  }
+                }
+              }
+            ],
+            "condition/0": [
+              {
+                "path": "condition/0",
+                "timestamp": "2024-11-23T11:43:20.201359+00:00",
+                "result": {
+                  "result": true
+                }
+              },
+              {
+                "path": "condition/0",
+                "timestamp": "2024-11-23T11:43:20.201366+00:00",
+                "result": {
+                  "result": true
+                }
+              }
+            ],
+            "condition/0/entity_id/0": [
+              {
+                "path": "condition/0/entity_id/0",
+                "timestamp": "2024-11-23T11:43:20.201387+00:00",
+                "result": {
+                  "result": true,
+                  "state": "off",
+                  "wanted_state": "off"
+                }
+              }
+            ],
+            "action/0": [
+              {
+                "path": "action/0",
+                "timestamp": "2024-11-23T11:43:20.201564+00:00",
+                "changed_variables": {
+                  "context": {
+                    "id": "01JDCDAS499Y6K7YABPHZG7QZW",
+                    "parent_id": "01JDCDAS491X22086PDN3CQH3X",
+                    "user_id": null
+                  }
+                }
+              }
+            ]
+          },
+          "config": {
+            "id": "1662411324262",
+            "alias": "Turn on Counter lights when movement is detected",
+            "description": "",
+            "trigger": [
+              {
+                "type": "motion",
+                "platform": "device",
+                "device_id": "b5b82ec695758901879fc898e0c05502",
+                "entity_id": "2913f47a72dbf0bdcd37c960b544b8c6",
+                "domain": "binary_sensor"
+              }
+            ],
+            "condition": [
+              {
+                "condition": "device",
+                "type": "is_off",
+                "device_id": "f42749587d13d491e0c31f2d91abdf6f",
+                "entity_id": "5662e243cd72c1e3a1f58a2feedc3b0f",
+                "domain": "switch"
+              }
+            ],
+            "action": [
+              {
+                "type": "turn_on",
+                "device_id": "f42749587d13d491e0c31f2d91abdf6f",
+                "entity_id": "5662e243cd72c1e3a1f58a2feedc3b0f",
+                "domain": "switch"
+              }
+            ],
+            "mode": "single"
+          },
+          "blueprint_inputs": null,
+          "context": {
+            "id": "01JDCDAS499Y6K7YABPHZG7QZW",
+            "parent_id": "01JDCDAS491X22086PDN3CQH3X",
+            "user_id": null
+          }
+        },
+        "short_dict": {
+          "last_step": "action/0",
+          "run_id": "ea151d75d154540ba48a197b94c01d62",
+          "state": "stopped",
+          "script_execution": "finished",
+          "timestamp": {
+            "start": "2024-11-23T11:43:20.201293+00:00",
+            "finish": "2024-11-23T11:43:20.205580+00:00"
+          },
+          "domain": "automation",
+          "item_id": "1662411324262",
+          "trigger": "state of binary_sensor.kitchen_motion_sensor_occupancy"
+        }
+      },
+      {
+        "extended_dict": {
+          "last_step": "condition/0/entity_id/0",
+          "run_id": "fcc4f051e12535171dbe28556410ddd9",
+          "state": "stopped",
+          "script_execution": "failed_conditions",
+          "timestamp": {
+            "start": "2024-11-23T11:44:24.196479+00:00",
+            "finish": "2024-11-23T11:44:24.196562+00:00"
+          },
+          "domain": "automation",
+          "item_id": "1662411324262",
+          "trigger": "state of binary_sensor.kitchen_motion_sensor_occupancy",
+          "trace": {
+            "trigger/0": [
+              {
+                "path": "trigger/0",
+                "timestamp": "2024-11-23T11:44:24.196511+00:00",
+                "changed_variables": {
+                  "this": {
+                    "entity_id": "automation.new_automation",
+                    "state": "on",
+                    "attributes": {
+                      "id": "1662411324262",
+                      "last_triggered": "2024-11-23T11:43:20.201469+00:00",
+                      "mode": "single",
+                      "current": 0,
+                      "friendly_name": "Turn on Counter lights when movement is detected"
+                    },
+                    "last_changed": "2024-11-23T11:13:20.567042+00:00",
+                    "last_reported": "2024-11-23T11:43:20.205337+00:00",
+                    "last_updated": "2024-11-23T11:43:20.205337+00:00",
+                    "context": {
+                      "id": "01JDCDAS499Y6K7YABPHZG7QZW",
+                      "parent_id": "01JDCDAS491X22086PDN3CQH3X",
+                      "user_id": null
+                    }
+                  },
+                  "trigger": {
+                    "id": "0",
+                    "idx": "0",
+                    "alias": null,
+                    "platform": "device",
+                    "entity_id": "binary_sensor.kitchen_motion_sensor_occupancy",
+                    "from_state": {
+                      "entity_id": "binary_sensor.kitchen_motion_sensor_occupancy",
+                      "state": "off",
+                      "attributes": {
+                        "battery": 100,
+                        "device_temperature": 29,
+                        "illuminance": 30,
+                        "illuminance_lux": 30,
+                        "linkquality": 99,
+                        "occupancy": false,
+                        "power_outage_count": 10,
+                        "voltage": 3025,
+                        "device_class": "occupancy",
+                        "friendly_name": "Kitchen Motion Sensor Occupancy"
+                      },
+                      "last_changed": "2024-11-23T11:44:20.206987+00:00",
+                      "last_reported": "2024-11-23T11:44:20.206987+00:00",
+                      "last_updated": "2024-11-23T11:44:20.206987+00:00",
+                      "context": {
+                        "id": "01JDCDCKQE2DQT00WH0SDYWKNJ",
+                        "parent_id": null,
+                        "user_id": null
+                      }
+                    },
+                    "to_state": {
+                      "entity_id": "binary_sensor.kitchen_motion_sensor_occupancy",
+                      "state": "on",
+                      "attributes": {
+                        "battery": 100,
+                        "device_temperature": 29,
+                        "illuminance": 34,
+                        "illuminance_lux": 34,
+                        "linkquality": 102,
+                        "occupancy": true,
+                        "power_outage_count": 10,
+                        "voltage": 3025,
+                        "device_class": "occupancy",
+                        "friendly_name": "Kitchen Motion Sensor Occupancy"
+                      },
+                      "last_changed": "2024-11-23T11:44:24.196272+00:00",
+                      "last_reported": "2024-11-23T11:44:24.196272+00:00",
+                      "last_updated": "2024-11-23T11:44:24.196272+00:00",
+                      "context": {
+                        "id": "01JDCDCQM4H7XR2MW8DBY745ZC",
+                        "parent_id": null,
+                        "user_id": null
+                      }
+                    },
+                    "for": null,
+                    "attribute": null,
+                    "description": "state of binary_sensor.kitchen_motion_sensor_occupancy"
+                  }
+                }
+              }
+            ],
+            "condition/0": [
+              {
+                "path": "condition/0",
+                "timestamp": "2024-11-23T11:44:24.196525+00:00",
+                "result": {
+                  "result": false
+                }
+              },
+              {
+                "path": "condition/0",
+                "timestamp": "2024-11-23T11:44:24.196532+00:00",
+                "result": {
+                  "result": false
+                }
+              }
+            ],
+            "condition/0/entity_id/0": [
+              {
+                "path": "condition/0/entity_id/0",
+                "timestamp": "2024-11-23T11:44:24.196538+00:00",
+                "result": {
+                  "result": false,
+                  "state": "on",
+                  "wanted_state": "off"
+                }
+              }
+            ]
+          },
+          "config": {
+            "id": "1662411324262",
+            "alias": "Turn on Counter lights when movement is detected",
+            "description": "",
+            "trigger": [
+              {
+                "type": "motion",
+                "platform": "device",
+                "device_id": "b5b82ec695758901879fc898e0c05502",
+                "entity_id": "2913f47a72dbf0bdcd37c960b544b8c6",
+                "domain": "binary_sensor"
+              }
+            ],
+            "condition": [
+              {
+                "condition": "device",
+                "type": "is_off",
+                "device_id": "f42749587d13d491e0c31f2d91abdf6f",
+                "entity_id": "5662e243cd72c1e3a1f58a2feedc3b0f",
+                "domain": "switch"
+              }
+            ],
+            "action": [
+              {
+                "type": "turn_on",
+                "device_id": "f42749587d13d491e0c31f2d91abdf6f",
+                "entity_id": "5662e243cd72c1e3a1f58a2feedc3b0f",
+                "domain": "switch"
+              }
+            ],
+            "mode": "single"
+          },
+          "blueprint_inputs": null,
+          "context": {
+            "id": "01JDCDCQM4ZP5AC81JYDNERYYH",
+            "parent_id": "01JDCDCQM4H7XR2MW8DBY745ZC",
+            "user_id": null
+          }
+        },
+        "short_dict": {
+          "last_step": "condition/0/entity_id/0",
+          "run_id": "fcc4f051e12535171dbe28556410ddd9",
+          "state": "stopped",
+          "script_execution": "failed_conditions",
+          "timestamp": {
+            "start": "2024-11-23T11:44:24.196479+00:00",
+            "finish": "2024-11-23T11:44:24.196562+00:00"
+          },
+          "domain": "automation",
+          "item_id": "1662411324262",
+          "trigger": "state of binary_sensor.kitchen_motion_sensor_occupancy"
+        }
+      }
+    ]
+  }
 }

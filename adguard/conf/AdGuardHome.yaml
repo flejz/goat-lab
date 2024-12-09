@@ -22,6 +22,11 @@ dns:
   refuse_any: true
   upstream_dns:
     - 1.1.1.1
+    - 9.9.9.9
+    - 1.0.0.1
+    - 208.67.222.222
+    - 208.67.220.222
+    - 8.8.4.4
     - 8.8.8.8
   upstream_dns_file: ""
   bootstrap_dns:
@@ -30,7 +35,7 @@ dns:
     - 2620:fe::10
     - 2620:fe::fe:10
   fallback_dns: []
-  all_servers: false
+  all_servers: true
   fastest_addr: false
   fastest_timeout: 1s
   allowed_clients: []
@@ -85,7 +90,7 @@ querylog:
   ignored: []
   interval: 168h
   size_memory: 1000
-  enabled: true
+  enabled: false
   file_enabled: true
 statistics:
   ignored: []
@@ -104,6 +109,10 @@ filters:
     url: https://raw.githubusercontent.com/hl2guide/AdGuard-Home-Whitelist/main/dns_disallowed_domains.txt
     name: hl2guide
     id: 1661898804
+  - enabled: true
+    url: https://adguardteam.github.io/HostlistsRegistry/assets/filter_27.txt
+    name: OISD Blocklist Big
+    id: 1699318131
 whitelist_filters:
   - enabled: true
     url: https://raw.githubusercontent.com/hl2guide/AdGuard-Home-Whitelist/main/whitelist.txt
@@ -149,16 +158,14 @@ filtering:
   blocking_mode: default
   parental_block_host: family-block.dns.adguard.com
   safebrowsing_block_host: standard-block.dns.adguard.com
-  rewrites:
-    - domain: '*.cyber0s8.net'
-      answer: 2001:9e8:1801:d400:280:64ff:fe4d:432a
+  rewrites: []
   safebrowsing_cache_size: 1048576
   safesearch_cache_size: 1048576
   parental_cache_size: 1048576
   cache_time: 30
   filters_update_interval: 24
   blocked_response_ttl: 10
-  filtering_enabled: true
+  filtering_enabled: false
   parental_enabled: false
   safebrowsing_enabled: false
   protection_enabled: true

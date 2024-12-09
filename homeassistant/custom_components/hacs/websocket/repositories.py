@@ -1,11 +1,11 @@
 """Register info websocket commands."""
+
 from __future__ import annotations
 
 import sys
 from typing import TYPE_CHECKING, Any
 
 from homeassistant.components import websocket_api
-from homeassistant.core import HomeAssistant
 import homeassistant.helpers.config_validation as cv
 import voluptuous as vol
 
@@ -15,6 +15,8 @@ from ..const import DOMAIN
 from ..enums import HacsDispatchEvent
 
 if TYPE_CHECKING:
+    from homeassistant.core import HomeAssistant
+
     from ..base import HacsBase
 
 
@@ -30,7 +32,7 @@ async def hacs_repositories_list(
     hass: HomeAssistant,
     connection: websocket_api.ActiveConnection,
     msg: dict[str, Any],
-):
+) -> None:
     """List repositories."""
     hacs: HacsBase = hass.data.get(DOMAIN)
     connection.send_message(
@@ -66,8 +68,9 @@ async def hacs_repositories_list(
                     "topics": repo.data.topics,
                 }
                 for repo in hacs.repositories.list_all
-                if repo.data.category in (msg.get("categories") or hacs.common.categories)
+                if repo.data.category in msg.get("categories", hacs.common.categories)
                 and not repo.ignored_by_country_configuration
+                and repo.data.last_fetched
             ],
         )
     )
@@ -87,7 +90,7 @@ async def hacs_repositories_clear_new(
     connection: websocket_api.ActiveConnection,
     msg: dict[str, Any],
 ) -> None:
-    """Clear new repositories for spesific categories."""
+    """Clear new repositories for specific categories."""
     hacs: HacsBase = hass.data.get(DOMAIN)
 
     if repo := msg.get("repository"):
@@ -118,7 +121,7 @@ async def hacs_repositories_removed(
     hass: HomeAssistant,
     connection: websocket_api.ActiveConnection,
     msg: dict[str, Any],
-):
+) -> None:
     """Get information about removed repositories."""
     hacs: HacsBase = hass.data.get(DOMAIN)
     content = []
@@ -141,7 +144,7 @@ async def hacs_repositories_add(
     hass: HomeAssistant,
     connection: websocket_api.ActiveConnection,
     msg: dict[str, Any],
-):
+) -> None:
     """Add custom repositoriy."""
     hacs: HacsBase = hass.data.get(DOMAIN)
     repository = regex.extract_repository_from_url(msg["repository"])
@@ -156,14 +159,19 @@ async def hacs_repositories_add(
     if renamed := hacs.common.renamed_repositories.get(repository):
         repository = renamed
 
-    if not hacs.repositories.get_by_full_name(repository):
+    if category not in hacs.common.categories:
+        hacs.log.error("%s is not a valid category for %s", category, repository)
+
+    elif not hacs.repositories.get_by_full_name(repository):
         try:
             await hacs.async_register_repository(
                 repository_full_name=repository,
                 category=category,
             )
 
-        except BaseException as exception:  # lgtm [py/catch-base-exception] pylint: disable=broad-except
+        except (
+            BaseException  # lgtm [py/catch-base-exception] pylint: disable=broad-except
+        ) as exception:
             hacs.async_dispatch(
                 HacsDispatchEvent.ERROR,
                 {
@@ -174,7 +182,6 @@ async def hacs_repositories_add(
             )
 
     else:
-
         hacs.async_dispatch(
             HacsDispatchEvent.ERROR,
             {
@@ -198,11 +205,9 @@ async def hacs_repositories_remove(
     hass: HomeAssistant,
     connection: websocket_api.ActiveConnection,
     msg: dict[str, Any],
-):
+) -> None:
     """Remove custom repositoriy."""
     hacs: HacsBase = hass.data.get(DOMAIN)
-    hacs.log.warning(connection.context)
-    hacs.log.warning(msg)
     repository = hacs.repositories.get_by_id(msg["repository"])
 
     repository.remove()

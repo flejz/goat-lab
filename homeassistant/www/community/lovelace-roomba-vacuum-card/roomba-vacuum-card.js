@@ -135,7 +135,7 @@
         : null;
       } else if (key != "blank") {
         return this.state.buttons[key]
-          ? html`<div class="button" @tap="${() => this.callService(key)}"><ha-icon icon="${this.getButton(key,"icon")}"></ha-icon>  ${this.getButton(key,"label")}</div>`
+          ? html`<div class="button" @click="${() => this.callService(key)}"><ha-icon icon="${this.getButton(key,"icon")}"></ha-icon>  ${this.getButton(key,"label")}</div>`
           : null;
       } else {
         return this.state.buttons[key]

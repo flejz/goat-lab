@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "minor_version": 1,
+  "key": "zone",
+  "data": {
+    "items": [
+      {
+        "id": "audibene_gmbh",
+        "latitude": 52.54297464117213,
+        "longitude": 13.412826061248781,
+        "name": "Work",
+        "icon": "mdi:office-building",
+        "passive": false,
+        "radius": 100.0
+      }
+    ]
+  }
+}

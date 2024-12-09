@@ -14,201 +14,331 @@
           "badges": [],
           "cards": [
             {
-              "type": "entities",
-              "entities": [
-                {
-                  "entity": "light.lroom_spot_light_1"
-                },
-                {
-                  "entity": "light.lroom_spot_light_2"
-                },
-                {
-                  "entity": "light.lroom_spot_light_3"
-                }
-              ],
-              "title": "Living Room Spot Lights",
-              "state_color": true
-            },
-            {
               "type": "horizontal-stack",
               "cards": [
                 {
-                  "type": "vertical-stack",
+                  "type": "custom:vertical-stack-in-card",
                   "cards": [
                     {
-                      "type": "light",
-                      "entity": "light.wled_lroom_corner",
-                      "name": "Living Room Ambient",
-                      "icon": "mdi:led-strip",
-                      "double_tap_action": {
-                        "action": "more-info"
-                      }
+                      "type": "custom:mushroom-person-card",
+                      "entity": "person.flejz",
+                      "layout": "vertical",
+                      "secondary_info": "none",
+                      "fill_container": false,
+                      "icon_type": "entity-picture"
                     },
                     {
-                      "type": "light",
-                      "entity": "light.dining_table_light",
-                      "icon": "mdi:lightbulb",
-                      "name": "Dining Table"
+                      "type": "custom:mushroom-chips-card",
+                      "chips": [
+                        {
+                          "type": "entity",
+                          "entity": "sensor.whoami_battery_level",
+                          "use_entity_picture": true,
+                          "card_mod": {
+                            "style": "* {\n  {% if states(config.entity)|int > 90 %}\n  color: lightgreen;\n  {% elif states(config.entity)|int > 40 %}\n  color: lightblue;\n  {% elif states(config.entity)|int > 20 %}\n  color: yellow;\n  {% else %}\n  color: red;\n  {% endif %}\n}\n"
+                          }
+                        },
+                        {
+                          "type": "action",
+                          "tap_action": {
+                            "action": "assist",
+                            "pipeline_id": "preferred",
+                            "start_listening": true
+                          },
+                          "icon": "mdi:message"
+                        }
+                      ],
+                      "alignment": "center"
                     }
                   ]
                 },
                 {
-                  "type": "vertical-stack",
+                  "type": "custom:vertical-stack-in-card",
                   "cards": [
                     {
-                      "type": "light",
-                      "entity": "light.wled_kitchen_ceiling_1",
-                      "name": "Kitchen Ambient",
-                      "icon": "mdi:led-strip",
-                      "double_tap_action": {
-                        "action": "more-info"
-                      }
+                      "type": "custom:mushroom-person-card",
+                      "entity": "person.tiabenie",
+                      "layout": "vertical",
+                      "secondary_info": "none",
+                      "icon_type": "entity-picture"
                     },
                     {
-                      "type": "light",
-                      "entity": "light.laundry_light",
-                      "name": "Laundry Room"
-                    }
-                  ]
-                },
-                {
-                  "type": "vertical-stack",
-                  "cards": [
-                    {
-                      "type": "entity",
-                      "entity": "binary_sensor.fridge_door_sensor_contact",
-                      "state_color": true,
-                      "name": "Fridge Door"
-                    },
-                    {
-                      "show_name": true,
-                      "show_icon": true,
-                      "type": "button",
-                      "tap_action": {
-                        "action": "toggle"
-                      },
-                      "entity": "switch.kitcken_socket",
-                      "icon": "mdi:lightbulb",
-                      "name": "Kitchen",
-                      "show_state": true
+                      "type": "custom:mushroom-chips-card",
+                      "chips": [
+                        {
+                          "type": "entity",
+                          "entity": "sensor.priscila_duartes_iphone_battery_level",
+                          "use_entity_picture": true,
+                          "card_mod": {
+                            "style": "* {\n  {% if states(config.entity)|int > 90 %}\n  color: lightgreen;\n  {% elif states(config.entity)|int > 40 %}\n  color: lightblue;\n  {% elif states(config.entity)|int > 20 %}\n  color: yellow;\n  {% else %}\n  color: red;\n  {% endif %}\n}\n"
+                          }
+                        },
+                        {
+                          "type": "weather",
+                          "entity": "weather.openweathermap",
+                          "show_conditions": false,
+                          "show_temperature": false
+                        }
+                      ],
+                      "alignment": "center"
                     }
                   ]
                 }
               ]
             },
             {
-              "type": "horizontal-stack",
+              "type": "custom:vertical-stack-in-card",
               "cards": [
                 {
-                  "hours_to_show": 24,
-                  "graph": "line",
-                  "type": "sensor",
-                  "entity": "sensor.0x00158d0003a04127_temperature",
-                  "detail": 1,
-                  "name": "Temperature"
-                },
-                {
-                  "hours_to_show": 24,
-                  "graph": "line",
-                  "type": "sensor",
-                  "entity": "sensor.0x00158d0003a04127_humidity",
-                  "detail": 1,
-                  "name": "Humidity"
+                  "type": "entities",
+                  "entities": [
+                    {
+                      "entity": "sensor.sun_next_setting",
+                      "type": "custom:multiple-entity-row",
+                      "name": "Sun",
+                      "state_header": "Set",
+                      "icon": "mdi:sun-clock",
+                      "format": "time",
+                      "entities": [
+                        {
+                          "name": "Rise",
+                          "entity": "sensor.sun_next_rising",
+                          "format": "time"
+                        }
+                      ]
+                    }
+                  ]
                 }
               ]
             },
             {
-              "type": "entities",
-              "entities": [
+              "type": "custom:vertical-stack-in-card",
+              "cards": [
                 {
-                  "entity": "light.broom_spot_light_1",
-                  "secondary_info": "none"
+                  "type": "horizontal-stack",
+                  "cards": [
+                    {
+                      "type": "custom:mushroom-title-card",
+                      "title": "Office",
+                      "subtitle": ""
+                    },
+                    {
+                      "type": "custom:mushroom-chips-card",
+                      "chips": [
+                        {
+                          "type": "entity",
+                          "entity": "sensor.living_room_temperature_temperature",
+                          "icon_color": "accent"
+                        },
+                        {
+                          "type": "entity",
+                          "entity": "sensor.living_room_temperature_humidity",
+                          "icon_color": "blue"
+                        }
+                      ],
+                      "alignment": "end",
+                      "card_mod": {
+                        "style": "ha-card {\n  position: absolute;\n  right: 13px;\n  top: 22px;\n}\n"
+                      }
+                    }
+                  ]
                 },
                 {
-                  "entity": "light.broom_spot_light_2"
-                },
-                {
-                  "entity": "light.broom_spot_light_3"
+                  "type": "horizontal-stack",
+                  "cards": [
+                    {
+                      "type": "custom:mushroom-light-card",
+                      "entity": "light.office_lights",
+                      "fill_container": false,
+                      "use_light_color": true,
+                      "show_brightness_control": true,
+                      "collapsible_controls": true,
+                      "show_color_temp_control": true,
+                      "name": "Lights"
+                    },
+                    {
+                      "type": "custom:vertical-stack-in-card",
+                      "cards": [
+                        {
+                          "type": "custom:mushroom-light-card",
+                          "icon": "mdi:led-strip",
+                          "entity": "light.corner_light",
+                          "use_light_color": true,
+                          "show_brightness_control": true,
+                          "show_color_temp_control": false,
+                          "show_color_control": true,
+                          "collapsible_controls": true,
+                          "name": "Corner"
+                        },
+                        {
+                          "type": "horizontal-stack",
+                          "cards": [
+                            {
+                              "type": "custom:mushroom-light-card",
+                              "entity": "switch.3d_printer",
+                              "name": "3D Printer",
+                              "show_brightness_control": true,
+                              "show_color_control": false,
+                              "show_color_temp_control": true,
+                              "collapsible_controls": true
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
                 }
-              ],
-              "title": "Bedroom Spot Lights",
-              "state_color": true
+              ]
             },
             {
               "type": "media-control",
-              "entity": "media_player.lg_webos_smart_tv"
+              "entity": "media_player.tv"
             },
             {
-              "type": "entities",
-              "entities": [
-                "vacuum.wall_e"
-              ],
-              "title": "Wall-E"
-            }
-          ]
-        },
-        {
-          "theme": "Backend-selected",
-          "title": "Print Hub",
-          "path": "print-hub",
-          "icon": "mdi:printer-3d-nozzle",
-          "visible": [
-            {
-              "user": "af3043b044a0489294f35d30899bf650"
-            },
-            {
-              "user": "f8e882fbac5247d1b3c5ed35b0877dd2"
-            }
-          ],
-          "badges": [],
-          "cards": [
-            {
-              "type": "picture",
-              "image": "http://construct-pcu/webcam/?action=stream",
-              "tap_action": {
-                "action": "none"
-              },
-              "hold_action": {
-                "action": "none"
-              }
-            },
-            {
-              "type": "entities",
-              "entities": [
+              "type": "custom:vertical-stack-in-card",
+              "cards": [
                 {
-                  "entity": "binary_sensor.octoprint_printing",
-                  "icon": "mdi:printer-3d-nozzle"
+                  "type": "horizontal-stack",
+                  "cards": [
+                    {
+                      "type": "custom:mushroom-title-card",
+                      "title": "Kitchen",
+                      "subtitle": ""
+                    },
+                    {
+                      "type": "custom:mushroom-chips-card",
+                      "chips": [
+                        {
+                          "type": "entity",
+                          "entity": "binary_sensor.kitchen_fridge_door_contact",
+                          "icon_color": "blue"
+                        }
+                      ],
+                      "alignment": "end",
+                      "card_mod": {
+                        "style": "ha-card {\n  position: absolute;\n  right: 13px;\n  top: 22px;\n}\n"
+                      }
+                    }
+                  ]
                 },
                 {
-                  "entity": "binary_sensor.octoprint_printing_error",
-                  "icon": "mdi:printer-3d-nozzle-off-outline"
-                },
-                {
-                  "entity": "sensor.octoprint_job_percentage"
-                },
-                {
-                  "entity": "button.octoprint_pause_job"
-                },
-                {
-                  "entity": "button.octoprint_resume_job"
-                },
-                {
-                  "entity": "button.octoprint_stop_job"
-                },
-                {
-                  "entity": "sensor.octoprint_target_bed_temp"
-                },
-                {
-                  "entity": "sensor.octoprint_actual_bed_temp"
-                },
-                {
-                  "entity": "sensor.octoprint_target_tool0_temp"
-                },
-                {
-                  "entity": "sensor.octoprint_actual_tool0_temp"
+                  "type": "horizontal-stack",
+                  "cards": [
+                    {
+                      "type": "custom:mushroom-light-card",
+                      "entity": "switch.kitchen_counter_light",
+                      "name": "Counter",
+                      "icon": "mdi:spotlight-beam"
+                    },
+                    {
+                      "type": "custom:mushroom-light-card",
+                      "entity": "light.kitchen_light",
+                      "name": "Light",
+                      "icon": "mdi:lightbulb"
+                    }
+                  ]
                 }
+              ]
+            },
+            {
+              "type": "custom:vertical-stack-in-card",
+              "title": "Household",
+              "cards": [
+                {
+                  "type": "horizontal-stack",
+                  "cards": [
+                    {
+                      "type": "custom:mushroom-vacuum-card",
+                      "entity": "vacuum.wall_e",
+                      "commands": [
+                        "start_pause",
+                        "stop",
+                        "return_home"
+                      ],
+                      "icon_animation": true
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "custom:mini-graph-card",
+              "name": "Air Quality",
+              "show": {
+                "labels": true
+              },
+              "entities": [
+                "sensor.waqi_leipziger_strasse_berlin_germany"
               ],
-              "state_color": true
+              "color_thresholds": [
+                {
+                  "value": 0,
+                  "color": "#007a52"
+                },
+                {
+                  "color": "#826d00"
+                },
+                {
+                  "color": "#ad5700"
+                },
+                {
+                  "color": "#a30029"
+                },
+                {
+                  "color": "#52007a"
+                },
+                {
+                  "value": 301,
+                  "color": "#826d00"
+                }
+              ]
+            },
+            {
+              "type": "custom:vertical-stack-in-card",
+              "title": "Living Area",
+              "cards": [
+                {
+                  "type": "horizontal-stack",
+                  "cards": [
+                    {
+                      "type": "custom:mushroom-entity-card",
+                      "entity": "light.living_room_light",
+                      "name": "Light"
+                    },
+                    {
+                      "type": "custom:mushroom-light-card",
+                      "entity": "light.bar_light",
+                      "name": "Bar",
+                      "icon": "mdi:glass-cocktail",
+                      "show_brightness_control": true,
+                      "collapsible_controls": true,
+                      "show_color_control": true,
+                      "use_light_color": true
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "custom:vertical-stack-in-card",
+              "title": "Bedroom",
+              "cards": [
+                {
+                  "type": "horizontal-stack",
+                  "cards": [
+                    {
+                      "type": "custom:mushroom-entity-card",
+                      "entity": "light.bed_light",
+                      "name": "Bed"
+                    },
+                    {
+                      "type": "custom:mushroom-entity-card",
+                      "entity": "light.broom_lights",
+                      "name": "Wardrobe"
+                    }
+                  ]
+                }
+              ]
             }
           ]
         },
@@ -229,42 +359,62 @@
           "cards": [
             {
               "type": "custom:lg-remote-control",
-              "entity": "media_player.lg_webos_smart_tv",
+              "entity": "media_player.tv",
               "mac": "60:AB:14:7A:EB:02"
             }
           ]
         },
         {
-          "theme": "Backend-selected",
-          "title": "Control Panel",
-          "path": "control-panel",
-          "icon": "mdi:alarm-panel",
-          "visible": [
-            {
-              "user": "af3043b044a0489294f35d30899bf650"
-            },
-            {
-              "user": "883499b27f7a4261b03247f8d456b077"
-            }
-          ],
+          "title": "3D Printing",
+          "path": "3d-printing",
+          "subview": false,
+          "icon": "mdi:printer-3d",
           "badges": [],
           "cards": [
             {
-              "type": "entities",
-              "entities": [
-                "vacuum.wall_e"
-              ],
-              "title": "Wall-E"
-            },
-            {
-              "type": "entities",
-              "entities": [
+              "square": false,
+              "type": "grid",
+              "columns": 1,
+              "cards": [
                 {
-                  "entity": "binary_sensor.wall_e_bin_full",
-                  "name": "Bin Full"
+                  "type": "entities",
+                  "entities": [
+                    {
+                      "entity": "switch.3d_printer",
+                      "name": "Toggle 3D Printer",
+                      "icon": "mdi:printer-3d"
+                    },
+                    {
+                      "entity": "button.mkspi_macro_pause",
+                      "name": "Pause Job",
+                      "icon": "mdi:pause"
+                    },
+                    {
+                      "entity": "button.mkspi_macro_resume",
+                      "name": "Resume Job",
+                      "icon": "mdi:play"
+                    },
+                    {
+                      "entity": "switch.mkspi_output_pin_caselight",
+                      "name": "Toggle Caselight"
+                    },
+                    {
+                      "entity": "switch.mkspi_output_pin_caselight1",
+                      "name": "Toggle Nozzlelight"
+                    }
+                  ],
+                  "state_color": true,
+                  "show_header_toggle": false
+                },
+                {
+                  "type": "picture",
+                  "image": "https://3d.goathorn.xyz/webcam/?action=stream",
+                  "tap_action": {
+                    "action": "url",
+                    "url_path": "https://3d.goathorn.xyz"
+                  }
                 }
-              ],
-              "title": "Wall-E"
+              ]
             }
           ]
         }

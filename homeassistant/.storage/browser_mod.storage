@@ -1,0 +1,724 @@
+{
+  "version": 1,
+  "minor_version": 1,
+  "key": "browser_mod.storage",
+  "data": {
+    "browsers": {
+      "b36a7a72-9ed99ce4": {
+        "last_seen": "2024-10-13T20:40:03.055004+00:00",
+        "registered": true,
+        "locked": false,
+        "camera": false,
+        "settings": {
+          "hideSidebar": null,
+          "hideHeader": null,
+          "defaultPanel": null,
+          "sidebarPanelOrder": null,
+          "sidebarHiddenPanels": null,
+          "sidebarTitle": null,
+          "faviconTemplate": null,
+          "titleTemplate": null,
+          "hideInteractIcon": null,
+          "autoRegister": null,
+          "lockRegister": null
+        },
+        "meta": "default"
+      },
+      "1221bb7e-e12ebf4c": {
+        "last_seen": "2023-12-26T13:11:25.478512+00:00",
+        "registered": true,
+        "locked": false,
+        "camera": false,
+        "settings": {
+          "hideSidebar": null,
+          "hideHeader": null,
+          "defaultPanel": null,
+          "sidebarPanelOrder": null,
+          "sidebarHiddenPanels": null,
+          "sidebarTitle": null,
+          "faviconTemplate": null,
+          "titleTemplate": null,
+          "hideInteractIcon": null,
+          "autoRegister": null,
+          "lockRegister": null
+        },
+        "meta": "default"
+      },
+      "6f5089b9-8de792fe": {
+        "last_seen": "2023-12-17T01:36:05.907840+00:00",
+        "registered": true,
+        "locked": false,
+        "camera": false,
+        "settings": {
+          "hideSidebar": null,
+          "hideHeader": null,
+          "defaultPanel": null,
+          "sidebarPanelOrder": null,
+          "sidebarHiddenPanels": null,
+          "sidebarTitle": null,
+          "faviconTemplate": null,
+          "titleTemplate": null,
+          "hideInteractIcon": null,
+          "autoRegister": null,
+          "lockRegister": null
+        },
+        "meta": "default"
+      },
+      "d851f8ac-af955c05": {
+        "last_seen": "2024-06-14T14:05:32.913054+00:00",
+        "registered": true,
+        "locked": false,
+        "camera": false,
+        "settings": {
+          "hideSidebar": null,
+          "hideHeader": null,
+          "defaultPanel": null,
+          "sidebarPanelOrder": null,
+          "sidebarHiddenPanels": null,
+          "sidebarTitle": null,
+          "faviconTemplate": null,
+          "titleTemplate": null,
+          "hideInteractIcon": null,
+          "autoRegister": null,
+          "lockRegister": null
+        },
+        "meta": "default"
+      },
+      "ba20bc3c-afccb2e1": {
+        "last_seen": "2024-03-06T20:45:55.310929+00:00",
+        "registered": true,
+        "locked": false,
+        "camera": false,
+        "settings": {
+          "hideSidebar": null,
+          "hideHeader": null,
+          "defaultPanel": null,
+          "sidebarPanelOrder": null,
+          "sidebarHiddenPanels": null,
+          "sidebarTitle": null,
+          "faviconTemplate": null,
+          "titleTemplate": null,
+          "hideInteractIcon": null,
+          "autoRegister": null,
+          "lockRegister": null
+        },
+        "meta": "default"
+      },
+      "6f9e4395-0415f4b1": {
+        "last_seen": "2024-11-22T12:09:39.267639+00:00",
+        "registered": true,
+        "locked": false,
+        "camera": false,
+        "settings": {
+          "hideSidebar": null,
+          "hideHeader": null,
+          "defaultPanel": null,
+          "sidebarPanelOrder": null,
+          "sidebarHiddenPanels": null,
+          "sidebarTitle": null,
+          "faviconTemplate": null,
+          "titleTemplate": null,
+          "hideInteractIcon": null,
+          "autoRegister": null,
+          "lockRegister": null
+        },
+        "meta": "default"
+      },
+      "592831b9-d6859fb9": {
+        "last_seen": "2023-12-11T13:15:23.900998+00:00",
+        "registered": true,
+        "locked": false,
+        "camera": false,
+        "settings": {
+          "hideSidebar": null,
+          "hideHeader": null,
+          "defaultPanel": null,
+          "sidebarPanelOrder": null,
+          "sidebarHiddenPanels": null,
+          "sidebarTitle": null,
+          "faviconTemplate": null,
+          "titleTemplate": null,
+          "hideInteractIcon": null,
+          "autoRegister": null,
+          "lockRegister": null
+        },
+        "meta": "default"
+      },
+      "e2ad833f-bdb6d8a8": {
+        "last_seen": 0,
+        "registered": true,
+        "locked": false,
+        "camera": false,
+        "settings": {
+          "hideSidebar": null,
+          "hideHeader": null,
+          "defaultPanel": null,
+          "sidebarPanelOrder": null,
+          "sidebarHiddenPanels": null,
+          "sidebarTitle": null,
+          "faviconTemplate": null,
+          "titleTemplate": null,
+          "hideInteractIcon": null,
+          "autoRegister": null,
+          "lockRegister": null
+        },
+        "meta": "default"
+      },
+      "756aaf35-9dd7044e": {
+        "last_seen": "2024-07-20T12:50:19.266403+00:00",
+        "registered": true,
+        "locked": false,
+        "camera": false,
+        "settings": {
+          "hideSidebar": null,
+          "hideHeader": null,
+          "defaultPanel": null,
+          "sidebarPanelOrder": null,
+          "sidebarHiddenPanels": null,
+          "sidebarTitle": null,
+          "faviconTemplate": null,
+          "titleTemplate": null,
+          "hideInteractIcon": null,
+          "autoRegister": null,
+          "lockRegister": null
+        },
+        "meta": "default"
+      },
+      "aa4aff6e-b7e09628": {
+        "last_seen": "2023-12-26T19:07:52.365926+00:00",
+        "registered": true,
+        "locked": false,
+        "camera": false,
+        "settings": {
+          "hideSidebar": null,
+          "hideHeader": null,
+          "defaultPanel": null,
+          "sidebarPanelOrder": null,
+          "sidebarHiddenPanels": null,
+          "sidebarTitle": null,
+          "faviconTemplate": null,
+          "titleTemplate": null,
+          "hideInteractIcon": null,
+          "autoRegister": null,
+          "lockRegister": null
+        },
+        "meta": "default"
+      },
+      "b2519c90-4dbb6aa0": {
+        "last_seen": "2024-12-08T19:07:35.096493+00:00",
+        "registered": true,
+        "locked": false,
+        "camera": false,
+        "settings": {
+          "hideSidebar": null,
+          "hideHeader": null,
+          "defaultPanel": null,
+          "sidebarPanelOrder": null,
+          "sidebarHiddenPanels": null,
+          "sidebarTitle": null,
+          "faviconTemplate": null,
+          "titleTemplate": null,
+          "hideInteractIcon": null,
+          "autoRegister": null,
+          "lockRegister": null
+        },
+        "meta": "default"
+      },
+      "bfbcbde6-d3bc8bb8": {
+        "last_seen": 0,
+        "registered": true,
+        "locked": false,
+        "camera": false,
+        "settings": {
+          "hideSidebar": null,
+          "hideHeader": null,
+          "defaultPanel": null,
+          "sidebarPanelOrder": null,
+          "sidebarHiddenPanels": null,
+          "sidebarTitle": null,
+          "faviconTemplate": null,
+          "titleTemplate": null,
+          "hideInteractIcon": null,
+          "autoRegister": null,
+          "lockRegister": null
+        },
+        "meta": "default"
+      },
+      "8d7dd181-49985f94": {
+        "last_seen": "2024-08-16T07:11:00.944852+00:00",
+        "registered": true,
+        "locked": false,
+        "camera": false,
+        "settings": {
+          "hideSidebar": null,
+          "hideHeader": null,
+          "defaultPanel": null,
+          "sidebarPanelOrder": null,
+          "sidebarHiddenPanels": null,
+          "sidebarTitle": null,
+          "faviconTemplate": null,
+          "titleTemplate": null,
+          "hideInteractIcon": null,
+          "autoRegister": null,
+          "lockRegister": null
+        },
+        "meta": "default"
+      },
+      "2426bf73-2f1e4af7": {
+        "last_seen": 0,
+        "registered": true,
+        "locked": false,
+        "camera": false,
+        "settings": {
+          "hideSidebar": null,
+          "hideHeader": null,
+          "defaultPanel": null,
+          "sidebarPanelOrder": null,
+          "sidebarHiddenPanels": null,
+          "sidebarTitle": null,
+          "faviconTemplate": null,
+          "titleTemplate": null,
+          "hideInteractIcon": null,
+          "autoRegister": null,
+          "lockRegister": null
+        },
+        "meta": "default"
+      },
+      "3b953aab-83c4f371": {
+        "last_seen": "2024-01-15T17:21:30.838236+00:00",
+        "registered": true,
+        "locked": false,
+        "camera": false,
+        "settings": {
+          "hideSidebar": null,
+          "hideHeader": null,
+          "defaultPanel": null,
+          "sidebarPanelOrder": null,
+          "sidebarHiddenPanels": null,
+          "sidebarTitle": null,
+          "faviconTemplate": null,
+          "titleTemplate": null,
+          "hideInteractIcon": null,
+          "autoRegister": null,
+          "lockRegister": null
+        },
+        "meta": "default"
+      },
+      "ae0390ba-5768de40": {
+        "last_seen": 0,
+        "registered": true,
+        "locked": false,
+        "camera": false,
+        "settings": {
+          "hideSidebar": null,
+          "hideHeader": null,
+          "defaultPanel": null,
+          "sidebarPanelOrder": null,
+          "sidebarHiddenPanels": null,
+          "sidebarTitle": null,
+          "faviconTemplate": null,
+          "titleTemplate": null,
+          "hideInteractIcon": null,
+          "autoRegister": null,
+          "lockRegister": null
+        },
+        "meta": "default"
+      },
+      "31f6f124-d495a12d": {
+        "last_seen": "2024-03-08T13:58:07.940616+00:00",
+        "registered": true,
+        "locked": false,
+        "camera": false,
+        "settings": {
+          "hideSidebar": null,
+          "hideHeader": null,
+          "defaultPanel": null,
+          "sidebarPanelOrder": null,
+          "sidebarHiddenPanels": null,
+          "sidebarTitle": null,
+          "faviconTemplate": null,
+          "titleTemplate": null,
+          "hideInteractIcon": null,
+          "autoRegister": null,
+          "lockRegister": null
+        },
+        "meta": "default"
+      },
+      "0a75bf1e-311ab453": {
+        "last_seen": 0,
+        "registered": true,
+        "locked": false,
+        "camera": false,
+        "settings": {
+          "hideSidebar": null,
+          "hideHeader": null,
+          "defaultPanel": null,
+          "sidebarPanelOrder": null,
+          "sidebarHiddenPanels": null,
+          "sidebarTitle": null,
+          "faviconTemplate": null,
+          "titleTemplate": null,
+          "hideInteractIcon": null,
+          "autoRegister": null,
+          "lockRegister": null
+        },
+        "meta": "default"
+      },
+      "c5c1b32e-1a8e01f6": {
+        "last_seen": "2024-03-18T10:03:08.803961+00:00",
+        "registered": true,
+        "locked": false,
+        "camera": false,
+        "settings": {
+          "hideSidebar": null,
+          "hideHeader": null,
+          "defaultPanel": null,
+          "sidebarPanelOrder": null,
+          "sidebarHiddenPanels": null,
+          "sidebarTitle": null,
+          "faviconTemplate": null,
+          "titleTemplate": null,
+          "hideInteractIcon": null,
+          "autoRegister": null,
+          "lockRegister": null
+        },
+        "meta": "default"
+      },
+      "9c669a21-21350d2a": {
+        "last_seen": "2024-07-25T07:03:07.896733+00:00",
+        "registered": true,
+        "locked": false,
+        "camera": false,
+        "settings": {
+          "hideSidebar": null,
+          "hideHeader": null,
+          "defaultPanel": null,
+          "sidebarPanelOrder": null,
+          "sidebarHiddenPanels": null,
+          "sidebarTitle": null,
+          "faviconTemplate": null,
+          "titleTemplate": null,
+          "hideInteractIcon": null,
+          "autoRegister": null,
+          "lockRegister": null
+        },
+        "meta": "default"
+      },
+      "a59709a3-88cf8c2f": {
+        "last_seen": "2024-06-15T21:42:10.488726+00:00",
+        "registered": true,
+        "locked": false,
+        "camera": false,
+        "settings": {
+          "hideSidebar": null,
+          "hideHeader": null,
+          "defaultPanel": null,
+          "sidebarPanelOrder": null,
+          "sidebarHiddenPanels": null,
+          "sidebarTitle": null,
+          "faviconTemplate": null,
+          "titleTemplate": null,
+          "hideInteractIcon": null,
+          "autoRegister": null,
+          "lockRegister": null
+        },
+        "meta": "default"
+      },
+      "8929306d-8254083a": {
+        "last_seen": "2024-07-16T14:55:29.553456+00:00",
+        "registered": true,
+        "locked": false,
+        "camera": false,
+        "settings": {
+          "hideSidebar": null,
+          "hideHeader": null,
+          "defaultPanel": null,
+          "sidebarPanelOrder": null,
+          "sidebarHiddenPanels": null,
+          "sidebarTitle": null,
+          "faviconTemplate": null,
+          "titleTemplate": null,
+          "hideInteractIcon": null,
+          "autoRegister": null,
+          "lockRegister": null
+        },
+        "meta": "default"
+      },
+      "f204d9ad-5f23f830": {
+        "last_seen": "2024-07-20T18:17:18.906274+00:00",
+        "registered": true,
+        "locked": false,
+        "camera": false,
+        "settings": {
+          "hideSidebar": null,
+          "hideHeader": null,
+          "defaultPanel": null,
+          "sidebarPanelOrder": null,
+          "sidebarHiddenPanels": null,
+          "sidebarTitle": null,
+          "faviconTemplate": null,
+          "titleTemplate": null,
+          "hideInteractIcon": null,
+          "autoRegister": null,
+          "lockRegister": null
+        },
+        "meta": "default"
+      },
+      "b92bb853-b9e5db0a": {
+        "last_seen": "2024-07-25T09:52:09.179924+00:00",
+        "registered": true,
+        "locked": false,
+        "camera": false,
+        "settings": {
+          "hideSidebar": null,
+          "hideHeader": null,
+          "defaultPanel": null,
+          "sidebarPanelOrder": null,
+          "sidebarHiddenPanels": null,
+          "sidebarTitle": null,
+          "faviconTemplate": null,
+          "titleTemplate": null,
+          "hideInteractIcon": null,
+          "autoRegister": null,
+          "lockRegister": null
+        },
+        "meta": "default"
+      },
+      "e171eb6b-23ae2f9c": {
+        "last_seen": "2024-08-02T09:30:33.323610+00:00",
+        "registered": true,
+        "locked": false,
+        "camera": false,
+        "settings": {
+          "hideSidebar": null,
+          "hideHeader": null,
+          "defaultPanel": null,
+          "sidebarPanelOrder": null,
+          "sidebarHiddenPanels": null,
+          "sidebarTitle": null,
+          "faviconTemplate": null,
+          "titleTemplate": null,
+          "hideInteractIcon": null,
+          "autoRegister": null,
+          "lockRegister": null
+        },
+        "meta": "default"
+      },
+      "fa9dfb62-ed5a0033": {
+        "last_seen": "2024-08-03T14:29:52.500741+00:00",
+        "registered": true,
+        "locked": false,
+        "camera": false,
+        "settings": {
+          "hideSidebar": null,
+          "hideHeader": null,
+          "defaultPanel": null,
+          "sidebarPanelOrder": null,
+          "sidebarHiddenPanels": null,
+          "sidebarTitle": null,
+          "faviconTemplate": null,
+          "titleTemplate": null,
+          "hideInteractIcon": null,
+          "autoRegister": null,
+          "lockRegister": null
+        },
+        "meta": "default"
+      },
+      "e92396da-789e9e0b": {
+        "last_seen": "2024-08-31T19:37:36.545370+00:00",
+        "registered": true,
+        "locked": false,
+        "camera": false,
+        "settings": {
+          "hideSidebar": null,
+          "hideHeader": null,
+          "defaultPanel": null,
+          "sidebarPanelOrder": null,
+          "sidebarHiddenPanels": null,
+          "sidebarTitle": null,
+          "faviconTemplate": null,
+          "titleTemplate": null,
+          "hideInteractIcon": null,
+          "autoRegister": null,
+          "lockRegister": null
+        },
+        "meta": "default"
+      },
+      "a884900c-b17c8261": {
+        "last_seen": "2024-10-14T20:14:25.606280+00:00",
+        "registered": true,
+        "locked": false,
+        "camera": false,
+        "settings": {
+          "hideSidebar": null,
+          "hideHeader": null,
+          "defaultPanel": null,
+          "sidebarPanelOrder": null,
+          "sidebarHiddenPanels": null,
+          "sidebarTitle": null,
+          "faviconTemplate": null,
+          "titleTemplate": null,
+          "hideInteractIcon": null,
+          "autoRegister": null,
+          "lockRegister": null
+        },
+        "meta": "default"
+      },
+      "d522c702-8f5ac339": {
+        "last_seen": "2024-09-09T21:13:50.701941+00:00",
+        "registered": true,
+        "locked": false,
+        "camera": false,
+        "settings": {
+          "hideSidebar": null,
+          "hideHeader": null,
+          "defaultPanel": null,
+          "sidebarPanelOrder": null,
+          "sidebarHiddenPanels": null,
+          "sidebarTitle": null,
+          "faviconTemplate": null,
+          "titleTemplate": null,
+          "hideInteractIcon": null,
+          "autoRegister": null,
+          "lockRegister": null
+        },
+        "meta": "default"
+      },
+      "cb3ef909-f0f09e59": {
+        "last_seen": "2024-09-19T17:30:49.954139+00:00",
+        "registered": true,
+        "locked": false,
+        "camera": false,
+        "settings": {
+          "hideSidebar": null,
+          "hideHeader": null,
+          "defaultPanel": null,
+          "sidebarPanelOrder": null,
+          "sidebarHiddenPanels": null,
+          "sidebarTitle": null,
+          "faviconTemplate": null,
+          "titleTemplate": null,
+          "hideInteractIcon": null,
+          "autoRegister": null,
+          "lockRegister": null
+        },
+        "meta": "default"
+      },
+      "fef3bcac-250ea7ae": {
+        "last_seen": "2024-09-30T13:58:28.861302+00:00",
+        "registered": true,
+        "locked": false,
+        "camera": false,
+        "settings": {
+          "hideSidebar": null,
+          "hideHeader": null,
+          "defaultPanel": null,
+          "sidebarPanelOrder": null,
+          "sidebarHiddenPanels": null,
+          "sidebarTitle": null,
+          "faviconTemplate": null,
+          "titleTemplate": null,
+          "hideInteractIcon": null,
+          "autoRegister": null,
+          "lockRegister": null
+        },
+        "meta": "default"
+      },
+      "6271946c-a93b396e": {
+        "last_seen": "2024-12-07T16:10:40.513160+00:00",
+        "registered": true,
+        "locked": false,
+        "camera": false,
+        "settings": {
+          "hideSidebar": null,
+          "hideHeader": null,
+          "defaultPanel": null,
+          "sidebarPanelOrder": null,
+          "sidebarHiddenPanels": null,
+          "sidebarTitle": null,
+          "faviconTemplate": null,
+          "titleTemplate": null,
+          "hideInteractIcon": null,
+          "autoRegister": null,
+          "lockRegister": null
+        },
+        "meta": "default"
+      },
+      "e5c4c6ac-dc83f865": {
+        "last_seen": 0,
+        "registered": true,
+        "locked": false,
+        "camera": false,
+        "settings": {
+          "hideSidebar": null,
+          "hideHeader": null,
+          "defaultPanel": null,
+          "sidebarPanelOrder": null,
+          "sidebarHiddenPanels": null,
+          "sidebarTitle": null,
+          "faviconTemplate": null,
+          "titleTemplate": null,
+          "hideInteractIcon": null,
+          "autoRegister": null,
+          "lockRegister": null
+        },
+        "meta": "default"
+      },
+      "04890601-f365320c": {
+        "last_seen": "2024-11-24T18:13:04.240776+00:00",
+        "registered": true,
+        "locked": false,
+        "camera": false,
+        "settings": {
+          "hideSidebar": null,
+          "hideHeader": null,
+          "defaultPanel": null,
+          "sidebarPanelOrder": null,
+          "sidebarHiddenPanels": null,
+          "sidebarTitle": null,
+          "faviconTemplate": null,
+          "titleTemplate": null,
+          "hideInteractIcon": null,
+          "autoRegister": null,
+          "lockRegister": null
+        },
+        "meta": "default"
+      },
+      "dd1198a3-95e392a4": {
+        "last_seen": "2024-12-06T11:27:12.165099+00:00",
+        "registered": true,
+        "locked": false,
+        "camera": false,
+        "settings": {
+          "hideSidebar": null,
+          "hideHeader": null,
+          "defaultPanel": null,
+          "sidebarPanelOrder": null,
+          "sidebarHiddenPanels": null,
+          "sidebarTitle": null,
+          "faviconTemplate": null,
+          "titleTemplate": null,
+          "hideInteractIcon": null,
+          "autoRegister": null,
+          "lockRegister": null
+        },
+        "meta": "default"
+      }
+    },
+    "version": "2.0",
+    "settings": {
+      "hideSidebar": null,
+      "hideHeader": null,
+      "defaultPanel": null,
+      "sidebarPanelOrder": null,
+      "sidebarHiddenPanels": null,
+      "sidebarTitle": null,
+      "faviconTemplate": null,
+      "titleTemplate": null,
+      "hideInteractIcon": null,
+      "autoRegister": true,
+      "lockRegister": null
+    },
+    "user_settings": {}
+  }
+}

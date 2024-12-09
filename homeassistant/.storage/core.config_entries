@@ -1,40 +1,28 @@
 {
   "version": 1,
-  "minor_version": 1,
+  "minor_version": 4,
   "key": "core.config_entries",
   "data": {
     "entries": [
       {
-        "entry_id": "976743419c51d9a31daf9f4aabedc3e4",
-        "version": 1,
-        "domain": "sun",
-        "title": "Sun",
+        "created_at": "1970-01-01T00:00:00+00:00",
         "data": {},
+        "discovery_keys": {},
+        "disabled_by": null,
+        "domain": "sun",
+        "entry_id": "976743419c51d9a31daf9f4aabedc3e4",
+        "minor_version": 1,
+        "modified_at": "1970-01-01T00:00:00+00:00",
         "options": {},
         "pref_disable_new_entities": false,
         "pref_disable_polling": false,
         "source": "import",
+        "title": "Sun",
         "unique_id": null,
-        "disabled_by": null
+        "version": 1
       },
       {
-        "entry_id": "d8f891093e7edda064a0f0fbb3d3ff03",
-        "version": 1,
-        "domain": "radio_browser",
-        "title": "Radio Browser",
-        "data": {},
-        "options": {},
-        "pref_disable_new_entities": false,
-        "pref_disable_polling": false,
-        "source": "onboarding",
-        "unique_id": null,
-        "disabled_by": null
-      },
-      {
-        "entry_id": "af5fc701111bd91886d8764b46dc7829",
-        "version": 1,
-        "domain": "mqtt",
-        "title": "mosquitto",
+        "created_at": "1970-01-01T00:00:00+00:00",
         "data": {
           "broker": "mosquitto",
           "port": 1883,
@@ -54,169 +42,77 @@
           },
           "discovery": true
         },
+        "discovery_keys": {},
+        "disabled_by": null,
+        "domain": "mqtt",
+        "entry_id": "af5fc701111bd91886d8764b46dc7829",
+        "minor_version": 1,
+        "modified_at": "1970-01-01T00:00:00+00:00",
         "options": {},
         "pref_disable_new_entities": false,
         "pref_disable_polling": false,
         "source": "user",
+        "title": "mosquitto",
         "unique_id": null,
-        "disabled_by": null
+        "version": 1
       },
       {
-        "entry_id": "ccd1ee7ef8485b8c12ac20ac08377efa",
-        "version": 1,
-        "domain": "hacs",
-        "title": "",
-        "data": {
-          "token": "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"
-        },
-        "options": {
-          "sidepanel_title": "HACS",
-          "sidepanel_icon": "hacs:hacs",
-          "release_limit": 5,
-          "country": "ALL",
-          "appdaemon": true,
-          "netdaemon": true,
-          "debug": true,
-          "experimental": true
-        },
-        "pref_disable_new_entities": false,
-        "pref_disable_polling": false,
-        "source": "user",
-        "unique_id": null,
-        "disabled_by": null
-      },
-      {
-        "entry_id": "c2b9acf099fb27599cb2878e6d090477",
-        "version": 1,
-        "domain": "browser_mod",
-        "title": "Browser Mod",
+        "created_at": "1970-01-01T00:00:00+00:00",
         "data": {},
-        "options": {},
-        "pref_disable_new_entities": false,
-        "pref_disable_polling": false,
-        "source": "import",
-        "unique_id": null,
-        "disabled_by": null
-      },
-      {
-        "entry_id": "fcbb580f94141aa0258dbd0cee7fe189",
-        "version": 1,
-        "domain": "webostv",
-        "title": "TV",
-        "data": {
-          "host": "192.168.178.27",
-          "client_secret": "ce70c537a2da5d44528ab62df7df8992"
-        },
-        "options": {
-          "sources": []
-        },
-        "pref_disable_new_entities": false,
-        "pref_disable_polling": false,
-        "source": "user",
-        "unique_id": "518d1ab8-3e75-24c8-7932-d433ae1d3f27",
-        "disabled_by": null
-      },
-      {
-        "entry_id": "c747e7b347ee95e4139d08decab400ea",
-        "version": 1,
-        "domain": "octoprint",
-        "title": "construct-pcu",
-        "data": {
-          "username": "flejz",
-          "host": "construct-pcu",
-          "port": 80,
-          "path": "/",
-          "ssl": false,
-          "verify_ssl": false,
-          "api_key": "4BD60FA8C3264B14A657FAAFF77BDFC6"
-        },
-        "options": {},
-        "pref_disable_new_entities": false,
-        "pref_disable_polling": false,
-        "source": "user",
-        "unique_id": "101052c5-e8b9-481b-be1a-0dbaf996139a",
-        "disabled_by": null
-      },
-      {
-        "entry_id": "fdf9c471ad43392010ee4841e68844c0",
-        "version": 1,
+        "discovery_keys": {},
+        "disabled_by": null,
         "domain": "cpuspeed",
+        "entry_id": "fdf9c471ad43392010ee4841e68844c0",
+        "minor_version": 1,
+        "modified_at": "1970-01-01T00:00:00+00:00",
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "user",
         "title": "CPU Speed",
-        "data": {},
-        "options": {},
-        "pref_disable_new_entities": false,
-        "pref_disable_polling": false,
-        "source": "user",
         "unique_id": "cpuspeed",
-        "disabled_by": null
+        "version": 1
       },
       {
+        "created_at": "1970-01-01T00:00:00+00:00",
+        "data": {
+          "host": "192.168.178.23"
+        },
+        "discovery_keys": {},
+        "disabled_by": null,
+        "domain": "wled",
         "entry_id": "dc00ffd9b309ae1cd5f93bb1bf08bbb6",
-        "version": 1,
-        "domain": "wled",
-        "title": "WLED",
-        "data": {
-          "host": "192.168.178.86"
-        },
+        "minor_version": 1,
+        "modified_at": "2024-10-15T20:52:54.740191+00:00",
         "options": {},
         "pref_disable_new_entities": false,
         "pref_disable_polling": false,
         "source": "user",
+        "title": "Corner Light",
         "unique_id": "34865dfd52f8",
-        "disabled_by": null
+        "version": 1
       },
       {
-        "entry_id": "6686ebef515afbfcd48500491eb3d795",
-        "version": 1,
-        "domain": "wled",
-        "title": "WLED",
+        "created_at": "1970-01-01T00:00:00+00:00",
         "data": {
-          "host": "192.168.178.81"
+          "host": "192.168.178.20"
         },
+        "discovery_keys": {},
+        "disabled_by": null,
+        "domain": "wled",
+        "entry_id": "6686ebef515afbfcd48500491eb3d795",
+        "minor_version": 1,
+        "modified_at": "2024-10-15T20:53:08.265678+00:00",
         "options": {},
         "pref_disable_new_entities": false,
         "pref_disable_polling": false,
         "source": "user",
+        "title": "Bar Light",
         "unique_id": "34865dfd778c",
-        "disabled_by": null
+        "version": 1
       },
       {
-        "entry_id": "0d284767c871e43f246585f0303783c1",
-        "version": 1,
-        "domain": "mobile_app",
-        "title": "Priscila Duarte’s iPhone",
-        "data": {
-          "app_name": "Home Assistant",
-          "supports_encryption": true,
-          "app_id": "io.robbie.HomeAssistant",
-          "device_id": "A6E88F1D-B4D5-4883-A7F1-5964FF1E84B4",
-          "app_version": "2023.7 (2023.471)",
-          "os_name": "iOS",
-          "model": "iPhone14,2",
-          "os_version": "16.6.1",
-          "manufacturer": "Apple",
-          "device_name": "Priscila Duarte’s iPhone",
-          "app_data": {
-            "push_token": "fRh85onNfUMenI6gsrYAFe:APA91bFMqYtUDRkE17nIIa7hiiRYdLj6_HMDJ-n4qjPwXtmeN3qlJbXWLFkupAEUgzX2AM3y64FY9y-bqV5j_vALWSEu9KaFCfj3PfJo07EspcDEQLLS-af_kdbvtAfaHp6vcfNy9vAa",
-            "push_url": "https://mobile-apps.home-assistant.io/api/sendPushNotification"
-          },
-          "webhook_id": "1342236decc709113f9f41f0923f120f5c81a7823352ac3f4706f602a2533bb5",
-          "secret": "602f3d70f1a445674917e514968e3aef0f39d5ae070aa908ebffa05c2b252f99",
-          "user_id": "67f5fab97136411bb3159e587f35a9df",
-          "no_legacy_encryption": true
-        },
-        "options": {},
-        "pref_disable_new_entities": false,
-        "pref_disable_polling": false,
-        "source": "registration",
-        "unique_id": "io.robbie.HomeAssistant-A6E88F1D-B4D5-4883-A7F1-5964FF1E84B4",
-        "disabled_by": null
-      },
-      {
-        "entry_id": "63fa3e6730c615cb2076190fd25bb98f",
-        "version": 1,
-        "domain": "roomba",
-        "title": "Wall-E",
+        "created_at": "1970-01-01T00:00:00+00:00",
         "data": {
           "host": "192.168.178.131",
           "blid": "89FCD906F696470296C632291661A5A0",
@@ -224,6 +120,12 @@
           "continuous": true,
           "delay": 1
         },
+        "discovery_keys": {},
+        "disabled_by": null,
+        "domain": "roomba",
+        "entry_id": "63fa3e6730c615cb2076190fd25bb98f",
+        "minor_version": 1,
+        "modified_at": "1970-01-01T00:00:00+00:00",
         "options": {
           "continuous": true,
           "delay": 1
@@ -231,40 +133,427 @@
         "pref_disable_new_entities": false,
         "pref_disable_polling": false,
         "source": "user",
+        "title": "Wall-E",
         "unique_id": "89FCD906F696470296C632291661A5A0",
-        "disabled_by": null
+        "version": 1
       },
       {
-        "entry_id": "085c5dbbbfe33118bece0eee255babf5",
-        "version": 1,
-        "domain": "mobile_app",
-        "title": "whoami",
+        "created_at": "1970-01-01T00:00:00+00:00",
         "data": {
-          "app_id": "io.robbie.HomeAssistant",
+          "token": "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"
+        },
+        "discovery_keys": {},
+        "disabled_by": null,
+        "domain": "hacs",
+        "entry_id": "7f432a5a54290d6b9755856aaf0a7b75",
+        "minor_version": 1,
+        "modified_at": "1970-01-01T00:00:00+00:00",
+        "options": {
+          "experimental": false
+        },
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "user",
+        "title": "",
+        "unique_id": null,
+        "version": 1
+      },
+      {
+        "created_at": "1970-01-01T00:00:00+00:00",
+        "data": {},
+        "discovery_keys": {},
+        "disabled_by": null,
+        "domain": "browser_mod",
+        "entry_id": "92be776ae2ead35b4881ebf69974ee48",
+        "minor_version": 1,
+        "modified_at": "1970-01-01T00:00:00+00:00",
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "user",
+        "title": "Browser Mod",
+        "unique_id": null,
+        "version": 2
+      },
+      {
+        "created_at": "1970-01-01T00:00:00+00:00",
+        "data": {
+          "api_key": "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"
+        },
+        "discovery_keys": {},
+        "disabled_by": null,
+        "domain": "openai_conversation",
+        "entry_id": "95f838c022f6c51212be453e24ab6fa1",
+        "minor_version": 1,
+        "modified_at": "1970-01-01T00:00:00+00:00",
+        "options": {
+          "prompt": "This smart home is controlled by Home Assistant.\n\nAn overview of the areas and the devices in this smart home:\n{%- for area in areas() %}\n  {%- set area_info = namespace(printed=false) %}\n  {%- for device in area_devices(area) -%}\n    {%- if not device_attr(device, \"disabled_by\") and not device_attr(device, \"entry_type\") and device_attr(device, \"name\") %}\n      {%- if not area_info.printed %}\n\n{{ area_name(area) }}:\n        {%- set area_info.printed = true %}\n      {%- endif %}\n- {{ device_attr(device, \"name\") }}{% if device_attr(device, \"model\") and (device_attr(device, \"model\") | string) not in (device_attr(device, \"name\") | string) %} ({{ device_attr(device, \"model\") }}){% endif %}\n    {%- endif %}\n  {%- endfor %}\n{%- endfor %}\n\nAnswer the user's questions about the world truthfully.\n\nIf the user wants to control a device, reject the request and suggest using the Home Assistant app.",
+          "chat_model": "gpt-3.5-turbo",
+          "max_tokens": 150,
+          "top_p": 1.0,
+          "temperature": 0.5
+        },
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "user",
+        "title": "OpenAI Conversation",
+        "unique_id": null,
+        "version": 1
+      },
+      {
+        "created_at": "1970-01-01T00:00:00+00:00",
+        "data": {
+          "device": {
+            "path": "/dev/ttyUSB0"
+          }
+        },
+        "discovery_keys": {},
+        "disabled_by": null,
+        "domain": "zha",
+        "entry_id": "b6259a6c1d0be0a2bd5ce228ed795073",
+        "minor_version": 1,
+        "modified_at": "1970-01-01T00:00:00+00:00",
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "ignore",
+        "title": "Sonoff Zigbee 3.0 USB Dongle Plus",
+        "unique_id": "10C4:EA60_64add390dcc9eb1181978b4f1d69213e_ITead_Sonoff Zigbee 3.0 USB Dongle Plus",
+        "version": 3
+      },
+      {
+        "created_at": "1970-01-01T00:00:00+00:00",
+        "data": {
+          "host": "piper",
+          "port": 10200
+        },
+        "discovery_keys": {},
+        "disabled_by": null,
+        "domain": "wyoming",
+        "entry_id": "dcc0409c72ed266360c93b344a943f53",
+        "minor_version": 1,
+        "modified_at": "1970-01-01T00:00:00+00:00",
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "user",
+        "title": "piper",
+        "unique_id": null,
+        "version": 1
+      },
+      {
+        "created_at": "1970-01-01T00:00:00+00:00",
+        "data": {
+          "host": "whisper",
+          "port": 10300
+        },
+        "discovery_keys": {},
+        "disabled_by": null,
+        "domain": "wyoming",
+        "entry_id": "ac746f2dc670346a51d531ea87fc38e7",
+        "minor_version": 1,
+        "modified_at": "1970-01-01T00:00:00+00:00",
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "user",
+        "title": "faster-whisper",
+        "unique_id": null,
+        "version": 1
+      },
+      {
+        "created_at": "1970-01-01T00:00:00+00:00",
+        "data": {
+          "auth_implementation": "google_1086230011763_mikspfhbkaa3dm9ill277f4cdc9vp035_apps_googleusercontent_com",
+          "token": {
+            "access_token": "ya29.a0AeDClZAkp4WJQmXGJYAWblyRIzRfJOXtkVzDLInCgk2J4gTrzHcjknxXKxH9ehwO-7f7LDHfOPqcGOODgbdaFumJz3INN0YgGNgAO1tvZ3detzWlmnCaMiwKTFJLw8WSZ8jNuJLJ5TdV3TFtWRs-M__qZSliRPhmGjc13paFnnEaCgYKAcQSARISFQHGX2Miomjlzo3NhEmA6ZA8HBrNaw0178",
+            "refresh_token": "1//09sVEPMM2edHpCgYIARAAGAkSNwF-L9IreO9K6mCHQqRHlWElU0RVL_TTM7w4WiBTBMOeLsPfpFuPmInG6-zhmx5S-zKV-WPITRM",
+            "scope": "https://www.googleapis.com/auth/calendar",
+            "token_type": "Bearer",
+            "expires_in": 3599,
+            "expires_at": 1733744392.371332
+          }
+        },
+        "discovery_keys": {},
+        "disabled_by": null,
+        "domain": "google",
+        "entry_id": "10aaa31d47b3644348a2b5d7b5a8291d",
+        "minor_version": 1,
+        "modified_at": "2024-12-09T10:39:53.371388+00:00",
+        "options": {
+          "calendar_access": "read_write"
+        },
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "user",
+        "title": "lopesflores@protonmail.com",
+        "unique_id": "lopesflores@protonmail.com",
+        "version": 1
+      },
+      {
+        "created_at": "1970-01-01T00:00:00+00:00",
+        "data": {
+          "name": "Living Room Lights"
+        },
+        "discovery_keys": {},
+        "disabled_by": null,
+        "domain": "adaptive_lighting",
+        "entry_id": "7dad231e6512157b1727db8c580e0585",
+        "minor_version": 1,
+        "modified_at": "1970-01-01T00:00:00+00:00",
+        "options": {
+          "lights": [],
+          "interval": 90,
+          "transition": 45.0,
+          "initial_transition": 1.0,
+          "min_brightness": 1,
+          "max_brightness": 100,
+          "min_color_temp": 2000,
+          "max_color_temp": 5500,
+          "prefer_rgb_color": true,
+          "sleep_brightness": 1,
+          "sleep_rgb_or_color_temp": "color_temp",
+          "sleep_color_temp": 1000,
+          "sleep_rgb_color": [
+            255,
+            56,
+            0
+          ],
+          "sleep_transition": 1.0,
+          "transition_until_sleep": false,
+          "sunrise_time": "None",
+          "min_sunrise_time": "None",
+          "max_sunrise_time": "None",
+          "sunrise_offset": 0,
+          "sunset_time": "None",
+          "min_sunset_time": "None",
+          "max_sunset_time": "None",
+          "sunset_offset": 0,
+          "brightness_mode": "default",
+          "brightness_mode_time_dark": 900,
+          "brightness_mode_time_light": 3600,
+          "take_over_control": true,
+          "detect_non_ha_changes": false,
+          "autoreset_control_seconds": 0,
+          "only_once": false,
+          "adapt_only_on_bare_turn_on": false,
+          "separate_turn_on_commands": false,
+          "send_split_delay": 0,
+          "adapt_delay": 0.0,
+          "skip_redundant_commands": false,
+          "intercept": true,
+          "multi_light_intercept": true,
+          "include_config_in_attributes": false
+        },
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "user",
+        "title": "Living Room Lights",
+        "unique_id": "Living Room Lights",
+        "version": 1
+      },
+      {
+        "created_at": "1970-01-01T00:00:00+00:00",
+        "data": {
+          "supports_encryption": true,
           "manufacturer": "Apple",
-          "model": "iPhone10,6",
+          "device_name": "whoami",
+          "model": "iPhone15,4",
+          "os_version": "18.1.1",
+          "os_name": "iOS",
           "app_data": {
-            "push_token": "eNX7-BB8vUtOhhc2L1C5RO:APA91bER0qh60uqkNAeABVWL7M_Ddq1_aiBMiRIyBxlAndN5X7MnQjMY75u9Y_N52z8Pk0ndVHCiM3Aey-x60snXRacwfUHZzN2d-HoMlwwzLA7PhkWFqiHSqik6Ly7lDcdcbR6f0pgP",
+            "push_token": "cskiOCjq40a6q6P7lcD_3L:APA91bE3bQ9D1dg8buSUNYMhx-j4BC4geOS1pegtRbtHuiXHfZ_MwPX5ck0L7gN4QDIGu8_zNBXg976Hj28CXTA99t59Yb9yAQE4BcFKVqWJpQo38o6etimIzb631PAW6Lum_mvNqlmo",
             "push_url": "https://mobile-apps.home-assistant.io/api/sendPushNotification"
           },
-          "os_version": "16.7.1",
-          "supports_encryption": true,
-          "device_name": "whoami",
           "device_id": "0BF00AF6-AB54-4869-ABC9-F943F7226DB7",
-          "os_name": "iOS",
+          "app_version": "2024.9.4 (2024.905)",
           "app_name": "Home Assistant",
-          "app_version": "2023.4 (2023.460)",
-          "webhook_id": "c8458d2c0c437f3d5a2153a59c2569af5644f6e67de8893c05349a838f447d91",
-          "secret": "14827850adaccb25544c83a97aa88ce15a51ca97c409582ed560b60b8e434fe7",
+          "app_id": "io.robbie.HomeAssistant",
+          "webhook_id": "b26e0ee842e6240aa52310552f00e2d0a15bac11ebb1c2f67c2a6b45ed9ca3f4",
+          "secret": "18bfcce923c13d161f6aae7d1233f1224b40a83834bf7f86a15b40d64bd10cad",
           "user_id": "af3043b044a0489294f35d30899bf650",
           "no_legacy_encryption": true
         },
+        "discovery_keys": {},
+        "disabled_by": null,
+        "domain": "mobile_app",
+        "entry_id": "19f3bdabfe8c6bbb40cbf75afd88d80d",
+        "minor_version": 1,
+        "modified_at": "2024-12-06T18:17:54.971459+00:00",
         "options": {},
         "pref_disable_new_entities": false,
         "pref_disable_polling": false,
         "source": "registration",
+        "title": "whoami",
         "unique_id": "io.robbie.HomeAssistant-0BF00AF6-AB54-4869-ABC9-F943F7226DB7",
-        "disabled_by": null
+        "version": 1
+      },
+      {
+        "created_at": "1970-01-01T00:00:00+00:00",
+        "data": {
+          "app_data": {
+            "push_token": "fRh85onNfUMenI6gsrYAFe:APA91bFMqYtUDRkE17nIIa7hiiRYdLj6_HMDJ-n4qjPwXtmeN3qlJbXWLFkupAEUgzX2AM3y64FY9y-bqV5j_vALWSEu9KaFCfj3PfJo07EspcDEQLLS-af_kdbvtAfaHp6vcfNy9vAa",
+            "push_url": "https://mobile-apps.home-assistant.io/api/sendPushNotification"
+          },
+          "app_name": "Home Assistant",
+          "device_name": "Priscila Duarte’s iPhone",
+          "app_id": "io.robbie.HomeAssistant",
+          "supports_encryption": true,
+          "manufacturer": "Apple",
+          "app_version": "2024.9.4 (2024.905)",
+          "model": "iPhone14,2",
+          "device_id": "A6E88F1D-B4D5-4883-A7F1-5964FF1E84B4",
+          "os_version": "18.1.1",
+          "os_name": "iOS",
+          "webhook_id": "5f86d2dbcde5c8e20d871fd8858ec900529cfbd69f3031a9004209330cd0aa27",
+          "secret": "eedca068ec8c5be6d743fcfdae5a68a0acd90c54d66a240eb643ea138691ff27",
+          "user_id": "67f5fab97136411bb3159e587f35a9df",
+          "no_legacy_encryption": true
+        },
+        "discovery_keys": {},
+        "disabled_by": null,
+        "domain": "mobile_app",
+        "entry_id": "079a85d15cfe5a76a48ab6e418e218ed",
+        "minor_version": 1,
+        "modified_at": "2024-12-04T12:36:10.898503+00:00",
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "registration",
+        "title": "Priscila Duarte’s iPhone",
+        "unique_id": "io.robbie.HomeAssistant-A6E88F1D-B4D5-4883-A7F1-5964FF1E84B4",
+        "version": 1
+      },
+      {
+        "created_at": "1970-01-01T00:00:00+00:00",
+        "data": {
+          "api_key": "a52645ff2173a6a62c40175b0b0a49ff51580829",
+          "station_number": 13852
+        },
+        "discovery_keys": {},
+        "disabled_by": null,
+        "domain": "waqi",
+        "entry_id": "7de3aee6be63eb2ff988dd577b5ccd5f",
+        "minor_version": 1,
+        "modified_at": "1970-01-01T00:00:00+00:00",
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "user",
+        "title": "Berlin, Germany",
+        "unique_id": "13852",
+        "version": 1
+      },
+      {
+        "created_at": "1970-01-01T00:00:00+00:00",
+        "data": {
+          "host": "openwakeword",
+          "port": 10400
+        },
+        "discovery_keys": {},
+        "disabled_by": null,
+        "domain": "wyoming",
+        "entry_id": "6484d4c51478ec1a9005fc623bbf1a92",
+        "minor_version": 1,
+        "modified_at": "1970-01-01T00:00:00+00:00",
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "user",
+        "title": "openwakeword",
+        "unique_id": null,
+        "version": 1
+      },
+      {
+        "created_at": "1970-01-01T00:00:00+00:00",
+        "data": {
+          "udn": "uuid:75802409-bccb-40e7-8e6c-60B58DE8A088",
+          "st": "urn:schemas-upnp-org:device:InternetGatewayDevice:1",
+          "original_udn": "uuid:75802409-bccb-40e7-8e6c-3C37128FEAFA",
+          "location": "http://192.168.178.1:49000/igddesc.xml",
+          "mac_address": "60:b5:8d:e8:a0:88",
+          "host": "192.168.178.1"
+        },
+        "discovery_keys": {
+          "ssdp": [
+            {
+              "domain": "ssdp",
+              "key": "uuid:75802409-bccb-40e7-8e6c-60B58DE8A088",
+              "version": 1
+            }
+          ]
+        },
+        "disabled_by": null,
+        "domain": "upnp",
+        "entry_id": "57a0cede09ab3cb57374262b2e82a09b",
+        "minor_version": 1,
+        "modified_at": "2024-10-13T18:02:23.372834+00:00",
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "ssdp",
+        "title": "goat",
+        "unique_id": "uuid:75802409-bccb-40e7-8e6c-60B58DE8A088::urn:schemas-upnp-org:device:InternetGatewayDevice:1",
+        "version": 1
+      },
+      {
+        "created_at": "1970-01-01T00:00:00+00:00",
+        "data": {},
+        "discovery_keys": {},
+        "disabled_by": null,
+        "domain": "shopping_list",
+        "entry_id": "204879dd0253522304e1656922e5170c",
+        "minor_version": 1,
+        "modified_at": "1970-01-01T00:00:00+00:00",
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "user",
+        "title": "Shopping list",
+        "unique_id": "shopping_list",
+        "version": 1
+      },
+      {
+        "created_at": "1970-01-01T00:00:00+00:00",
+        "data": {
+          "url": "192.168.178.172",
+          "port": "7125",
+          "api_key": "",
+          "printer_name": ""
+        },
+        "discovery_keys": {},
+        "disabled_by": null,
+        "domain": "moonraker",
+        "entry_id": "22b3b349b5b2bb1610a285e56aa1f2e9",
+        "minor_version": 1,
+        "modified_at": "1970-01-01T00:00:00+00:00",
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "user",
+        "title": "mkspi",
+        "unique_id": null,
+        "version": 1
+      },
+      {
+        "created_at": "2024-11-23T10:24:16.111661+00:00",
+        "data": {
+          "host": "192.168.178.27",
+          "client_secret": "60991c43f420fa1f6480c0498b1d137a"
+        },
+        "discovery_keys": {},
+        "disabled_by": null,
+        "domain": "webostv",
+        "entry_id": "01JDC8T07FKQFNST9RW7SDD8F6",
+        "minor_version": 1,
+        "modified_at": "2024-11-23T10:24:16.111668+00:00",
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "user",
+        "title": "tv",
+        "unique_id": "518d1ab8-3e75-24c8-7932-d433ae1d3f27",
+        "version": 1
       }
     ]
   }

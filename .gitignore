@@ -4,6 +4,10 @@ __pycache__
 *.db
 
 adguard/work/**/querylog.json*
+homeassistant/tts
 homeassistant/home-assistant.log*
 homeassistant/home-assistant_v2.db
 !zigbee2mqtt/database.db
+openwakeword
+piper
+whisper

@@ -5,28 +5,22 @@
   "data": {
     "items": [
       {
-        "name": "flejz",
+        "name": "Jaime",
         "user_id": "af3043b044a0489294f35d30899bf650",
         "device_trackers": [
           "device_tracker.whoami"
         ],
-        "id": "flejz"
+        "id": "flejz",
+        "picture": "/api/image/serve/09b19e58c73246e8cebc173021fa646f/512x512"
       },
       {
-        "name": "tiabenie",
+        "name": "Pri",
         "device_trackers": [
           "device_tracker.priscila_duartes_iphone"
         ],
         "user_id": "67f5fab97136411bb3159e587f35a9df",
-        "picture": null,
+        "picture": "/api/image/serve/dd6a649c45bb17c6bb2c0c066983602d/512x512",
         "id": "tiabenie"
-      },
-      {
-        "name": "ghibli",
-        "device_trackers": [],
-        "user_id": "883499b27f7a4261b03247f8d456b077",
-        "picture": null,
-        "id": "ghibli"
       }
     ]
   }

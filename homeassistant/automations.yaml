@@ -1,162 +1,64 @@
-- id: '1645522553830'
-  alias: Bedroom Lights Toggle
-  description: ''
-  trigger:
-  - platform: device
-    domain: mqtt
-    device_id: b4ad46ac42a749d76df570586afec237
-    type: action
-    subtype: toggle
-    discovery_id: 0x000d6ffffe513e94 action_toggle
-  condition: []
-  action:
-  - type: toggle
-    device_id: 88760b37c08a5506b36c0d5046a1a1e2
-    entity_id: light.broom_spot_light_1
-    domain: light
-  - type: toggle
-    device_id: 6d950a8de8c018ab64d7178b5fe84387
-    entity_id: light.broom_spot_light_2
-    domain: light
-  - type: toggle
-    device_id: ab10f69e8e8f03e3b8addf9a93884ffa
-    entity_id: light.broom_spot_light_3
-    domain: light
-  mode: single
 - id: '1645532422727'
-  alias: Living Room lights toggle
+  alias: Toggle Living Room lights
   description: ''
   trigger:
   - platform: device
     domain: mqtt
-    device_id: 5987a5d88db42c04f8d0fa2286291048
+    device_id: fdc47dcbe87bf0a577ba84041d1dea4a
     type: action
-    subtype: toggle
-    discovery_id: 0xec1bbdfffe3bc954 action_toggle
+    subtype: 2_single
+    discovery_id: 0x385cfbfffe7447f3 action_2_single
   condition: []
   action:
   - type: toggle
-    device_id: 0921d80d84cfa8af37c040e2388d5efa
-    entity_id: light.lroom_spot_light_1
+    device_id: 2384002d6407d4d3e98e76571c3691ce
+    entity_id: 13c66e16dcc9bdcf835edc31cd0e9681
     domain: light
-  - type: toggle
-    device_id: c7db9f30705df815044a104c08635f90
-    entity_id: light.lroom_spot_light_2
-    domain: light
-  - type: toggle
-    device_id: e64c6ceec985703c4a5af9e702996c1c
-    entity_id: light.0xec1bbdfffea8c86f
-    domain: light
-  mode: single
-- id: '1645536231921'
-  alias: Kitchen Lights On
-  description: ''
-  trigger:
-  - platform: device
-    domain: mqtt
-    device_id: 6826cdcc8a185f06459efe0d584a5f30
-    type: action
-    subtype: 'on'
-    discovery_id: 0x04cd15fffe319b86 action_on
-  condition: []
-  action:
-  - type: turn_on
-    device_id: f42749587d13d491e0c31f2d91abdf6f
-    entity_id: switch.kitcken_socket
-    domain: switch
-  mode: single
-- id: '1645536296446'
-  alias: Kitchen Lights Off
-  description: ''
-  trigger:
-  - platform: device
-    domain: mqtt
-    device_id: 6826cdcc8a185f06459efe0d584a5f30
-    type: action
-    subtype: 'off'
-    discovery_id: 0x04cd15fffe319b86 action_off
-  condition: []
-  action:
-  - type: turn_off
-    device_id: f42749587d13d491e0c31f2d91abdf6f
-    entity_id: switch.kitcken_socket
-    domain: switch
-  mode: single
-- id: '1657047419637'
-  alias: Bar Snooze
-  description: ''
-  trigger:
-  - platform: time
-    at: 01:00:00
-  condition: []
-  action:
-  - type: turn_off
-    device_id: 8aaef3f4d1dac2a1cea108140e14c934
-    entity_id: switch.bar_outlet
-    domain: switch
-  mode: single
-- id: '1657047733356'
-  alias: Bar Wakeup
-  description: ''
-  trigger:
-  - platform: time
-    at: 08:00:00
-  condition: []
-  action:
-  - type: turn_on
-    device_id: 8aaef3f4d1dac2a1cea108140e14c934
-    entity_id: switch.bar_outlet
-    domain: switch
   mode: single
 - id: '1662411324262'
-  alias: Kitchen Lights On on Movement Detected
+  alias: Turn on Counter lights when movement is detected
   description: ''
   trigger:
   - type: motion
     platform: device
-    device_id: 1db284a8df0cb52fde8a86b2e2b154ed
-    entity_id: binary_sensor.kitcken_mov_sensors_occupancy
+    device_id: b5b82ec695758901879fc898e0c05502
+    entity_id: 2913f47a72dbf0bdcd37c960b544b8c6
     domain: binary_sensor
   condition:
   - condition: device
     type: is_off
     device_id: f42749587d13d491e0c31f2d91abdf6f
-    entity_id: switch.kitcken_socket
+    entity_id: 5662e243cd72c1e3a1f58a2feedc3b0f
     domain: switch
-  - condition: device
-    type: is_off
-    device_id: 1070c6c4991bfe36643547a747295754
-    entity_id: light.wled_kitchen_1
-    domain: light
   action:
   - type: turn_on
     device_id: f42749587d13d491e0c31f2d91abdf6f
-    entity_id: switch.kitcken_socket
+    entity_id: 5662e243cd72c1e3a1f58a2feedc3b0f
     domain: switch
   mode: single
 - id: '1662667912082'
-  alias: Kitchen Lights OFF on Movement not Detected
+  alias: Turn off Counter lights when movement is not detected for a while
   description: ''
   trigger:
   - type: no_motion
     platform: device
-    device_id: 1db284a8df0cb52fde8a86b2e2b154ed
-    entity_id: binary_sensor.kitcken_mov_sensors_occupancy
+    device_id: b5b82ec695758901879fc898e0c05502
+    entity_id: 2913f47a72dbf0bdcd37c960b544b8c6
     domain: binary_sensor
     for:
       hours: 0
-      minutes: 2
+      minutes: 5
       seconds: 0
   condition:
   - condition: device
     type: is_on
     device_id: f42749587d13d491e0c31f2d91abdf6f
-    entity_id: switch.kitcken_socket
+    entity_id: 5662e243cd72c1e3a1f58a2feedc3b0f
     domain: switch
   action:
   - type: turn_off
     device_id: f42749587d13d491e0c31f2d91abdf6f
-    entity_id: switch.kitcken_socket
+    entity_id: 5662e243cd72c1e3a1f58a2feedc3b0f
     domain: switch
   mode: single
 - id: '1662669567182'
@@ -178,4 +80,112 @@
     data:
       title: Fridge Door
       message: Fridge door is open for too long
+  mode: single
+- id: '1699389447973'
+  alias: Jaime leaves Home notification
+  description: ''
+  use_blueprint:
+    path: homeassistant/notify_leaving_zone.yaml
+    input:
+      person_entity: person.flejz
+      zone_entity: zone.home
+      notify_device: 5845a97549e1c4e14d675247ebe249fa
+- id: '1699389807717'
+  alias: Turn off all the lights when saying good night
+  description: ''
+  trigger:
+  - platform: conversation
+    command: Good night
+  - platform: conversation
+    command: Turn off all the lights
+  condition: []
+  action:
+  - service: scene.turn_on
+    target:
+      entity_id: scene.good_night
+    metadata: {}
+  mode: single
+- id: '1699390952848'
+  alias: Turn off all lights when all people leave
+  description: ''
+  trigger:
+  - platform: state
+    entity_id:
+    - zone.home
+    attribute: persons
+    to: '0'
+  condition: []
+  action:
+  - service: scene.turn_on
+    target:
+      entity_id: scene.good_night
+    metadata: {}
+  mode: single
+- id: '1699429478602'
+  alias: Turn off Counter lights when off switch
+  description: ''
+  trigger:
+  - platform: device
+    domain: mqtt
+    device_id: 6826cdcc8a185f06459efe0d584a5f30
+    type: click
+    subtype: 'off'
+    discovery_id: 0x04cd15fffe319b86 click_off
+  condition: []
+  action:
+  - type: turn_off
+    device_id: f42749587d13d491e0c31f2d91abdf6f
+    entity_id: 5662e243cd72c1e3a1f58a2feedc3b0f
+    domain: switch
+  mode: single
+- id: '1699429543644'
+  alias: Turn on Counter lights when on switch
+  description: ''
+  trigger:
+  - platform: device
+    domain: mqtt
+    device_id: 6826cdcc8a185f06459efe0d584a5f30
+    type: click
+    subtype: 'on'
+    discovery_id: 0x04cd15fffe319b86 click_on
+  condition: []
+  action:
+  - type: turn_on
+    device_id: f42749587d13d491e0c31f2d91abdf6f
+    entity_id: 5662e243cd72c1e3a1f58a2feedc3b0f
+    domain: switch
+  mode: single
+- id: '1702158781903'
+  alias: Toggle Dining Table Light
+  description: ''
+  trigger:
+  - platform: device
+    domain: mqtt
+    device_id: fdc47dcbe87bf0a577ba84041d1dea4a
+    type: action
+    subtype: 1_single
+    discovery_id: 0x385cfbfffe7447f3 action_1_single
+  condition: []
+  action:
+  - type: toggle
+    device_id: 40ec9f1e1757ba6d8262d28c082518c6
+    entity_id: 3506b0165e403f62362a4f0d6e182fc0
+    domain: light
+  mode: single
+- id: '1732362111735'
+  alias: Outdor Christmas Lights toggle
+  description: ''
+  triggers:
+  - trigger: sun
+    event: sunset
+    offset: 0
+  - trigger: sun
+    event: sunrise
+    offset: 0
+  conditions: []
+  actions:
+  - type: toggle
+    device_id: 66a40cdd84c2e5a8b7cb96dd9e19f08b
+    entity_id: 565dc2709c5ff204ac2c0869b4ae420a
+    domain: switch
   mode: single

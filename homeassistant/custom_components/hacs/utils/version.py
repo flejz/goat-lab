@@ -1,4 +1,5 @@
 """Version utils."""
+
 from __future__ import annotations
 
 from functools import lru_cache
@@ -21,7 +22,7 @@ def version_left_higher_then_right(left: str, right: str) -> bool | None:
             and right_version.strategy != AwesomeVersionStrategy.UNKNOWN
         ):
             return left_version > right_version
-    except (AwesomeVersionException, AttributeError):
+    except (AwesomeVersionException, AttributeError, KeyError):
         pass
 
     return None

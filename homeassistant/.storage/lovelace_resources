@@ -5,7 +5,7 @@
   "data": {
     "items": [
       {
-        "url": "/hacsfiles/lovelace-card-mod/card-mod.js?hacstag=190927524315",
+        "url": "/hacsfiles/lovelace-card-mod/card-mod.js?hacstag=190927524343",
         "type": "module",
         "id": "cd9fd5b7dd5e43cfb92a67a4b83f45a4"
       },
@@ -15,19 +15,89 @@
         "id": "44aa782b9f45465c9f1b26633acfb06c"
       },
       {
-        "url": "/hacsfiles/LG-WebOS-Remote-Control/lg-remote-control.js?hacstag=2570059905637",
+        "url": "/hacsfiles/LG-WebOS-Remote-Control/lg-remote-control.js?hacstag=257005990203",
         "type": "module",
         "id": "458fbf443b5040f3ac6a7a3e3e32d9a3"
       },
       {
-        "url": "/hacsfiles/lovelace-mushroom/mushroom.js?hacstag=444350375213",
+        "url": "/hacsfiles/lovelace-mushroom/mushroom.js?hacstag=444350375420",
         "type": "module",
         "id": "fc9cb1abc915438dafb7304fe816c618"
       },
       {
-        "url": "/hacsfiles/lovelace-roomba-vacuum-card/roomba-vacuum-card.js?hacstag=238802974011",
+        "url": "/hacsfiles/lovelace-roomba-vacuum-card/roomba-vacuum-card.js?hacstag=238802974012",
         "type": "module",
         "id": "8c12a28a3fb3424684157ac29952a504"
+      },
+      {
+        "id": "f922ed9684d4491c9b67c4c7405586f0",
+        "url": "/hacsfiles/mini-graph-card/mini-graph-card-bundle.js?hacstag=1512800620121",
+        "type": "module"
+      },
+      {
+        "id": "2ad51d11f69f4adc9648696a35e82dca",
+        "url": "/hacsfiles/Bubble-Card/bubble-card.js?hacstag=680112919224",
+        "type": "module"
+      },
+      {
+        "id": "34b1caed90f54d2e9af48fb7837e7b6c",
+        "url": "/hacsfiles/lovelace-hourly-weather/hourly-weather.js?hacstag=499270202640",
+        "type": "module"
+      },
+      {
+        "id": "5831113272304f03bfb40628616817ab",
+        "url": "/hacsfiles/simple-weather-card/simple-weather-card-bundle.js?hacstag=172998062085",
+        "type": "module"
+      },
+      {
+        "id": "7e083670c3f74e1d81049aea9f33a410",
+        "url": "https://fonts.googleapis.com/css2?family=Rajdhani:wght@500&display=swap",
+        "type": "css"
+      },
+      {
+        "id": "0ff8f927d6f74de0860d7f24ac82fdd4",
+        "url": "/browser_mod.js?automatically-added",
+        "type": "module"
+      },
+      {
+        "id": "04ec77792e37480c8ab94c800804822e",
+        "url": "/hacsfiles/vertical-stack-in-card/vertical-stack-in-card.js?hacstag=142051833050",
+        "type": "module"
+      },
+      {
+        "id": "e98247fa523e4a6e8ec92a0e183d1082",
+        "url": "/hacsfiles/button-card/button-card.js?hacstag=146194325412",
+        "type": "module"
+      },
+      {
+        "id": "14c858fb387240a38b475a78505d3385",
+        "url": "/hacsfiles/atomic-calendar-revive/atomic-calendar-revive.js?hacstag=2465497471000",
+        "type": "module"
+      },
+      {
+        "id": "6324d0b331eb4005ac03dd2240adf8d4",
+        "url": "/hacsfiles/mushroom-strategy/mushroom-strategy.js?hacstag=619284862210",
+        "type": "module"
+      },
+      {
+        "id": "5281f14343ee4514bfdf6635dd689be6",
+        "url": "/hacsfiles/weather-card/weather-card.js?hacstag=192732636150",
+        "type": "module"
+      },
+      {
+        "id": "6c3ece1a51f74aea9628cacb4fa4b2ae",
+        "url": "/hacsfiles/lovelace-multiple-entity-row/multiple-entity-row.js?hacstag=178921037451",
+        "type": "module"
+      },
+      {
+        "id": "9579e3132ad94f329eb6cf98dc5ff786",
+        "url": "/hacsfiles/flex-horseshoe-card/flex-horseshoe-card.js?hacstag=20729272512",
+        "type": "module"
+      },
+      {
+        "id": "a6681f49b35849c98fd7a3b37df67d5e",
+        "url": "/hacsfiles/dual-gauge-card/dual-gauge-card.js?hacstag=143762825053",
+        "type": "module"
       }
     ]
   }

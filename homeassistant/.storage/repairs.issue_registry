@@ -5,11 +5,53 @@
   "data": {
     "issues": [
       {
-        "created": "2023-11-01T07:03:06.119908+00:00",
+        "created": "2023-11-09T23:30:17.209360+00:00",
         "dismissed_version": null,
+        "domain": "command_line",
+        "is_persistent": false,
+        "issue_id": "deprecated_yaml_sensor"
+      },
+      {
+        "created": "2024-10-13T17:53:55.666937+00:00",
+        "dismissed_version": null,
+        "domain": "openweathermap",
+        "is_persistent": false,
+        "issue_id": "deprecated_v25_31f3ddd07e13802dd78551bc3e84063d"
+      },
+      {
+        "created": "2024-10-13T17:53:56.104824+00:00",
+        "dismissed_version": "2024.10.2",
         "domain": "homeassistant",
         "is_persistent": false,
-        "issue_id": "country_not_configured"
+        "issue_id": "platform_integration_no_support_sensor_systemmonitor"
+      },
+      {
+        "created": "2024-11-23T11:51:50.394173+00:00",
+        "dismissed_version": null,
+        "domain": "hacs",
+        "is_persistent": false,
+        "issue_id": "restart_required_290261325_tags/1.23.0"
+      },
+      {
+        "created": "2024-11-23T11:51:59.664641+00:00",
+        "dismissed_version": null,
+        "domain": "hacs",
+        "is_persistent": false,
+        "issue_id": "restart_required_594007512_tags/1.4.0"
+      },
+      {
+        "created": "2024-11-23T11:52:54.018236+00:00",
+        "dismissed_version": null,
+        "domain": "hacs",
+        "is_persistent": false,
+        "issue_id": "restart_required_315447202_tags/20241027.01"
+      },
+      {
+        "created": "2024-11-23T11:54:06.096655+00:00",
+        "dismissed_version": null,
+        "domain": "hacs",
+        "is_persistent": false,
+        "issue_id": "restart_required_476357279_tags/2024.11.5"
       }
     ]
   }

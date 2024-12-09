@@ -5,20 +5,20 @@
   "data": {
     "items": [
       {
-        "conversation_engine": "homeassistant",
+        "conversation_engine": "conversation.home_assistant",
         "conversation_language": "en",
-        "id": "01he4v3jpr2swp46avh4sh493t",
+        "id": "01hfeg1pjtqk5t12nqmjgme1y7",
         "language": "en",
-        "name": "Home Assistant",
-        "stt_engine": null,
-        "stt_language": null,
-        "tts_engine": "google_translate",
-        "tts_language": "en-us",
-        "tts_voice": null,
-        "wake_word_entity": null,
-        "wake_word_id": null
+        "name": "Kuraba",
+        "stt_engine": "stt.faster_whisper",
+        "stt_language": "en",
+        "tts_engine": "tts.piper",
+        "tts_language": "en_GB",
+        "tts_voice": "en_GB-alba-medium",
+        "wake_word_entity": "wake_word.openwakeword",
+        "wake_word_id": "ok_nabu_v0.1"
       }
     ],
-    "preferred_item": "01he4v3jpr2swp46avh4sh493t"
+    "preferred_item": "01hfeg1pjtqk5t12nqmjgme1y7"
   }
 }

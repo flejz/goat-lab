@@ -13,6 +13,7 @@ tts:
 automation: !include automations.yaml
 script: !include scripts.yaml
 scene: !include scenes.yaml
+sensor: !include sensor.yaml
 
 wake_on_lan:
   mac: 60:AB:14:7A:EB:02
@@ -20,4 +21,30 @@ wake_on_lan:
 http:
   use_x_forwarded_for: true
   trusted_proxies:
-    - 172.25.0.5
+    - 172.0.0.0/8
+
+emulated_hue:
+  type: alexa
+  host_ip: 192.168.178.203
+  listen_port: 80
+  expose_by_default: false
+  exposed_domains:
+    - light
+    - media_player
+  entities:
+    light.broom_lights:
+      hidden: false
+    light.office_lights:
+      hidden: false
+    light.corner_light:
+      hidden: false
+    light.living_room_light:
+      hidden: false
+    light.bar_light:
+      hidden: false
+    light.kitchen_light:
+      hidden: false
+    switch.kitchen_counter_light:
+      hidden: false
+    media_player.tv:
+      hidden: false

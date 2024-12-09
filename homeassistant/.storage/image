@@ -1,0 +1,44 @@
+{
+  "version": 1,
+  "minor_version": 1,
+  "key": "image",
+  "data": {
+    "items": [
+      {
+        "id": "682421011fac3217cc3a3938a7d0b265",
+        "filesize": 37525,
+        "content_type": "image/png",
+        "name": "jaime-250.png",
+        "uploaded_at": "2023-11-02T11:36:47.033444+00:00"
+      },
+      {
+        "id": "cc60614c3a253927450784b6b6bf5b04",
+        "filesize": 141845,
+        "content_type": "image/png",
+        "name": "pri-600.png",
+        "uploaded_at": "2023-11-02T11:36:52.550048+00:00"
+      },
+      {
+        "id": "09b19e58c73246e8cebc173021fa646f",
+        "filesize": 119521,
+        "content_type": "image/png",
+        "name": "jaime-600.png",
+        "uploaded_at": "2023-11-02T11:37:06.802876+00:00"
+      },
+      {
+        "id": "ef79494c2031df766489e0a48a3d4c71",
+        "filesize": 168902,
+        "content_type": "image/png",
+        "name": "pri-600.png",
+        "uploaded_at": "2023-11-02T11:37:20.184674+00:00"
+      },
+      {
+        "id": "dd6a649c45bb17c6bb2c0c066983602d",
+        "filesize": 170266,
+        "content_type": "image/png",
+        "name": "pri-600.png",
+        "uploaded_at": "2023-11-02T11:37:55.147812+00:00"
+      }
+    ]
+  }
+}

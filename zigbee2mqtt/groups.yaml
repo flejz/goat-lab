@@ -1,1 +1,12 @@
-{}
+'1':
+  friendly_name: Wardrobe Lights
+  devices:
+    - 0x14b457fffe6e6711/1
+    - 0x14b457fffe71fa9d/1
+    - 0x14b457fffe72077e/1
+'2':
+  friendly_name: Office Lights
+  devices:
+    - 0xec1bbdfffeae2d6c/1
+    - 0xccccccfffed4607f/1
+    - 0xec1bbdfffea8c86f/1

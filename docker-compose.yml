@@ -1,16 +1,42 @@
 version: '3'
 services:
+
   nginxproxymanager:
     image: 'jc21/nginx-proxy-manager:latest' 
     container_name: nginxproxymanager
     ports:
-      - 80:80
-      - 81:81
-      - 443:443
+      - '80:80' # Public HTTP Port
+      - '443:443' # Public HTTPS Port
+      - '81:81' # Admin Web Port
     volumes:
       - ./nginx/data:/data
       - ./nginx/letsencrypt:/etc/letsencrypt 
     restart: unless-stopped 
+    dns:
+      - 1.1.1.1
+      - 8.8.8.8
+    networks:
+      default:
+
+  adguard:
+    container_name: adguard
+    image: adguard/adguardhome
+    restart: unless-stopped
+    ports:
+      - 53:53/tcp
+      - 53:53/udp
+      - 784:784/udp
+      - 853:853/tcp
+    volumes:
+      - ./adguard/work:/opt/adguardhome/work
+      - ./adguard/conf:/opt/adguardhome/conf
+    dns:
+      - 1.1.1.1
+      - 8.8.8.8
+    networks:
+      default:
+        # vlan:
+        #   ipv4_address: 192.168.178.202
 
   homeassistant:
     container_name: homeassistant
@@ -18,8 +44,20 @@ services:
     volumes:
       - ./homeassistant:/config
       - /etc/localtime:/etc/localtime:ro
+      - /sys/class/thermal/thermal_zone0/temp:/sys/class/thermal/thermal_zone0/temp
+      - /sys/class/thermal/thermal_zone1/temp:/sys/class/thermal/thermal_zone1/temp
+      - /sys/class/thermal/thermal_zone2/temp:/sys/class/thermal/thermal_zone2/temp
     restart: unless-stopped
     privileged: true
+    dns:
+      - 1.1.1.1
+      - 8.8.8.8
+    cap_add:
+      - NET_BIND_SERVICE
+    networks:
+      default:
+      vlan:
+        ipv4_address: 192.168.178.203
 
   mosquitto:
     container_name: mosquitto
@@ -44,17 +82,92 @@ services:
       - /dev/ttyUSB0:/dev/ttyACM0
     restart: unless-stopped
     privileged: true
+    dns:
+      - 1.1.1.1
 
-  adguard:
-    container_name: adguard
-    image: adguard/adguardhome
+  whisper:
+    container_name: whisper
+    image: rhasspy/wyoming-whisper
+    command: --model base-int8 --language en
+    volumes:
+      - ./whisper:/data
+      - /etc/localtime:/etc/localtime:ro
+    restart: unless-stopped
+    dns:
+      - 1.1.1.1
+      - 8.8.8.8
+
+  piper:
+    container_name: piper
+    image: rhasspy/wyoming-piper
+    command: --voice en_GB-alba-medium
+    volumes:
+      - ./piper:/data
+      - /etc/localtime:/etc/localtime:ro
+    restart: unless-stopped
+    dns:
+      - 1.1.1.1
+      - 8.8.8.8
+
+  openwakeword:
+    container_name: openwakeword
+    image: rhasspy/wyoming-openwakeword
+    command: --preload-model 'ok_nabu' --debug
+    volumes:
+      - ./openwakeword:/custom
+      - ./openwakeword:/data
+      - /etc/localtime:/etc/localtime:ro
     restart: unless-stopped
     ports:
-      - 53:53/tcp
-      - 53:53/udp
-      - 784:784/udp
-      - 853:853/tcp
-      - 3000:3000/tcp
-    volumes:
-      - ./adguard/work:/opt/adguardhome/work
-      - ./adguard/conf:/opt/adguardhome/conf
+      - 10400:10400
+    dns:
+      - 1.1.1.1
+      - 8.8.8.8
+
+        #esphome:
+        #  container_name: esphome
+        #  image: esphome/esphome
+        #  volumes:
+        #    - ./esphome:/config
+        #    - /etc/localtime:/etc/localtime:ro
+        #  restart: unless-stopped
+        #  privileged: true
+        #  dns:
+        #    - 1.1.1.1
+        #    - 8.8.8.8
+        #  networks:
+        #    default:
+        #    vlan:
+        #      ipv4_address: 192.168.178.204
+
+        # emulated-hue:
+        #   container_name: emulated-hue
+        #   image: ghcr.io/hass-emulated-hue/core:0.2.9
+        #   depends_on: 
+        #     - homeassistant
+        #   restart: unless-stopped
+        #   environment:
+        #     - HASS_TOKEN=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiIxZmZmMjM3N2EzYzY0OTkzYWFmMTVlMWE5MWY2Y2MwNCIsImlhdCI6MTcwMjQyMDMxOCwiZXhwIjoyMDE3NzgwMzE4fQ.7CWWobDL4tEioSY5DP0cRg6BKoMjA0qYnqtS8NpdKJQ
+        #     - HASS_URL=https://ha.cybergoat.xyz
+        #     - VERBOSE=true
+        #   volumes:
+        #     - ./emulated-hue:/config/.emulated-hue
+        #   dns:
+        #     - 1.1.1.1
+        #     - 8.8.8.8
+        #   networks:
+        #     default:
+        #     vlan:
+        #       ipv4_address: 192.168.178.205
+
+networks:
+  vlan:
+    name: nginx-vlan
+    driver: macvlan
+    driver_opts:
+      parent: eth0
+    ipam:
+      config:
+        - subnet: 192.168.178.121/24
+          ip_range: 192.168.178.205/29
+          gateway: 192.168.178.1
